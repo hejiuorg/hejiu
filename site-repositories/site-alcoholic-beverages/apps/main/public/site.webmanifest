@@ -1,0 +1,30 @@
+{
+  "name": "喝酒去 · 识酒",
+  "short_name": "喝酒去",
+  "description": "识酒 · 喝酒去",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf7f0",
+  "theme_color": "#c2410c",
+  "lang": "zh",
+  "icons": [
+    {
+      "src": "brand/d-mark-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "brand/d-mark-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "brand/d-mark-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

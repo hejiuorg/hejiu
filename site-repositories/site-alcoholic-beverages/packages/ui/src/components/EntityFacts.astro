@@ -1,0 +1,28 @@
+---
+import type { PageData } from '@hejiu/build-tools';
+
+interface Props {
+  page: PageData;
+}
+const { page } = Astro.props;
+---
+{
+  page.facts.length > 0 && (
+    <dl class="facts">
+      {page.facts.map((fact) => (
+        <div class="fact">
+          <dt>{fact.label}</dt>
+          <dd>
+            {fact.href ? (
+              <a href={fact.href} rel="noopener noreferrer" target="_blank">
+                {fact.value}
+              </a>
+            ) : (
+              fact.value
+            )}
+          </dd>
+        </div>
+      ))}
+    </dl>
+  )
+}

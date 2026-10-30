@@ -1,0 +1,10 @@
+{
+  "name": "site-alcohol-culture",
+  "version": "0.1.0",
+  "private": true,
+  "description": "喝酒去 culture.hejiu.org",
+  "scripts": {
+    "dev": "npm run dev -w @hejiu/site-culture",
+    "build": "npm run build -w @hejiu/site-culture"
+  }
+}

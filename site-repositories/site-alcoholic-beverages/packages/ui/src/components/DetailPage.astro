@@ -1,0 +1,243 @@
+---
+import SiteLayout from './SiteLayout.astro';
+import Icon from './Icon.astro';
+import EntityFacts from './EntityFacts.astro';
+import {
+  homePath,
+  listPath,
+  pageAlternateHref,
+  pageAlternateState,
+  relationLabel,
+  savedPath,
+  siteLink,
+  statusLabel,
+  typeLabel,
+  uiFor,
+} from '../lib';
+import type { PageData } from '@hejiu/build-tools';
+
+interface Props {
+  page: PageData;
+}
+const { page } = Astro.props;
+const context = uiFor(page.siteKey, page.lang);
+const { site, labels, contracts, origins } = context;
+const home = homePath(page.lang);
+const type = typeLabel(contracts, page.type, page.lang);
+const listHref = listPath(page.typePath, page.lang);
+const title =
+  page.lang === 'zh'
+    ? `${page.title} · ${site.labelZh} · 喝酒去`
+    : `${page.title} · ${site.labelEn} · Hejiu`;
+const active =
+  site.key === 'guide'
+    ? 'guide'
+    : site.key === 'atlas'
+      ? 'places'
+      : site.key === 'beverages'
+        ? 'drinks'
+        : '';
+const alternateHref = pageAlternateHref(page);
+const alternateState = pageAlternateState(page);
+const saveHref = siteLink(
+  site.key,
+  'beverages',
+  `${savedPath(page.lang)}?add=${encodeURIComponent(page.id)}`,
+  origins,
+);
+const relationGroups = new Map<string, typeof page.relations>();
+for (const relation of page.relations) {
+  const list = relationGroups.get(relation.relation) ?? [];
+  list.push(relation);
+  relationGroups.set(relation.relation, list);
+}
+const archive = page.verificationScope === 'archive-record';
+const translationNote =
+  page.lang === 'zh' && page.translationState === 'missing'
+    ? labels.languageNotice
+    : page.lang === 'zh' && page.translationState === 'outdated'
+      ? labels.languageOutdated
+      : page.lang === 'zh' && page.translationState === 'needs-review'
+        ? labels.needsReviewTranslation
+        : null;
+const siteLabel = (key: string): string => {
+  const match = contracts.sites.find((entry) => entry.key === key);
+  return match ? (page.lang === 'zh' ? match.labelZh : match.labelEn) : key;
+};
+---
+<SiteLayout
+  siteKey={page.siteKey}
+  lang={page.lang}
+  title={title}
+  description={page.summary}
+  canonical={page.canonical}
+  pagePath={page.path}
+  noindex={page.noindex}
+  active={active}
+  pageType="detail"
+  alternateHref={alternateHref}
+  alternateState={alternateState}
+  statusText={archive ? labels.archiveRecord : page.published ? labels.reviewed : labels.needsReview}
+>
+  <div class="shell">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href={home}>{labels.home}</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href={listHref}>{type}</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span aria-current="page">{page.title}</span>
+    </nav>
+    <header class="detail-hero">
+      <div class="detail-meta">
+        <span class="badge badge--type">{type}</span>
+        <span class={`badge ${archive ? 'badge--archive' : page.published ? 'badge--reviewed' : 'badge--preview'}`}>
+          {archive ? labels.archiveRecord : page.published ? labels.reviewed : labels.needsReview}
+        </span>
+        {page.lang === 'en' && <span class="badge">EN</span>}
+        <span class="badge">{labels.revision} {page.revision}</span>
+      </div>
+      <h1>{page.title}</h1>
+      <p class="detail-summary">{page.summary}</p>
+      <EntityFacts page={page} />
+      <div class="detail-actions">
+        {page.siteKey === 'beverages' ? (
+          <button
+            class="button button--ghost"
+            type="button"
+            data-save-toggle={page.id}
+            data-save-title={page.title}
+            data-save-site={page.siteKey}
+            data-save-type={page.type}
+            aria-pressed="false"
+            title={labels.saveHint}
+          >
+            <Icon name="bookmark" size={18} />
+            <span data-save-label>{labels.save}</span>
+          </button>
+        ) : (
+          <a class="button button--ghost" href={saveHref} title={labels.saveHint}>
+            <Icon name="bookmark" size={18} /> {labels.saveToMain}
+          </a>
+        )}
+        <a class="button button--ghost" href={listHref}><Icon name="arrow-left" size={18} /> {labels.backToList}</a>
+      </div>
+      {translationNote && <p class="small muted" style="margin-top:14px">{translationNote}</p>}
+    </header>
+
+    <div class="detail-layout">
+      <div class="detail-body">
+        {page.previewNotice && <div class="preview-banner">{page.previewNotice}</div>}
+        {page.archiveNotice && <div class="archive-banner">{page.archiveNotice}</div>}
+        {page.headings.length > 0 && (
+          <details class="detail-mobile-toc">
+            <summary>{labels.onThisPage}</summary>
+            <ol class="toc" style="margin-top:10px">
+              {page.headings.map((heading) => (
+                <li class={heading.depth === 3 ? 'toc--3' : ''}>
+                  <a href={`#${heading.id}`}>{heading.text}</a>
+                </li>
+              ))}
+            </ol>
+          </details>
+        )}
+        <article class="prose" set:html={page.html}></article>
+
+        <section class="source-section" aria-labelledby="sources-title">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">{labels.sources}</p>
+              <h2 id="sources-title">{labels.sources}</h2>
+            </div>
+          </div>
+          {page.sources.length > 0 ? (
+            <ul class="source-list">
+              {page.sources.map((source) => (
+                <li class="source-item">
+                  <div class="source-item__title">
+                    <span>{source.title}</span>
+                    {source.url && (
+                      <a class="small" href={source.url} rel="noopener noreferrer" target="_blank">
+                        {labels.sourceLink} <Icon name="external" size={14} />
+                      </a>
+                    )}
+                  </div>
+                  <div class="source-item__meta">
+                    {source.publisher && <span>{source.publisher}</span>}
+                    {source.published && <span> · {source.published}</span>}
+                    {source.accessed && <span> · {labels.accessed} {source.accessed}</span>}
+                  </div>
+                  {source.note && <p class="source-item__note">{source.note}</p>}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p class="muted">{labels.sourcesEmpty}</p>
+          )}
+          <div class="rights-box" style="margin-top:18px">
+            <strong>{labels.rights}：</strong>
+            {page.rights.status === 'allowed' ? labels.rightsAllowed : labels.rightsUnverified}
+            {page.rights.basis && <p style="margin:8px 0 0">{page.rights.basis}</p>}
+            {page.rights.license && <p style="margin:4px 0 0">{page.rights.license}</p>}
+            {page.rights.note && <p style="margin:4px 0 0">{page.rights.note}</p>}
+          </div>
+          {page.legacyRefs.length > 0 && (
+            <div class="legacy-box">
+              <strong>{labels.legacyRefs}：</strong>{' '}
+              {page.legacyRefs.map((ref) => <code style="margin-right:6px">{ref}</code>)}
+            </div>
+          )}
+        </section>
+      </div>
+
+      <aside class="detail-aside" aria-label={labels.onThisPage}>
+        {page.headings.length > 0 && (
+          <div class="aside-card">
+            <p class="aside-card__title">{labels.onThisPage}</p>
+            <ol class="toc">
+              {page.headings.map((heading) => (
+                <li class={heading.depth === 3 ? 'toc--3' : ''}>
+                  <a href={`#${heading.id}`}>{heading.text}</a>
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+        <div class="aside-card">
+          <p class="aside-card__title">{labels.statusLabel}</p>
+          <p class="small" style="margin-bottom:8px">{archive ? labels.archiveRecord : statusLabel(labels, page.status)} · {labels.revision} {page.revision}</p>
+          <p class="small muted" style="margin-bottom:0">{page.published ? labels.reviewedSample : labels.samplePreview}</p>
+        </div>
+        <div class="aside-card">
+          <p class="aside-card__title">{labels.sourceHash}</p>
+          <code class="small" style="overflow-wrap:anywhere">{page.sourceSha256.slice(0, 20)}…</code>
+        </div>
+      </aside>
+    </div>
+
+    <section class="relation-section" aria-labelledby="relations-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">{labels.related}</p>
+          <h2 id="relations-title">{labels.related}</h2>
+        </div>
+      </div>
+      {page.relations.length > 0 ? (
+        <div class="relation-grid">
+          {[...relationGroups.entries()].map(([relation, targets]) => (
+            targets.map((target) => (
+              <a class="relation-card" href={target.url ?? target.path ?? '#'}>
+                <span>
+                  <span class="relation-card__rel">{relationLabel(contracts, relation, page.lang)} · {siteLabel(target.target?.siteKey ?? '')}</span>
+                  <span class="relation-card__title">{target.label}</span>
+                </span>
+                <Icon name="arrow-right" size={18} />
+              </a>
+            ))
+          ))}
+        </div>
+      ) : (
+        <p class="muted">{labels.relatedEmpty}</p>
+      )}
+    </section>
+  </div>
+</SiteLayout>

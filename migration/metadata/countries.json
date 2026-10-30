@@ -1,0 +1,610 @@
+[
+  {
+    "id": "argentina",
+    "name": "阿根廷",
+    "nameEn": "Argentina",
+    "flag": "🇦🇷",
+    "continent": "south_america",
+    "hasProvinces": false,
+    "regions": [
+      "mendoza",
+      "buenos_aires",
+      "salta"
+    ]
+  },
+  {
+    "id": "australia",
+    "name": "澳大利亚",
+    "nameEn": "Australia",
+    "flag": "🇦🇺",
+    "continent": "oceania",
+    "hasProvinces": false,
+    "regions": [
+      "south_australia",
+      "victoria",
+      "tasmania",
+      "queensland"
+    ]
+  },
+  {
+    "id": "austria",
+    "name": "奥地利",
+    "nameEn": "Austria",
+    "flag": "🇦🇹",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "vienna",
+      "salzburg",
+      "styria"
+    ]
+  },
+  {
+    "id": "belgium",
+    "name": "比利时",
+    "nameEn": "Belgium",
+    "flag": "🇧🇪",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "flanders",
+      "wallonia",
+      "brussels"
+    ]
+  },
+  {
+    "id": "brazil",
+    "name": "巴西",
+    "nameEn": "Brazil",
+    "flag": "🇧🇷",
+    "continent": "south_america",
+    "hasProvinces": false,
+    "regions": [
+      "sao_paulo",
+      "minas_gerais",
+      "rio"
+    ]
+  },
+  {
+    "id": "canada",
+    "name": "加拿大",
+    "nameEn": "Canada",
+    "flag": "🇨🇦",
+    "continent": "north_america",
+    "hasProvinces": false,
+    "regions": [
+      "ontario",
+      "british_columbia",
+      "quebec"
+    ]
+  },
+  {
+    "id": "chile",
+    "name": "智利",
+    "nameEn": "Chile",
+    "flag": "🇨🇱",
+    "continent": "south_america",
+    "hasProvinces": false,
+    "regions": [
+      "santiago",
+      "valparaiso",
+      "colchagua"
+    ]
+  },
+  {
+    "id": "china",
+    "name": "中国",
+    "nameEn": "China",
+    "flag": "🇨🇳",
+    "continent": "asia",
+    "hasProvinces": true,
+    "regions": [
+      "guizhou",
+      "sichuan",
+      "shanxi",
+      "zhejiang",
+      "shandong",
+      "jiangsu",
+      "beijing",
+      "taiwan",
+      "anhui",
+      "hubei",
+      "henan",
+      "shaanxi",
+      "guangdong",
+      "guangxi",
+      "xinjiang",
+      "yunnan",
+      "neimenggu",
+      "heilongjiang",
+      "hebei",
+      "hunan",
+      "liaoning",
+      "jiangxi",
+      "xizang",
+      "shanghai",
+      "tianjin",
+      "chongqing",
+      "fujian",
+      "gansu",
+      "ningxia",
+      "qinghai",
+      "jilin",
+      "hainan"
+    ]
+  },
+  {
+    "id": "denmark",
+    "name": "丹麦",
+    "nameEn": "Denmark",
+    "flag": "🇩🇰",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "copenhagen"
+    ]
+  },
+  {
+    "id": "egypt",
+    "name": "埃及",
+    "nameEn": "Egypt",
+    "flag": "🇪🇬",
+    "continent": "africa",
+    "hasProvinces": false,
+    "regions": [
+      "cairo"
+    ]
+  },
+  {
+    "id": "cuba",
+    "name": "古巴",
+    "nameEn": "Cuba",
+    "flag": "🇨🇺",
+    "continent": "north_america",
+    "hasProvinces": false,
+    "regions": [
+      "havana",
+      "santiago"
+    ]
+  },
+  {
+    "id": "czech",
+    "name": "捷克",
+    "nameEn": "Czech Republic",
+    "flag": "🇨🇿",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "pilsen",
+      "bohemia",
+      "moravia"
+    ]
+  },
+  {
+    "id": "ethiopia",
+    "name": "埃塞俄比亚",
+    "nameEn": "Ethiopia",
+    "flag": "🇪🇹",
+    "continent": "africa",
+    "hasProvinces": false,
+    "regions": [
+      "addis_ababa",
+      "aksum"
+    ]
+  },
+  {
+    "id": "finland",
+    "name": "芬兰",
+    "nameEn": "Finland",
+    "flag": "🇫🇮",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "helsinki",
+      "koskenkorva",
+      "lapland"
+    ]
+  },
+  {
+    "id": "france",
+    "name": "法国",
+    "nameEn": "France",
+    "flag": "🇫🇷",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "bordeaux",
+      "bourgogne",
+      "champagne",
+      "cognac",
+      "alsace",
+      "loire",
+      "rhone",
+      "provence"
+    ]
+  },
+  {
+    "id": "germany",
+    "name": "德国",
+    "nameEn": "Germany",
+    "flag": "🇩🇪",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "bavaria",
+      "mosel",
+      "rheingau",
+      "baden",
+      "cologne"
+    ]
+  },
+  {
+    "id": "greece",
+    "name": "希腊",
+    "nameEn": "Greece",
+    "flag": "🇬🇷",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "attica",
+      "crete",
+      "macedonia",
+      "chios"
+    ]
+  },
+  {
+    "id": "hungary",
+    "name": "匈牙利",
+    "nameEn": "Hungary",
+    "flag": "🇭🇺",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "tokaj",
+      "budapest",
+      "eger"
+    ]
+  },
+  {
+    "id": "india",
+    "name": "印度",
+    "nameEn": "India",
+    "flag": "🇮🇳",
+    "continent": "asia",
+    "hasProvinces": false,
+    "regions": [
+      "goa",
+      "bangalore",
+      "punjab"
+    ]
+  },
+  {
+    "id": "ireland",
+    "name": "爱尔兰",
+    "nameEn": "Ireland",
+    "flag": "🇮🇪",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "dublin",
+      "cork",
+      "antrim"
+    ]
+  },
+  {
+    "id": "italy",
+    "name": "意大利",
+    "nameEn": "Italy",
+    "flag": "🇮🇹",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "tuscany",
+      "piedmont",
+      "veneto",
+      "lombardy",
+      "sicily",
+      "campania"
+    ]
+  },
+  {
+    "id": "japan",
+    "name": "日本",
+    "nameEn": "Japan",
+    "flag": "🇯🇵",
+    "continent": "asia",
+    "hasProvinces": false,
+    "regions": [
+      "niigata",
+      "yamaguchi",
+      "kyoto",
+      "osaka",
+      "kagoshima",
+      "okinawa",
+      "hokkaido"
+    ]
+  },
+  {
+    "id": "korea",
+    "name": "韩国",
+    "nameEn": "South Korea",
+    "flag": "🇰🇷",
+    "continent": "asia",
+    "hasProvinces": false,
+    "regions": [
+      "seoul",
+      "gyeonggi",
+      "jeolla",
+      "andong",
+      "jeju"
+    ]
+  },
+  {
+    "id": "mexico",
+    "name": "墨西哥",
+    "nameEn": "Mexico",
+    "flag": "🇲🇽",
+    "continent": "north_america",
+    "hasProvinces": false,
+    "regions": [
+      "jalisco",
+      "oaxaca",
+      "guanajuato",
+      "nayarit"
+    ]
+  },
+  {
+    "id": "morocco",
+    "name": "摩洛哥",
+    "nameEn": "Morocco",
+    "flag": "🇲🇦",
+    "continent": "africa",
+    "hasProvinces": false,
+    "regions": [
+      "casablanca",
+      "marrakech",
+      "meknes"
+    ]
+  },
+  {
+    "id": "netherlands",
+    "name": "荷兰",
+    "nameEn": "Netherlands",
+    "flag": "🇳🇱",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "amsterdam",
+      "schiedam",
+      "rotterdam"
+    ]
+  },
+  {
+    "id": "new_zealand",
+    "name": "新西兰",
+    "nameEn": "New Zealand",
+    "flag": "🇳🇿",
+    "continent": "oceania",
+    "hasProvinces": false,
+    "regions": [
+      "auckland",
+      "marlborough",
+      "central_otago"
+    ]
+  },
+  {
+    "id": "norway",
+    "name": "挪威",
+    "nameEn": "Norway",
+    "flag": "🇳🇴",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "oslo",
+      "bergen"
+    ]
+  },
+  {
+    "id": "peru",
+    "name": "秘鲁",
+    "nameEn": "Peru",
+    "flag": "🇵🇪",
+    "continent": "south_america",
+    "hasProvinces": false,
+    "regions": [
+      "lima",
+      "ica",
+      "cusco"
+    ]
+  },
+  {
+    "id": "poland",
+    "name": "波兰",
+    "nameEn": "Poland",
+    "flag": "🇵🇱",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "warsaw",
+      "krakow",
+      "poznan"
+    ]
+  },
+  {
+    "id": "portugal",
+    "name": "葡萄牙",
+    "nameEn": "Portugal",
+    "flag": "🇵🇹",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "porto",
+      "madeira",
+      "minho",
+      "douro",
+      "lisbon"
+    ]
+  },
+  {
+    "id": "russia",
+    "name": "俄罗斯",
+    "nameEn": "Russia",
+    "flag": "🇷🇺",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "moscow",
+      "st_petersburg",
+      "siberia"
+    ]
+  },
+  {
+    "id": "scotland",
+    "name": "苏格兰",
+    "nameEn": "Scotland",
+    "flag": "🏴",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "highland",
+      "speyside",
+      "islay",
+      "lowland"
+    ]
+  },
+  {
+    "id": "singapore",
+    "name": "新加坡",
+    "nameEn": "Singapore",
+    "flag": "🇸🇬",
+    "continent": "asia",
+    "hasProvinces": false,
+    "regions": [
+      "singapore"
+    ]
+  },
+  {
+    "id": "south_africa",
+    "name": "南非",
+    "nameEn": "South Africa",
+    "flag": "🇿🇦",
+    "continent": "africa",
+    "hasProvinces": false,
+    "regions": [
+      "cape_town",
+      "stellenbosch",
+      "franschhoek"
+    ]
+  },
+  {
+    "id": "spain",
+    "name": "西班牙",
+    "nameEn": "Spain",
+    "flag": "🇪🇸",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "rioja",
+      "andalusia",
+      "catalonia",
+      "galicia",
+      "basque"
+    ]
+  },
+  {
+    "id": "sweden",
+    "name": "瑞典",
+    "nameEn": "Sweden",
+    "flag": "🇸🇪",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "stockholm",
+      "gothenburg",
+      "scania"
+    ]
+  },
+  {
+    "id": "switzerland",
+    "name": "瑞士",
+    "nameEn": "Switzerland",
+    "flag": "🇨🇭",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "zurich",
+      "geneva",
+      "valais",
+      "ticino"
+    ]
+  },
+  {
+    "id": "thailand",
+    "name": "泰国",
+    "nameEn": "Thailand",
+    "flag": "🇹🇭",
+    "continent": "asia",
+    "hasProvinces": false,
+    "regions": [
+      "bangkok",
+      "chiang_mai",
+      "phuket"
+    ]
+  },
+  {
+    "id": "turkey",
+    "name": "土耳其",
+    "nameEn": "Turkey",
+    "flag": "🇹🇷",
+    "continent": "asia",
+    "hasProvinces": false,
+    "regions": [
+      "istanbul"
+    ]
+  },
+  {
+    "id": "uk",
+    "name": "英国",
+    "nameEn": "United Kingdom",
+    "flag": "🇬🇧",
+    "continent": "europe",
+    "hasProvinces": false,
+    "regions": [
+      "scotland_highland",
+      "scotland_speyside",
+      "scotland_islay",
+      "scotland_lowland",
+      "london",
+      "kent"
+    ]
+  },
+  {
+    "id": "usa",
+    "name": "美国",
+    "nameEn": "United States",
+    "flag": "🇺🇸",
+    "continent": "north_america",
+    "hasProvinces": false,
+    "regions": [
+      "california",
+      "kentucky",
+      "tennessee",
+      "oregon",
+      "washington",
+      "colorado"
+    ]
+  },
+  {
+    "id": "vietnam",
+    "name": "越南",
+    "nameEn": "Vietnam",
+    "flag": "🇻🇳",
+    "continent": "asia",
+    "hasProvinces": false,
+    "regions": [
+      "hanoi",
+      "ho_chi_minh",
+      "hue"
+    ]
+  }
+]

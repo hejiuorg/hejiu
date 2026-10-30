@@ -1,0 +1,85 @@
+---
+import SiteLayout from './SiteLayout.astro';
+import Icon from './Icon.astro';
+import { aboutPath, contributePath, homePath, searchPath, uiFor, type UiLang } from '../lib';
+
+interface Props {
+  siteKey: string;
+  lang: UiLang;
+}
+const { siteKey, lang } = Astro.props;
+const context = uiFor(siteKey, lang);
+const { site, labels, contracts, data } = context;
+const pathName = aboutPath(lang);
+const title = `${labels.about} · ${lang === 'zh' ? site.labelZh : site.labelEn} · ${lang === 'zh' ? '喝酒去' : 'Hejiu'}`;
+const canonical = `https://${site.host}${pathName}`;
+const active = site.key === 'guide' ? 'guide' : site.key === 'atlas' ? 'places' : '';
+const published = data.pages.filter((page) => page.lang === lang && page.published).length;
+const preview = data.pages.filter((page) => page.lang === lang && !page.published).length;
+---
+<SiteLayout
+  siteKey={siteKey}
+  lang={lang}
+  title={title}
+  description={labels.about}
+  canonical={canonical}
+  pagePath={pathName}
+  active={active}
+  pageType="about"
+>
+  <div class="shell narrow-page">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href={homePath(lang)}>{labels.home}</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span aria-current="page">{labels.about}</span>
+    </nav>
+    <header class="page-head">
+      <p class="eyebrow">{labels.about}</p>
+      <h1>{labels.about} 喝酒去</h1>
+      <p>{lang === 'zh' ? '四个内容仓、四个网站仓，一套内容身份与资料规则。' : 'Four content repositories and four site repositories, with one identity and evidence system.'}</p>
+    </header>
+    <div class="prose">
+      {lang === 'zh' ? (
+        <>
+          <p>喝酒去帮助读者认识不同的酒、理解喝法、读一点酒文化，并发现可以了解和体验酒的地方。四个站点分别回答“这是什么”“怎么喝”“杯子之外有什么故事”和“去哪里”。</p>
+          <p>这是 2026-10-29 的<strong>策展版</strong>：四个站共发布 166 个页面、83 个实体，全部为来源核验内容并完成中英双语。旧站中无法独立成页的 553 条档案（含全部 57 条诗词摘句）已停用，不再作为公开页面；其旧地址返回 404，原文只保留在内部迁移记录与备份中。</p>
+          <h2>内容如何组织</h2>
+          <ul>
+            <li>四个内容仓：alcoholic-beverages、alcohol-guide、alcohol-culture、alcohol-atlas。</li>
+            <li>四个网站仓：site-alcoholic-beverages、site-alcohol-guide、site-alcohol-culture、site-alcohol-atlas。</li>
+            <li>每个对象使用语言无关的稳定 ID；中文与英文正文独立维护，英文必须绑定所依据的中文文件散列。</li>
+            <li>关系、来源、权利与翻译状态都由真实校验器检查，不在构建时猜测。</li>
+          </ul>
+          <h2>本批次覆盖</h2>
+          <p>本站已发布 {published} 个页面，没有待复核预览。全站覆盖 15 个酒类风格、31 个酒款、1 个品牌、16 个历史酒馆与咖啡馆，以及指南、配方、酒器、文化文章和参访地点；9 篇原型样文已全部迁为正式页面。除 1 条不发布的旧分类映射草稿外，所有记录都通过来源、权利与译文校验。</p>
+          <h2>资料来源与限制</h2>
+          <p>每个公开页面都至少有一个独立于旧站的来源；旧站正文不再作为公开内容直接复制。项目代码采用 MIT，内容采用 CC BY 4.0；第三方标准、商标、图片与引用文本不在该许可内。</p>
+          <p>没有核实来源的断言不会被写成“已审核”，也不会为了填满页面而虚构品牌、营业信息、活动或译文。具体营业时间、票价与预约方式仍应以场所官方渠道为准。</p>
+          <p>这是静态站点，不提供登录、购买、预约或跨设备同步。</p>
+        </>
+      ) : (
+        <>
+          <p>Hejiu helps readers understand drinks, learn how to enjoy them, read a little culture, and find real places to visit. The four sites answer “what is this?”, “how do I enjoy it?”, “what stories sit beyond the glass?”, and “where can I go?”.</p>
+          <p>This is the <strong>curated edition of 29 October 2026</strong>: 166 pages and 83 entities across four sites, all source-verified and bilingual. The 553 legacy archive records that could not stand alone, including all 57 poem excerpts, have been retired from publication; their old URLs now return 404, and their source text remains only in the internal migration ledger and backup.</p>
+          <h2>How content is organised</h2>
+          <ul>
+            <li>Four content repositories: alcoholic-beverages, alcohol-guide, alcohol-culture and alcohol-atlas.</li>
+            <li>Four site repositories: site-alcoholic-beverages, site-alcohol-guide, site-alcohol-culture and site-alcohol-atlas.</li>
+            <li>Every object has a language-independent stable ID. Chinese and English are maintained separately, and each English file records the hash of the Chinese source it translated.</li>
+            <li>Relationships, sources, rights and translation status are checked by a real validator rather than guessed at build time.</li>
+          </ul>
+          <h2>What this edition covers</h2>
+          <p>This site currently publishes {published} pages with no pending review previews. The edition covers 15 drink styles, 31 drinks, one brand, 16 historic bars and cafés, plus guides, recipes, glassware, culture articles and a visitor place; all 9 prototype samples have been migrated. Except for one unpublished legacy-taxonomy draft, every record passes source, rights and translation checks.</p>
+          <h2>Sources and limits</h2>
+          <p>Every published page has at least one source independent of the old site; legacy text is no longer copied into public pages. Code is MIT and content is CC BY 4.0; third-party standards, trademarks, photographs and quoted texts are not covered by that licence.</p>
+          <p>Claims without checked sources are not presented as reviewed, and we do not invent brands, opening information, events or translations to fill pages. Current opening hours, ticket prices and booking rules should be checked with the venue's official channels.</p>
+          <p>This is a static site. It does not provide accounts, purchases, bookings or cross-device sync.</p>
+        </>
+      )}
+    </div>
+    <div class="saved-tools">
+      <a class="button button--primary" href={searchPath(lang)}>{labels.search} <Icon name="arrow-right" size={18} /></a>
+      <a class="button button--ghost" href={contributePath(lang)}>{labels.contribute}</a>
+    </div>
+  </div>
+</SiteLayout>

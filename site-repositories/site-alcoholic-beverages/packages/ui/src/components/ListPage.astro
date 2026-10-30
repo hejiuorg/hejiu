@@ -1,0 +1,74 @@
+---
+import SiteLayout from './SiteLayout.astro';
+import EntityCard from './EntityCard.astro';
+import Icon from './Icon.astro';
+import { homePath, listPath, typeLabel, uiFor, type UiLang } from '../lib';
+import type { ListPageData } from '@hejiu/build-tools';
+
+interface Props {
+  siteKey: string;
+  list: ListPageData;
+}
+const { siteKey, list } = Astro.props;
+const lang = list.lang as UiLang;
+const context = uiFor(siteKey, lang);
+const { site, labels, contracts } = context;
+const home = homePath(lang);
+const label = typeLabel(contracts, list.type, lang);
+const title = `${label} · ${lang === 'zh' ? site.labelZh : site.labelEn} · ${lang === 'zh' ? '喝酒去' : 'Hejiu'}`;
+const canonical = `https://${site.host}${listPath(list.typePath, lang)}`;
+const active = site.key === 'guide' ? 'guide' : site.key === 'atlas' ? 'places' : site.key === 'beverages' ? 'drinks' : '';
+const publishedCount = list.pages.filter((page) => page.published).length;
+const otherLang = lang === 'zh' ? 'en' : 'zh';
+const otherList = context.data.lists.find(
+  (entry) => entry.typePath === list.typePath && entry.lang === otherLang,
+);
+const alternateHref = otherList ? listPath(list.typePath, otherLang) : null;
+const alternateState = otherList ? 'available' : 'missing';
+---
+<SiteLayout
+  siteKey={siteKey}
+  lang={lang}
+  title={title}
+  description={list.description}
+  canonical={canonical}
+  pagePath={listPath(list.typePath, lang)}
+  noindex={list.noindex}
+  active={active}
+  pageType="list"
+  alternateHref={alternateHref}
+  alternateState={alternateState}
+>
+  <div class="shell">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href={home}>{labels.home}</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span aria-current="page">{label}</span>
+    </nav>
+    <header class="page-head">
+      <p class="eyebrow">{site.key === 'beverages' ? labels.navDrinks : site.key === 'guide' ? labels.navGuide : site.key === 'atlas' ? labels.navPlaces : labels.navCulture}</p>
+      <div class="page-head__row">
+        <div>
+          <h1>{label}</h1>
+          <p>{list.description}</p>
+        </div>
+        <span class="page-head__count">
+          {publishedCount} {labels.entries}
+          {list.pages.length > publishedCount ? ` · ${list.pages.length - publishedCount} ${labels.previewNotice}` : ''}
+        </span>
+      </div>
+    </header>
+    {list.noindex && (
+      <div class="preview-banner">{labels.listPreviewNote}</div>
+    )}
+    <h2 class="sr-only">{label}</h2>
+    {list.pages.length > 0 ? (
+      <div class="list-grid">
+        {list.pages.map((page) => <EntityCard page={page} />)}
+      </div>
+    ) : (
+      <p class="empty-state">{labels.listEmpty}</p>
+    )}
+    <p><a class="text-link" href={home}><Icon name="arrow-left" size={16} /> {labels.backToHome}</a></p>
+  </div>
+</SiteLayout>

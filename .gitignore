@@ -1,0 +1,8 @@
+node_modules/
+.astro/
+dist/
+dist-preview/
+.hejiu/
+backups/*.tar.gz
+*.log
+.DS_Store

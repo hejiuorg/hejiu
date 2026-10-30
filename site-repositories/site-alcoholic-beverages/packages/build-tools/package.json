@@ -1,0 +1,43 @@
+{
+  "name": "@hejiu/build-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./astro": {
+      "types": "./dist/astro.d.ts",
+      "default": "./dist/astro.js"
+    }
+  },
+  "bin": {
+    "hejiu-tools": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "markdown-it": "15.0.3",
+    "markdown-it-anchor": "10.0.0",
+    "pagefind": "1.5.2",
+    "yaml": "2.9.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "typescript": "5.9.3",
+    "astro": "7.4.4"
+  },
+  "peerDependencies": {
+    "astro": "7.4.4"
+  }
+}

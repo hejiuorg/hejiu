@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T23:26:43.968Z",
+  "checks": [
+    {
+      "name": "602 detail rows are classified",
+      "ok": true,
+      "detail": "48+554"
+    },
+    {
+      "name": "48 retained detail routes have targets",
+      "ok": true,
+      "detail": "48"
+    },
+    {
+      "name": "554 retired detail routes have no target",
+      "ok": true,
+      "detail": "554"
+    },
+    {
+      "name": "every retained target is a published production URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "every retained target HTML file exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "public detail map has 48 entries",
+      "ok": true,
+      "detail": "48"
+    },
+    {
+      "name": "public detail map matches retained routes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no retired detail key leaks into the public map",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all 17 category targets are published or the style index",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all 93 subcategory targets are published or the style index",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all 397 tag targets use the search page",
+      "ok": true,
+      "detail": "397"
+    },
+    {
+      "name": "public map has 17 category and 93 subcategory branches",
+      "ok": true,
+      "detail": "17/93"
+    },
+    {
+      "name": "public map URLs are production HTTPS",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no public map target points at the unpublished other style",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "detailRows": 602,
+    "retained": 48,
+    "retired": 554,
+    "publishedUrls": 166
+  }
+}

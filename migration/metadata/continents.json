@@ -1,0 +1,93 @@
+[
+  {
+    "id": "asia",
+    "name": "亚洲",
+    "nameEn": "Asia",
+    "icon": "🏮",
+    "countries": [
+      "china",
+      "japan",
+      "korea",
+      "india",
+      "thailand",
+      "vietnam",
+      "singapore",
+      "turkey"
+    ]
+  },
+  {
+    "id": "europe",
+    "name": "欧洲",
+    "nameEn": "Europe",
+    "icon": "🏰",
+    "countries": [
+      "austria",
+      "belgium",
+      "czech",
+      "denmark",
+      "finland",
+      "france",
+      "germany",
+      "greece",
+      "hungary",
+      "ireland",
+      "italy",
+      "netherlands",
+      "norway",
+      "poland",
+      "portugal",
+      "russia",
+      "scotland",
+      "spain",
+      "sweden",
+      "switzerland",
+      "uk"
+    ]
+  },
+  {
+    "id": "north_america",
+    "name": "北美洲",
+    "nameEn": "North America",
+    "icon": "🏙️",
+    "countries": [
+      "usa",
+      "mexico",
+      "cuba",
+      "canada"
+    ]
+  },
+  {
+    "id": "south_america",
+    "name": "南美洲",
+    "nameEn": "South America",
+    "icon": "🌴",
+    "countries": [
+      "brazil",
+      "peru",
+      "argentina",
+      "chile"
+    ]
+  },
+  {
+    "id": "oceania",
+    "name": "大洋洲",
+    "nameEn": "Oceania",
+    "icon": "🏝️",
+    "countries": [
+      "australia",
+      "new_zealand"
+    ]
+  },
+  {
+    "id": "africa",
+    "name": "非洲",
+    "nameEn": "Africa",
+    "icon": "🌅",
+    "countries": [
+      "south_africa",
+      "morocco",
+      "ethiopia",
+      "egypt"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "names-and-domains-confirmed-by-user",
+  "date": "2026-10-29",
+  "githubOwner": null,
+  "remoteRepositoriesCreated": false,
+  "languages": ["zh", "en"],
+  "deploymentTarget": "GitHub Pages",
+  "sharedPackagesHost": "site-alcoholic-beverages",
+  "sites": [
+    {"key":"beverages","contentRepository":"alcoholic-beverages","siteRepository":"site-alcoholic-beverages","labelZh":"识酒","host":"hejiu.org","subdomain":null,"main":true},
+    {"key":"guide","contentRepository":"alcohol-guide","siteRepository":"site-alcohol-guide","labelZh":"喝法","host":"guide.hejiu.org","subdomain":"guide","main":false},
+    {"key":"culture","contentRepository":"alcohol-culture","siteRepository":"site-alcohol-culture","labelZh":"酒文化","host":"culture.hejiu.org","subdomain":"culture","main":false},
+    {"key":"atlas","contentRepository":"alcohol-atlas","siteRepository":"site-alcohol-atlas","labelZh":"去处","host":"atlas.hejiu.org","subdomain":"atlas","main":false}
+  ]
+}

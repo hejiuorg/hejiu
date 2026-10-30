@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T23:26:42.179Z",
+  "environment": {
+    "browser": "Headless Chrome via puppeteer-core",
+    "origin": "http://127.0.0.1:4401",
+    "note": "Local preview origin; production-domain Cookie behavior is not exercised."
+  },
+  "results": [
+    {
+      "name": "unknown saved ID shows an explanation",
+      "ok": true,
+      "detail": "确认收藏这个 ID 不存在或尚未发布，无法收藏。"
+    },
+    {
+      "name": "unknown saved ID cannot be added",
+      "ok": true,
+      "detail": "false"
+    },
+    {
+      "name": "import adds a saved entity",
+      "ok": true,
+      "detail": "[{\"id\":\"recipe:negroni\",\"title\":\"Imported Negroni\",\"savedAt\":\"2026-10-29T00:00:00.000Z\"}]"
+    },
+    {
+      "name": "saved item persists after reload",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "export contains only id, title and savedAt",
+      "ok": true,
+      "detail": "[{\"id\":\"recipe:negroni\",\"title\":\"Imported Negroni\",\"savedAt\":\"2026-10-29T00:00:00.000Z\"}]"
+    },
+    {
+      "name": "remove clears saved item",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "main detail save button stores item",
+      "ok": true,
+      "detail": "{\"label\":\"已收藏\",\"pressed\":\"true\"}"
+    },
+    {
+      "name": "main detail save button toggles off",
+      "ok": true,
+      "detail": "false"
+    }
+  ],
+  "failures": []
+}

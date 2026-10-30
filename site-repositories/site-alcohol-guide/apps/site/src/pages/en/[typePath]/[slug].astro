@@ -1,0 +1,8 @@
+---
+import DetailPage from '@hejiu/ui/components/DetailPage.astro';
+import { getStaticDetailPaths } from '@hejiu/build-tools';
+
+export const getStaticPaths = () => getStaticDetailPaths('guide', 'en');
+const { page } = Astro.props;
+---
+<DetailPage page={page} />

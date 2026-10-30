@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "rights": "CC-BY-4.0 copyright licence; project-owned brand assets; trademark rights not granted",
+  "colors": {
+    "amber": "#f5a623",
+    "foam": "#fff4d8",
+    "outline": "#2b1a10"
+  },
+  "sourceFiles": [
+    {
+      "file": "d-mascot.svg",
+      "sha256": "da37b2fdda02fc2ec3e906e0a39ff85b6cfc066db6d689ac3ac860ad91203d5d"
+    },
+    {
+      "file": "d-mascot-on-dark.svg",
+      "sha256": "cb51776c3d372fb70345ab63a3e310a4605b162f866131bc0bc735f0eaa0c7c8"
+    },
+    {
+      "file": "d-mark.svg",
+      "sha256": "c775daa51e875cc7980f6598f153606368b1be2b4fceac0ad9ca9cda01470549"
+    },
+    {
+      "file": "d-mark-on-dark.svg",
+      "sha256": "bc6893878e86cfd398012ec289ded59625bf68ceb64cee3beedeb029cc87f3d6"
+    }
+  ],
+  "png": [
+    {
+      "file": "png/d-mark-16.png",
+      "width": 16,
+      "height": 16,
+      "alpha": true,
+      "bytes": 610,
+      "sha256": "591bba773cfe56ac84725bc02120d927ab71858b183779f9bbdad60fcde66bc1"
+    },
+    {
+      "file": "png/d-mark-32.png",
+      "width": 32,
+      "height": 32,
+      "alpha": true,
+      "bytes": 978,
+      "sha256": "2547e55a509edce2af09a275070045dfae7113b9d581a1bc7f8e6c78d1f65eca"
+    },
+    {
+      "file": "png/d-mark-48.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "bytes": 1663,
+      "sha256": "a898acb66801387943a5a89d43971551b0b068c3e43ac651deba1f76c017a925"
+    },
+    {
+      "file": "png/d-mark-180.png",
+      "width": 180,
+      "height": 180,
+      "alpha": true,
+      "bytes": 6321,
+      "sha256": "b74cf30adccab23fd9a59c77a602556440cf68bc627400eaf4f64530b7d6d91f"
+    },
+    {
+      "file": "png/d-mark-192.png",
+      "width": 192,
+      "height": 192,
+      "alpha": true,
+      "bytes": 5902,
+      "sha256": "c9a32be9f89cd8133130338e5fa8b8ac6346cb11d79063b0d8698c8011e05d12"
+    },
+    {
+      "file": "png/d-mark-512.png",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "bytes": 20902,
+      "sha256": "800da0bd0e61cfb7f63f8000f4b72954597f7e8a0d631a7096686edbe045847c"
+    },
+    {
+      "file": "png/d-mascot-64.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true,
+      "bytes": 2163,
+      "sha256": "add7c4d9099e970f76ecf6aaba112aed2bf4de3c068cb2475672d1082e8453b9"
+    },
+    {
+      "file": "png/d-mascot-512.png",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "bytes": 21442,
+      "sha256": "da3e2c53ebede9c2c04ac2d74062616226219c49dc4040d5de436cba68c1737d"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "source": "zh/index.json, zh/world/countries.json, zh/world/continents.json, zh/china/china_index.json",
+  "files": [
+    {
+      "file": "categories.json",
+      "sha256": "097501f0b4b3283ed0ab860a6390028ec4855e2f11187724ee9268214fb45cb0",
+      "bytes": 23390
+    },
+    {
+      "file": "tag-definitions.json",
+      "sha256": "af00c840ad89729a6f356cb0e191ced62e69df3c769835487b060c663dba1c7c",
+      "bytes": 22244
+    },
+    {
+      "file": "city-names.json",
+      "sha256": "1071391da7ecb3e12a4d684a2a4fd74b9ce22acb3f42f3df4241d7ff918e0ca2",
+      "bytes": 2080
+    },
+    {
+      "file": "countries.json",
+      "sha256": "4850b25d913adc4d765dee38f36600be9798511258faeef09bdc19452415e2cc",
+      "bytes": 10821
+    },
+    {
+      "file": "continents.json",
+      "sha256": "ae8f3bbeab67de21ec3dea3ef5b165d74f624f537c1d6447d3e4fe42821d38e3",
+      "bytes": 1473
+    },
+    {
+      "file": "china-index.json",
+      "sha256": "90f81d73393d81ec113df33654e8519bbcd6e7b4562ad652a0faf839c00705c4",
+      "bytes": 6453
+    }
+  ]
+}

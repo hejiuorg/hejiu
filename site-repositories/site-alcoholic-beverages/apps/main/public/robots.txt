@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /search/
+Disallow: /en/search/
+Disallow: /review/
+Sitemap: https://hejiu.org/sitemap.xml

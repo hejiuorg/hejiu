@@ -1,0 +1,206 @@
+---
+import SiteLayout from './SiteLayout.astro';
+import Mascot from './Mascot.astro';
+import Icon from './Icon.astro';
+import EntityCard from './EntityCard.astro';
+import {
+  featuredPages,
+  homePath,
+  listPath,
+  searchPath,
+  siteCards,
+  siteLink,
+  typeLabel,
+  uiFor,
+  type UiLang,
+} from '../lib';
+import { loadMigrationMap } from '@hejiu/build-tools';
+
+interface Props {
+  siteKey: string;
+  lang: UiLang;
+}
+const { siteKey, lang } = Astro.props;
+const context = uiFor(siteKey, lang);
+const { data, site, labels, origins, contracts } = context;
+const isMain = site.key === 'beverages';
+const featured = featuredPages(data, lang, isMain ? 6 : 4);
+const lists = data.lists.filter((list) => list.lang === lang);
+const cards = siteCards(context);
+const published = data.pages.filter((page) => page.lang === lang && page.published).length;
+const preview = data.pages.filter((page) => page.lang === lang && !page.published).length;
+const listsNoindex = lists.some((list) => list.noindex);
+const noindex = data.mode === 'preview' && (preview > 0 || listsNoindex);
+const migration = loadMigrationMap(data.index.workspaceRoot);
+const migrationTotal = migration ? migration.size : 0;
+const migrationPending = migration
+  ? [...migration.values()].filter((entry) => entry.status === 'pending-classification').length
+  : 0;
+const home = homePath(lang);
+const title = isMain
+  ? lang === 'zh'
+    ? '喝酒去 · 识酒'
+    : 'Hejiu · Drinks'
+  : lang === 'zh'
+    ? `${site.labelZh} · 喝酒去`
+    : `${site.labelEn} · Hejiu`;
+const description = lang === 'zh' ? site.descriptionZh : site.descriptionEn;
+const canonical = `https://${site.host}${home}`;
+const heroKicker = isMain ? labels.homeKicker : lang === 'zh' ? site.taglineZh : site.taglineEn;
+const heroTitle = isMain ? labels.homeTitle : lang === 'zh' ? site.labelZh : site.labelEn;
+const heroAccent = isMain ? labels.homeAccent : lang === 'zh' ? '从一个问题开始。' : 'Start with one question.';
+const heroDesc = isMain ? labels.homeDesc : description;
+const searchHref = searchPath(lang);
+const primaryHref = isMain
+  ? siteLink(site.key, 'beverages', listPath('styles', lang), origins)
+  : listPath(lists[0]?.typePath ?? 'guides', lang);
+const secondaryHref = isMain
+  ? siteLink(site.key, 'guide', home, origins)
+  : searchHref;
+const stickerOne = lang === 'zh' ? `已审核 ${published} 页` : `${published} published pages`;
+const stickerTwo = lang === 'zh' ? '四站 · 一个身份体系' : 'Four sites · one identity system';
+const stickerThree = lang === 'zh' ? 'D 泡沫酒杯' : 'D · the foam glass';
+---
+<SiteLayout
+  siteKey={siteKey}
+  lang={lang}
+  title={title}
+  description={description}
+  canonical={canonical}
+  pagePath={home}
+  noindex={noindex}
+  active={isMain ? 'discover' : site.key === 'guide' ? 'guide' : site.key === 'atlas' ? 'places' : ''}
+  pageType="home"
+>
+  <div class="shell">
+    <section class="hero">
+      <div class="hero__copy">
+        <p class="eyebrow">{heroKicker}</p>
+        <h1 class="hero__title">{heroTitle} <em>{heroAccent}</em></h1>
+        <p class="hero__desc">{heroDesc}</p>
+        <form class="hero-search" action={searchHref} method="get" role="search">
+          <label class="sr-only" for={`hero-search-${siteKey}`}>{labels.search}</label>
+          <input id={`hero-search-${siteKey}`} type="search" name="q" placeholder={labels.searchHint} autocomplete="off" />
+          <button class="button button--primary" type="submit"><Icon name="search" size={18} /> {labels.search}</button>
+        </form>
+        <div class="hero__actions">
+          <a class="button button--primary" href={primaryHref}>{isMain ? labels.homeCta : labels.browse} <Icon name="arrow-right" size={18} /></a>
+          <a class="button button--ghost" href={secondaryHref}>{isMain ? labels.homeSecondary : labels.search}</a>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__mascot-card">
+          <Mascot size="lg" />
+        </div>
+        <span class="hero__sticker hero__sticker--one">{stickerOne}</span>
+        <span class="hero__sticker hero__sticker--two">{stickerTwo}</span>
+        <span class="hero__sticker hero__sticker--three">{stickerThree}</span>
+      </div>
+    </section>
+
+    {isMain ? (
+      <section class="section" aria-labelledby="four-sites-title">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">{labels.fourSites}</p>
+            <h2 id="four-sites-title">{labels.fourSites}</h2>
+            <p>{labels.fourSitesDesc}</p>
+          </div>
+        </div>
+        <div class="site-grid">
+          {cards.map((card) => (
+            <a class="site-card" href={card.href} style={`--card-accent:${card.accent}`}>
+              <span class="site-card__count">{card.count} {lang === 'zh' ? '页已发布' : 'published'}</span>
+              <h3>{card.label}</h3>
+              <p>{card.description}</p>
+              <span class="site-card__link">{labels.explore} <Icon name="arrow-right" size={16} /></span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ) : (
+      <section class="section" aria-label={labels.otherSites}>
+        <div class="type-directory">
+          {cards.map((card) => (
+            <a class="type-chip" href={card.href} style={`--accent:${card.accent}`}>
+              <span>{card.label}</span>
+              <span class="type-chip__count">{card.count}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="section" aria-labelledby="featured-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">{labels.featured}</p>
+          <h2 id="featured-title">{labels.featured}</h2>
+          <p>{labels.featuredDesc}</p>
+        </div>
+        {lists[0] && <a class="text-link" href={listPath(lists[0].typePath, lang)}>{labels.viewAll} <Icon name="arrow-right" size={16} /></a>}
+      </div>
+      {featured.length > 0 ? (
+        <div class="feature-grid">
+          {featured.map((page) => <EntityCard page={page} />)}
+        </div>
+      ) : (
+        <p class="empty-state">{labels.listEmpty}</p>
+      )}
+    </section>
+
+    <section class="section" aria-labelledby="types-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">{labels.browse}</p>
+          <h2 id="types-title">{labels.typeDirectory}</h2>
+          <p>{labels.typeDirectoryDesc}</p>
+        </div>
+      </div>
+      <div class="type-directory">
+        {lists.map((list) => {
+          const count = list.pages.filter((page) => page.published).length;
+          const previewCount = list.pages.filter((page) => !page.published).length;
+          return (
+            <a class="type-chip" href={listPath(list.typePath, lang)}>
+              <span>{typeLabel(contracts, list.type, lang)}</span>
+              <span class="type-chip__count">
+                {count}{previewCount > 0 ? ` + ${previewCount} ${labels.previewNotice}` : ''}
+              </span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="status-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">{labels.statusPanel}</p>
+          <h2 id="status-title">{labels.statusPanelDesc}</h2>
+        </div>
+      </div>
+      {isMain ? (
+        <div class="status-strip">
+          <div class="status-strip__item"><span class="status-strip__value">{published}</span><span class="status-strip__label">{labels.publishedPages}</span></div>
+          <div class="status-strip__item"><span class="status-strip__value">{preview}</span><span class="status-strip__label">{labels.previewPages}</span></div>
+          <div class="status-strip__item"><span class="status-strip__value">{migrationTotal}</span><span class="status-strip__label">{labels.migrationLedger}</span></div>
+          <div class="status-strip__item"><span class="status-strip__value">{migrationPending}</span><span class="status-strip__label">{labels.stillPending}</span></div>
+        </div>
+      ) : (
+        <div class="status-strip">
+          <div class="status-strip__item"><span class="status-strip__value">{published}</span><span class="status-strip__label">{labels.publishedPages}</span></div>
+          <div class="status-strip__item"><span class="status-strip__value">{preview}</span><span class="status-strip__label">{labels.previewPages}</span></div>
+          <div class="status-strip__item"><span class="status-strip__value">{lists.length}</span><span class="status-strip__label">{lang === 'zh' ? '个可浏览类型' : 'browsable types'}</span></div>
+        </div>
+      )}
+      <div class="callout" style="margin-top:18px">
+        <Mascot size="md" />
+        <div>
+          <p class="callout__title">{labels.statusPanel}</p>
+          <p>{labels.statusNote}</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</SiteLayout>

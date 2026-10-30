@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T13:53:57.424Z",
+  "environment": {
+    "browser": "Headless Chrome",
+    "base": "http://127.0.0.1:4401"
+  },
+  "checks": [
+    {
+      "name": "old liquor URL reaches curated brand page",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/brands/gujing-gongjiu/"
+    },
+    {
+      "name": "curated brand page is indexable",
+      "ok": true,
+      "detail": "index, follow"
+    },
+    {
+      "name": "curated brand page shows title and no archive notice",
+      "ok": true,
+      "detail": "跳到正文喝酒去识酒识酒喝法酒文化去处EN菜单识酒喝法酒文化去处关于贡献收藏EN · 语言首页/品牌/古井贡酒品牌已审核修订 2古井贡酒产自安徽亳州的浓香型白酒品牌，以“年份原浆”系列知名，产品覆盖多个酒精度。官方网址https://www.gujing.com/收藏 返回目录本页目录风格关于“年份原浆”边界古井贡酒产自安徽亳州，由安徽古井贡酒股份有限公司生产，是浓香型白酒品牌，以“年份原浆”系列最为知名。其酿造使用当地水源、泥窖固态发酵"
+    },
+    {
+      "name": "retired pub URL reaches 404 instead of unrelated content",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/404.html"
+    },
+    {
+      "name": "old pub URL reaches curated place page",
+      "ok": true,
+      "detail": "http://127.0.0.1:4404/places/american-bar-savoy/"
+    },
+    {
+      "name": "curated place page shows title and no archive notice",
+      "ok": true,
+      "detail": "跳到正文喝酒去去处识酒喝法酒文化去处EN菜单识酒喝法酒文化去处关于贡献收藏EN · 语言首页/地点/萨沃伊美式酒吧地点已审核修订 2萨沃伊美式酒吧伦敦萨沃伊酒店内的经典美式酒吧，1893 年随酒店开业，以《萨沃伊鸡尾酒书》和经典调酒传统闻名。地点类型酒馆地址The Savoy, Strand, London WC2R 0EZ营业信息未核实坐标未记录 到主站收藏 返回目录本页目录风格怎么喝边界萨沃伊美式酒吧位于伦敦萨沃伊酒店内，1893 "
+    },
+    {
+      "name": "old hash URL is converted and redirected",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/drinks/beijing-erguotou/"
+    },
+    {
+      "name": "reviewed category URL reaches style page",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/styles/baijiu/"
+    },
+    {
+      "name": "curated category URL reaches indexable style page",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/styles/wine/"
+    },
+    {
+      "name": "old search URL preserves query",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/search/?q=Negroni"
+    },
+    {
+      "name": "old tag list URL reaches search",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/search/"
+    },
+    {
+      "name": "unknown legacy page reached 404",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/404.html"
+    },
+    {
+      "name": "old province URL reaches reviewed region",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/regions/anhui/"
+    },
+    {
+      "name": "unknown review id reaches 404",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/404.html"
+    },
+    {
+      "name": "transition SW is served",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "name": "transition SW has no fetch handler",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "transition SW deletes old cache and unregisters",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

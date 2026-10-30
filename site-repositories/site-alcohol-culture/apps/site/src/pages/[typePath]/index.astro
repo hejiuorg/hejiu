@@ -1,0 +1,8 @@
+---
+import ListPage from '@hejiu/ui/components/ListPage.astro';
+import { getStaticListPaths } from '@hejiu/build-tools';
+
+export const getStaticPaths = () => getStaticListPaths('culture', 'zh');
+const { list } = Astro.props;
+---
+<ListPage siteKey="culture" list={list} />

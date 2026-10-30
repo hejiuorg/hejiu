@@ -1,0 +1,4894 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-29",
+  "scope": "All 166 published records are source-verified; no archive-record entries are published in the curated edition.",
+  "counts": {
+    "publishedRecords": 166,
+    "publishedEntities": 83,
+    "blockedRecordsExcluded": 0,
+    "draftRecords": 1,
+    "archiveRecords": 0,
+    "sourceVerifiedRecords": 166
+  },
+  "projectAssets": [
+    {
+      "asset": "D brand SVGs and PNGs",
+      "path": "site-repositories/site-alcoholic-beverages/packages/ui/src/assets/brand/",
+      "rights": "CC-BY-4.0 copyright licence; trademark rights not granted",
+      "note": "Derived from the project-selected D reference; no third-party images/fonts embedded."
+    },
+    {
+      "asset": "Site code, UI and sample articles",
+      "rights": "code MIT; content CC-BY-4.0",
+      "note": "No third-party image or font files are bundled. System font stacks only."
+    }
+  ],
+  "thirdPartyImages": [],
+  "fonts": "system/local stack only; no self-hosted third-party font files",
+  "blockedContent": {
+    "records": 0,
+    "distributed": false,
+    "rights": "none blocked; archive records are published with explicit archive scope"
+  },
+  "licenseDecisionPending": "Project owner declared code MIT and content CC BY 4.0 on 2026-10-29. Third-party standards, trademarks, images and quoted source text are not relicensed.",
+  "records": [
+    {
+      "id": "brand:gujing-gongjiu",
+      "lang": "zh",
+      "type": "brand",
+      "title": "古井贡酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "gujing-site",
+          "title": "安徽古井集团有限责任公司官方网站",
+          "publisher": "安徽古井集团有限责任公司",
+          "url": null,
+          "note": "用于核对产地、产品系列与企业公开信息。"
+        },
+        {
+          "key": "producer-page",
+          "title": "古井贡酒生产者页",
+          "publisher": "喝酒去项目",
+          "url": null,
+          "note": "项目内已核验的生产者条目，记录公司身份与产地。"
+        }
+      ]
+    },
+    {
+      "id": "cocktail:negroni",
+      "lang": "zh",
+      "type": "cocktail",
+      "title": "内格罗尼",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写样本；配方依据 IBA 公开配方，未复制网站版式或照片。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "iba-negroni",
+          "title": "IBA Official Cocktails — Negroni",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/negroni/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "drink:australia-penfolds-grange",
+      "lang": "zh",
+      "type": "drink",
+      "title": "奔富葛兰许",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "penfolds-site",
+          "title": "Penfolds — Grange",
+          "publisher": "Penfolds",
+          "url": "https://www.penfolds.com/",
+          "note": "用于核对葛兰许的历史、品种与酿造信息。"
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于澳大利亚设拉子与葛兰许的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink:beijing-erguotou",
+      "lang": "zh",
+      "type": "drink",
+      "title": "二锅头",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对二锅头工艺与白酒术语。"
+        },
+        {
+          "key": "cada",
+          "title": "中国酒业协会 — 白酒品类与工艺公开资料",
+          "publisher": "中国酒业协会",
+          "url": null,
+          "note": "用于核对北京二锅头的传统工艺背景；仅作核验引用。"
+        }
+      ]
+    },
+    {
+      "id": "drink:cuba-bacardi-carta-blanca",
+      "lang": "zh",
+      "type": "drink",
+      "title": "百加得白朗姆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "bacardi-site",
+          "title": "Bacardí — Official Site",
+          "publisher": "Bacardí",
+          "url": "https://www.bacardi.com/",
+          "note": "用于核对品牌历史、原料与产品信息。"
+        },
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Rum Definitions",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "用于核对朗姆酒的定义与最低酒精度。"
+        }
+      ]
+    },
+    {
+      "id": "drink:cuba-havana-club-7-year-old",
+      "lang": "zh",
+      "type": "drink",
+      "title": "哈瓦那俱乐部7年",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "havana-site",
+          "title": "Havana Club — Official Site",
+          "publisher": "Havana Club",
+          "url": "https://www.havanaclub.com/",
+          "note": "用于核对产品系列、陈年与酒精度信息。"
+        },
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Rum Definitions",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "用于核对朗姆酒的定义与类别。"
+        }
+      ]
+    },
+    {
+      "id": "drink:czech-pilsnerurquell",
+      "lang": "zh",
+      "type": "drink",
+      "title": "皮尔森之源",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "pilsner-site",
+          "title": "Pilsner Urquell — Official Site",
+          "publisher": "Plzeňský Prazdroj",
+          "url": "https://www.pilsnerurquell.com/",
+          "note": "用于核对品牌历史、原料与酿造信息。"
+        },
+        {
+          "key": "bjcp",
+          "title": "BJCP 2021 Beer Style Guidelines — Czech Pale Lager",
+          "publisher": "Beer Judge Certification Program",
+          "url": "https://www.bjcp.org/style/2021/beer/",
+          "note": "用于核对捷克淡色拉格的风格描述。"
+        }
+      ]
+    },
+    {
+      "id": "drink:france-chartreuse",
+      "lang": "zh",
+      "type": "drink",
+      "title": "查特酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "chartreuse-site",
+          "title": "Chartreuse — Official Site",
+          "publisher": "Pères Chartreux",
+          "url": "https://www.chartreuse.fr/",
+          "note": "用于核对品牌历史、产品与酒精度信息。"
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于查特酒、修道院利口酒与调酒应用的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink:france-chateaulafiterothschild",
+      "lang": "zh",
+      "type": "drink",
+      "title": "拉菲古堡红葡萄酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "lafite-site",
+          "title": "Château Lafite Rothschild — Official Site",
+          "publisher": "Domaines Barons de Rothschild (Lafite)",
+          "url": "https://www.lafite.com/",
+          "note": "用于核对酒庄、产区与正牌酒信息。"
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于波尔多左岸、波亚克与一级庄的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink:france-domperignon",
+      "lang": "zh",
+      "type": "drink",
+      "title": "唐·培里侬香槟",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "dom-site",
+          "title": "Dom Pérignon — Official Site",
+          "publisher": "Dom Pérignon",
+          "url": "https://www.domperignon.com/",
+          "note": "用于核对年份香槟、葡萄品种与酿造信息。"
+        },
+        {
+          "key": "champagne",
+          "title": "Comité Champagne — Champagne Production Rules",
+          "publisher": "Comité Interprofessionnel du vin de Champagne",
+          "url": "https://www.champagne.fr/",
+          "note": "用于核对香槟产区的法定工艺与标识。"
+        }
+      ]
+    },
+    {
+      "id": "drink:france-hennessyxo",
+      "lang": "zh",
+      "type": "drink",
+      "title": "轩尼诗XO",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "hennessy-site",
+          "title": "Hennessy — Official Site",
+          "publisher": "Hennessy",
+          "url": "https://www.hennessy.com/",
+          "note": "用于核对产品系列、调配与酒精度信息。"
+        },
+        {
+          "key": "bnic",
+          "title": "BNIC — Cognac Production Rules",
+          "publisher": "Bureau National Interprofessionnel du Cognac",
+          "url": "https://www.cognac.fr/en/",
+          "note": "用于核对干邑的产区、蒸馏与陈年等级。"
+        }
+      ]
+    },
+    {
+      "id": "drink:france-romaneeconti",
+      "lang": "zh",
+      "type": "drink",
+      "title": "罗曼尼·康帝",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于罗曼尼·康帝特级园、黑皮诺与勃艮第分级的条目。"
+        },
+        {
+          "key": "oiv",
+          "title": "International Organisation of Vine and Wine (OIV)",
+          "publisher": "OIV",
+          "url": "https://www.oiv.int/",
+          "note": "用于核对葡萄酒产地与标签的技术口径。"
+        }
+      ]
+    },
+    {
+      "id": "drink:guizhou-moutai",
+      "lang": "zh",
+      "type": "drink",
+      "title": "茅台酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "moutai-site",
+          "title": "贵州茅台酒股份有限公司官方网站",
+          "publisher": "贵州茅台酒股份有限公司",
+          "url": null,
+          "note": "用于核对产品系列、产地与公开的企业信息。"
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对酱香型白酒与相关工艺术语。"
+        }
+      ]
+    },
+    {
+      "id": "drink:hunan-jiugui",
+      "lang": "zh",
+      "type": "drink",
+      "title": "酒鬼酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "jiugui-site",
+          "title": "酒鬼酒股份有限公司官方网站",
+          "publisher": "酒鬼酒股份有限公司",
+          "url": null,
+          "note": "用于核对产地、香型与产品信息。"
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对馥郁香型白酒的术语与工艺边界。"
+        }
+      ]
+    },
+    {
+      "id": "drink:ireland-guinnessdraughtstout",
+      "lang": "zh",
+      "type": "drink",
+      "title": "健力士世涛啤酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "guinness-site",
+          "title": "Guinness — Official Site",
+          "publisher": "Guinness",
+          "url": "https://www.guinness.com/",
+          "note": "用于核对品牌历史、产品与酒精度信息。"
+        },
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于世涛、爱尔兰啤酒与氮气啤酒的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink:ireland-jamesonirishwhiskey",
+      "lang": "zh",
+      "type": "drink",
+      "title": "尊美醇爱尔兰威士忌",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "jameson-site",
+          "title": "Jameson — Official Site",
+          "publisher": "Jameson",
+          "url": "https://www.jamesonwhiskey.com/",
+          "note": "用于核对品牌历史、工艺与产品信息。"
+        },
+        {
+          "key": "irish-whiskey",
+          "title": "Irish Whiskey Association — Protected Status",
+          "publisher": "Irish Whiskey Association",
+          "url": "https://www.irishwhiskeyassociation.ie/",
+          "note": "用于核对爱尔兰威士忌的地理标志与最低陈年要求。"
+        }
+      ]
+    },
+    {
+      "id": "drink:italy-campari",
+      "lang": "zh",
+      "type": "drink",
+      "title": "金巴利",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "campari-site",
+          "title": "Campari — Official Site",
+          "publisher": "Campari",
+          "url": "https://www.campari.com/",
+          "note": "用于核对品牌历史、产品与酒精度信息。"
+        },
+        {
+          "key": "iba",
+          "title": "International Bartenders Association — Negroni",
+          "publisher": "IBA",
+          "url": "https://iba-world.com/iba-cocktail/negroni/",
+          "note": "用于核对金巴利在内格罗尼中的角色与配方。"
+        }
+      ]
+    },
+    {
+      "id": "drink:italy-sassicaia",
+      "lang": "zh",
+      "type": "drink",
+      "title": "西施佳雅",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "sassicaia-site",
+          "title": "Tenuta San Guido — Sassicaia",
+          "publisher": "Tenuta San Guido",
+          "url": "https://www.sassicaia.com/",
+          "note": "用于核对酒庄、产区、品种与酿造信息。"
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于超级托斯卡纳、保格利与西施佳雅的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink:japan-yamazaki",
+      "lang": "zh",
+      "type": "drink",
+      "title": "山崎单一麦芽威士忌",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "suntory-site",
+          "title": "Suntory — Yamazaki Distillery",
+          "publisher": "Suntory",
+          "url": "https://www.suntory.com/",
+          "note": "用于核对蒸馏厂历史、产地与产品信息。"
+        },
+        {
+          "key": "yoshu",
+          "title": "日本洋酒酒造组合 — 日本威士忌标示标准",
+          "publisher": "日本洋酒酒造组合",
+          "url": null,
+          "note": "用于核对日本威士忌的原料、蒸馏与陈年地点要求。"
+        }
+      ]
+    },
+    {
+      "id": "drink:jiangsu-yanghe",
+      "lang": "zh",
+      "type": "drink",
+      "title": "洋河酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "yanghe-site",
+          "title": "江苏洋河酒厂股份有限公司官方网站",
+          "publisher": "江苏洋河酒厂股份有限公司",
+          "url": null,
+          "note": "用于核对产地、产品系列与公开信息。"
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对浓香型白酒与相关工艺术语。"
+        }
+      ]
+    },
+    {
+      "id": "drink:scotland-themacallan",
+      "lang": "zh",
+      "type": "drink",
+      "title": "麦卡伦18年雪莉桶",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "macallan-site",
+          "title": "The Macallan — Official Site",
+          "publisher": "The Macallan",
+          "url": "https://www.themacallan.com/",
+          "note": "用于核对产品系列、桶型与酒精度。"
+        },
+        {
+          "key": "swa",
+          "title": "Scotch Whisky Association — Regulations",
+          "publisher": "Scotch Whisky Association",
+          "url": "https://www.scotch-whisky.org.uk/",
+          "note": "用于核对苏格兰威士忌的法定陈年与标识要求。"
+        }
+      ]
+    },
+    {
+      "id": "drink:shaanxi-xifengjiu",
+      "lang": "zh",
+      "type": "drink",
+      "title": "西凤酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "xifeng-site",
+          "title": "陕西西凤酒股份有限公司官方网站",
+          "publisher": "陕西西凤酒股份有限公司",
+          "url": null,
+          "note": "用于核对产地、原料与产品信息。"
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对凤香型白酒与酒海贮存等术语。"
+        }
+      ]
+    },
+    {
+      "id": "drink:shandong-changyu",
+      "lang": "zh",
+      "type": "drink",
+      "title": "张裕葡萄酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "changyu-site",
+          "title": "烟台张裕葡萄酿酒股份有限公司官方网站",
+          "publisher": "烟台张裕葡萄酿酒股份有限公司",
+          "url": null,
+          "note": "用于核对品牌历史、产地与产品系列。"
+        },
+        {
+          "key": "oiv",
+          "title": "International Organisation of Vine and Wine (OIV)",
+          "publisher": "OIV",
+          "url": "https://www.oiv.int/",
+          "note": "用于核对葡萄酒的国际技术口径。"
+        }
+      ]
+    },
+    {
+      "id": "drink:shandong-tsingtao",
+      "lang": "zh",
+      "type": "drink",
+      "title": "青岛啤酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "tsingtao-site",
+          "title": "青岛啤酒股份有限公司官方网站",
+          "publisher": "青岛啤酒股份有限公司",
+          "url": null,
+          "note": "用于核对品牌历史、产地与产品信息。"
+        },
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于拉格啤酒与中国啤酒工业的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink:shanxi-fenjiu",
+      "lang": "zh",
+      "type": "drink",
+      "title": "汾酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "fenjiu-site",
+          "title": "山西杏花村汾酒厂股份有限公司官方网站",
+          "publisher": "山西杏花村汾酒厂股份有限公司",
+          "url": null,
+          "note": "用于核对产地、原料与产品信息。"
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对清香型白酒与清蒸二次清工艺术语。"
+        }
+      ]
+    },
+    {
+      "id": "drink:sichuan-jiannanchun",
+      "lang": "zh",
+      "type": "drink",
+      "title": "剑南春",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "jiannanchun-site",
+          "title": "四川剑南春（集团）有限责任公司官方网站",
+          "publisher": "四川剑南春（集团）有限责任公司",
+          "url": null,
+          "note": "用于核对产地、原料与产品信息。"
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对浓香型白酒工艺术语。"
+        }
+      ]
+    },
+    {
+      "id": "drink:sichuan-langjiu",
+      "lang": "zh",
+      "type": "drink",
+      "title": "郎酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "langjiu-site",
+          "title": "四川郎酒股份有限公司官方网站",
+          "publisher": "四川郎酒股份有限公司",
+          "url": null,
+          "note": "用于核对产地、产品系列与公开信息。"
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对酱香型与浓香型白酒术语。"
+        }
+      ]
+    },
+    {
+      "id": "drink:sichuan-luzhoulaojiao",
+      "lang": "zh",
+      "type": "drink",
+      "title": "泸州老窖",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "luzhou-site",
+          "title": "泸州老窖股份有限公司官方网站",
+          "publisher": "泸州老窖股份有限公司",
+          "url": null,
+          "note": "用于核对产地、窖池与产品系列信息。"
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对浓香型白酒与泥窖固态发酵术语。"
+        }
+      ]
+    },
+    {
+      "id": "drink:sichuan-wuliangye",
+      "lang": "zh",
+      "type": "drink",
+      "title": "五粮液",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "wuliangye-site",
+          "title": "宜宾五粮液股份有限公司官方网站",
+          "publisher": "宜宾五粮液股份有限公司",
+          "url": null,
+          "note": "用于核对产地、原料与产品系列。"
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对浓香型白酒与续糟配料等术语。"
+        }
+      ]
+    },
+    {
+      "id": "drink:sweden-absolutvodka",
+      "lang": "zh",
+      "type": "drink",
+      "title": "绝对伏特加",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "absolut-site",
+          "title": "Absolut — Official Site",
+          "publisher": "Absolut",
+          "url": "https://www.absolut.com/",
+          "note": "用于核对原料、产地与产品信息。"
+        },
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Vodka Definition",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "用于核对伏特加的定义与最低酒精度。"
+        }
+      ]
+    },
+    {
+      "id": "drink:uk-beefeater",
+      "lang": "zh",
+      "type": "drink",
+      "title": "必富达伦敦干金酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "beefeater-site",
+          "title": "Beefeater — Official Site",
+          "publisher": "Beefeater",
+          "url": "https://www.beefeatergin.com/",
+          "note": "用于核对品牌历史、植物原料与产品信息。"
+        },
+        {
+          "key": "gin-guild",
+          "title": "The Gin Guild — Gin Categories",
+          "publisher": "The Gin Guild",
+          "url": "https://www.theginguild.com/",
+          "note": "用于核对伦敦干金与蒸馏金酒的类别定义。"
+        }
+      ]
+    },
+    {
+      "id": "drink:usa-jackdaniels",
+      "lang": "zh",
+      "type": "drink",
+      "title": "杰克丹尼老7号",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "jack-site",
+          "title": "Jack Daniel's — Official Site",
+          "publisher": "Jack Daniel's",
+          "url": "https://www.jackdaniels.com/",
+          "note": "用于核对产地、工艺与产品信息。"
+        },
+        {
+          "key": "ttb",
+          "title": "TTB Beverage Alcohol Manual — Distilled Spirits",
+          "publisher": "U.S. Alcohol and Tobacco Tax and Trade Bureau",
+          "url": "https://www.ttb.gov/",
+          "note": "用于核对田纳西威士忌与波本的标识规则。"
+        }
+      ]
+    },
+    {
+      "id": "drink:zhejiang-guyuelongshan",
+      "lang": "zh",
+      "type": "drink",
+      "title": "古越龙山花雕酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据生产者、产区协会或公开标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "guyuelongshan-site",
+          "title": "浙江古越龙山绍兴酒股份有限公司官方网站",
+          "publisher": "浙江古越龙山绍兴酒股份有限公司",
+          "url": null,
+          "note": "用于核对产地、产品系列与公开信息。"
+        },
+        {
+          "key": "gb-yellow-wine",
+          "title": "GB/T 13662-2018《黄酒》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对黄酒分类与技术要求。"
+        },
+        {
+          "key": "gb-shaoxing",
+          "title": "GB/T 17946-2008《地理标志产品 绍兴酒（绍兴黄酒）》",
+          "publisher": "国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对绍兴酒的地理标志与原料要求。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:aperitif",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "开胃酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据工具书与法规资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails — Aperitif entries",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于餐前酒传统、苦味酒与欧洲开胃酒文化的条目。"
+        },
+        {
+          "key": "iba",
+          "title": "International Bartenders Association — Cocktail Categories",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/",
+          "note": "用于核对开胃酒风格鸡尾酒在经典调酒分类中的位置。"
+        },
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Aromatised Wine and Spirit Definitions",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "用于核对味美思等加香葡萄酒与加香烈酒的类别边界。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:baijiu-medicinal",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "保健酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据法规与国家标准核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "samr-health-food",
+          "title": "《保健食品注册与备案管理办法》",
+          "publisher": "国家市场监督管理总局",
+          "url": null,
+          "note": "用于核对保健食品的注册、备案、标签与功能声称要求；不复制法规原文。"
+        },
+        {
+          "key": "advertising-law",
+          "title": "《中华人民共和国广告法》",
+          "publisher": "全国人民代表大会常务委员会",
+          "url": null,
+          "note": "用于核对酒类与保健食品广告的限制，特别是疾病治疗功能声称。"
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对白酒基酒与配制酒的相关术语边界。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:baijiu",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "白酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写样本；依据公开标准释义，不复制标准原文。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "gbt-15109",
+          "title": "GB/T 15109-2021 白酒工业术语",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": null
+        },
+        {
+          "key": "gbt-17204",
+          "title": "GB/T 17204-2021 饮料酒术语和分类",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "drink-style:beer",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "啤酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据公开风格指南与工具书核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "bjcp-2021",
+          "title": "BJCP 2021 Beer Style Guidelines",
+          "publisher": "Beer Judge Certification Program",
+          "url": "https://www.bjcp.org/style/2021/beer/",
+          "note": "用于核对啤酒风格分类、发酵方式与代表性风格的描述边界。"
+        },
+        {
+          "key": "brewers-association",
+          "title": "Brewers Association — Beer Styles and Definitions",
+          "publisher": "Brewers Association",
+          "url": "https://www.brewersassociation.org/",
+          "note": "用于核对美国精酿啤酒的行业定义与风格讨论；不复制其文案。"
+        },
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于酿造原料、发酵与啤酒风格历史的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:brandy",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "白兰地",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据产区协会与法规资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "bnic",
+          "title": "Bureau National Interprofessionnel du Cognac — Cognac Production Rules",
+          "publisher": "BNIC",
+          "url": "https://www.cognac.fr/en/",
+          "note": "用于核对干邑的产区、葡萄品种、二次蒸馏与陈年要求。"
+        },
+        {
+          "key": "bnia",
+          "title": "Bureau National Interprofessionnel de l'Armagnac — Armagnac Appellation",
+          "publisher": "BNIA",
+          "url": "https://www.armagnac.fr/",
+          "note": "用于核对雅文邑的产区、蒸馏方式与年份标示规则。"
+        },
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Definitions for Spirit Drinks",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "用于核对葡萄白兰地、果渣白兰地与水果白兰地的类别定义。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:fruit-wine",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "果酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据行业标准与工具书核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "qb-fruit-wine",
+          "title": "QB/T 5476-2020《果酒通用技术要求》",
+          "publisher": "中国轻工业联合会",
+          "url": null,
+          "note": "用于核对果酒的术语、原料与基本技术要求；不复制标准原文。"
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine — Fruit wine entries",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于苹果酒、浆果酒与其他水果发酵酒的条目。"
+        },
+        {
+          "key": "eu-wine",
+          "title": "EU Regulation 1308/2013 — Wine and Fruit Wine Labelling",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2013/1308/oj",
+          "note": "用于核对葡萄酒与果酒在标签和类别上的边界。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:gin",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "金酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据法规与行业公会公开资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Definitions for Spirit Drinks",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "用于核对金酒的最低酒精度、杜松子风味要求与类别定义。"
+        },
+        {
+          "key": "gin-guild",
+          "title": "The Gin Guild — Gin Production and Categories",
+          "publisher": "The Gin Guild",
+          "url": "https://www.theginguild.com/",
+          "note": "用于核对蒸馏金酒、伦敦干金与复合金酒的工艺差异。"
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于金酒历史、植物原料与调酒应用的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:liqueur",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "利口酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据法规与工具书资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Liqueur Definitions",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "用于核对利口酒的最低糖分、酒精度与类别要求。"
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于利口酒历史、风味家族与调酒应用的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:rum",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "朗姆酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据法规与行业资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Definitions for Spirit Drinks",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "用于核对朗姆酒的定义、原料与最低酒精度。"
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于甘蔗烈酒、加勒比产区与朗姆酒风格的条目。"
+        },
+        {
+          "key": "caribbean-rum",
+          "title": "Caribbean Rum — Production and Geographical Indications",
+          "publisher": "West Indies Rum and Spirits Producers' Association",
+          "url": null,
+          "note": "用于核对加勒比朗姆酒的地理标志与传统产区背景；仅作核验引用。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:sake",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "清酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据日本行业协会与税务厅公开资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "jss",
+          "title": "Japan Sake and Shochu Makers Association — Sake Classification",
+          "publisher": "Japan Sake and Shochu Makers Association",
+          "url": null,
+          "note": "用于核对纯米酒、吟酿、大吟酿、本酿造等类别的定义。"
+        },
+        {
+          "key": "nta-sake",
+          "title": "National Tax Agency of Japan — Sake Labeling Standards",
+          "publisher": "National Tax Agency of Japan",
+          "url": "https://www.nta.go.jp/",
+          "note": "用于核对清酒的法定标示、原料与酒精度范围。"
+        },
+        {
+          "key": "oxford-sake",
+          "title": "The Oxford Companion to Spirits and Cocktails — Sake entries",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于清酒酿造、侍酒与历史的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:soju",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "烧酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据工具书与韩国税务法规资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails — Soju entry",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于朝鲜半岛烧酒历史、蒸馏型与稀释型差异的条目。"
+        },
+        {
+          "key": "korea-law",
+          "title": "Korean Liquor Tax Act and Liquor License Regulations",
+          "publisher": "National Tax Service of Korea",
+          "url": null,
+          "note": "用于核对韩国酒类的法定分类与标示框架；仅作核验引用。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:strong-aroma-baijiu",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "浓香型白酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写样本；依据公开标准释义，不复制标准原文。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "gbt-10781-1",
+          "title": "GB/T 10781.1-2021 白酒质量要求 第1部分：浓香型白酒",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": null
+        },
+        {
+          "key": "gbt-15109",
+          "title": "GB/T 15109-2021 白酒工业术语",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "drink-style:tequila",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "龙舌兰酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据墨西哥官方标准与行业机构资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "crt",
+          "title": "Consejo Regulador del Tequila — Tequila Regulatory Council",
+          "publisher": "Consejo Regulador del Tequila",
+          "url": "https://www.crt.org.mx/",
+          "note": "用于核对龙舌兰酒的法定产区、原料、类别与陈年等级。"
+        },
+        {
+          "key": "nom-006",
+          "title": "NOM-006-SCFI-2012 — Tequila Specifications",
+          "publisher": "Secretaría de Economía, Mexico",
+          "url": null,
+          "note": "墨西哥龙舌兰酒官方标准；用于核对 100% agave、混合型与陈年类别。"
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于龙舌兰蒸馏、梅斯卡尔与龙舌兰酒历史的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:vodka",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "伏特加",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据法规与工具书资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Definition of Vodka",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "用于核对伏特加的定义、原料范围与最低酒精度。"
+        },
+        {
+          "key": "ttb",
+          "title": "TTB Beverage Alcohol Manual — Vodka",
+          "publisher": "U.S. Alcohol and Tobacco Tax and Trade Bureau",
+          "url": "https://www.ttb.gov/",
+          "note": "用于核对美国伏特加的标识与类别要求。"
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于伏特加原料、蒸馏与地域风格的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:whisky",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "威士忌",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据协会与法规公开资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "swa",
+          "title": "Scotch Whisky Association — Scotch Whisky Regulations and Facts",
+          "publisher": "Scotch Whisky Association",
+          "url": "https://www.scotch-whisky.org.uk/",
+          "note": "用于核对苏格兰威士忌的法定产区、原料、蒸馏与最低陈年要求。"
+        },
+        {
+          "key": "irish-whiskey",
+          "title": "Irish Whiskey Association — Protected Status and Production",
+          "publisher": "Irish Whiskey Association",
+          "url": "https://www.irishwhiskeyassociation.ie/",
+          "note": "用于核对爱尔兰威士忌的地理标志与基本工艺边界。"
+        },
+        {
+          "key": "ttb",
+          "title": "TTB Beverage Alcohol Manual — Distilled Spirits",
+          "publisher": "U.S. Alcohol and Tobacco Tax and Trade Bureau",
+          "url": "https://www.ttb.gov/",
+          "note": "用于核对美国威士忌（包括波本与黑麦）的标识与法定类别。"
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于威士忌蒸馏、陈年与区域风格的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:wine",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "葡萄酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据政府间组织与法规资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "oiv",
+          "title": "International Organisation of Vine and Wine (OIV) — Statistical and Technical References",
+          "publisher": "International Organisation of Vine and Wine",
+          "url": "https://www.oiv.int/",
+          "note": "用于核对葡萄酒的国际统计口径、酿造与标签相关技术资料。"
+        },
+        {
+          "key": "eu-wine",
+          "title": "EU Regulation 1308/2013 — Common Market Organisation for Wine",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2013/1308/oj",
+          "note": "用于核对欧盟葡萄酒类别、地理标志与标签规则。"
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于葡萄品种、酿造、产区与品鉴的条目。"
+        }
+      ]
+    },
+    {
+      "id": "drink-style:yellow-wine",
+      "lang": "zh",
+      "type": "drink-style",
+      "title": "黄酒",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据国家标准与工具书核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "gb-yellow-wine",
+          "title": "GB/T 13662-2018《黄酒》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对黄酒的术语、分类、技术要求与试验方法；不复制标准原文。"
+        },
+        {
+          "key": "gb-shaoxing",
+          "title": "GB/T 17946-2008《地理标志产品 绍兴酒（绍兴黄酒）》",
+          "publisher": "国家标准化管理委员会",
+          "url": null,
+          "note": "用于核对绍兴酒的地理标志范围、原料与传统工艺要求。"
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine — Huangjiu entry",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于中国黄酒历史、酿造与风格的条目。"
+        }
+      ]
+    },
+    {
+      "id": "producer:gujing-distillery",
+      "lang": "zh",
+      "type": "producer",
+      "title": "安徽古井贡酒股份有限公司",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写样本；公司身份与上市信息来自公开披露资料，未复制宣传文案。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "cninfo-profile",
+          "title": "安徽古井贡酒股份有限公司 公司概况（A股 000596 / B股 200596）",
+          "publisher": "巨潮资讯网上市公司公开资料",
+          "url": null,
+          "note": null
+        },
+        {
+          "key": "gujing-site",
+          "title": "古井集团官方网站",
+          "publisher": "安徽古井集团",
+          "url": "https://www.gujing.com/",
+          "note": null
+        },
+        {
+          "key": "bozhou-museum",
+          "title": "古井酒文化博物馆",
+          "publisher": "亳州市人民政府",
+          "url": "https://www.bozhou.gov.cn/News/show/105123.html",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "region:anhui",
+      "lang": "zh",
+      "type": "region",
+      "title": "安徽省",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写样本；仅使用公开的行政区划与政府网站信息。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "gbt-2260",
+          "title": "GB/T 2260-2007 中华人民共和国行政区划代码",
+          "publisher": "中华人民共和国国家质量监督检验检疫总局、中国国家标准化管理委员会",
+          "url": null,
+          "note": null
+        },
+        {
+          "key": "anhui-gov",
+          "title": "安徽省人民政府门户网站",
+          "publisher": "安徽省人民政府",
+          "url": "https://www.ah.gov.cn/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "region:bozhou",
+      "lang": "zh",
+      "type": "region",
+      "title": "亳州市",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写样本；仅使用公开行政区划与政府网站信息。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "gbt-2260",
+          "title": "GB/T 2260-2007 中华人民共和国行政区划代码",
+          "publisher": "中华人民共和国国家质量监督检验检疫总局、中国国家标准化管理委员会",
+          "url": null,
+          "note": null
+        },
+        {
+          "key": "bozhou-gov",
+          "title": "亳州市人民政府门户网站",
+          "publisher": "亳州市人民政府",
+          "url": "https://www.bozhou.gov.cn/",
+          "note": null
+        },
+        {
+          "key": "bozhou-museum",
+          "title": "古井酒文化博物馆",
+          "publisher": "亳州市人民政府",
+          "url": "https://www.bozhou.gov.cn/News/show/105123.html",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "region:china",
+      "lang": "zh",
+      "type": "region",
+      "title": "中国",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写样本；仅使用公开的行政区划层级信息。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "gbt-2260",
+          "title": "GB/T 2260-2007 中华人民共和国行政区划代码",
+          "publisher": "中华人民共和国国家质量监督检验检疫总局、中国国家标准化管理委员会",
+          "url": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "brand:gujing-gongjiu",
+      "lang": "en",
+      "type": "brand",
+      "title": "Gujing Gongjiu",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "gujing-site",
+          "title": "安徽古井集团有限责任公司官方网站",
+          "publisher": "安徽古井集团有限责任公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "producer-page",
+          "title": "古井贡酒生产者页",
+          "publisher": "喝酒去项目",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "cocktail:negroni",
+      "lang": "en",
+      "type": "cocktail",
+      "title": "Negroni",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored sample based on the public IBA recipe; no site design or photography is reproduced. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "iba-negroni",
+          "title": "IBA Official Cocktails — Negroni",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/negroni/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "drink:australia-penfolds-grange",
+      "lang": "en",
+      "type": "drink",
+      "title": "Penfolds Grange",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "penfolds-site",
+          "title": "Penfolds — Grange",
+          "publisher": "Penfolds",
+          "url": "https://www.penfolds.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:beijing-erguotou",
+      "lang": "en",
+      "type": "drink",
+      "title": "Erguotou",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "cada",
+          "title": "中国酒业协会 — 白酒品类与工艺公开资料",
+          "publisher": "中国酒业协会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:cuba-bacardi-carta-blanca",
+      "lang": "en",
+      "type": "drink",
+      "title": "Bacardí Carta Blanca",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "bacardi-site",
+          "title": "Bacardí — Official Site",
+          "publisher": "Bacardí",
+          "url": "https://www.bacardi.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Rum Definitions",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:cuba-havana-club-7-year-old",
+      "lang": "en",
+      "type": "drink",
+      "title": "Havana Club 7",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "havana-site",
+          "title": "Havana Club — Official Site",
+          "publisher": "Havana Club",
+          "url": "https://www.havanaclub.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Rum Definitions",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:czech-pilsnerurquell",
+      "lang": "en",
+      "type": "drink",
+      "title": "Pilsner Urquell",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "pilsner-site",
+          "title": "Pilsner Urquell — Official Site",
+          "publisher": "Plzeňský Prazdroj",
+          "url": "https://www.pilsnerurquell.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "bjcp",
+          "title": "BJCP 2021 Beer Style Guidelines — Czech Pale Lager",
+          "publisher": "Beer Judge Certification Program",
+          "url": "https://www.bjcp.org/style/2021/beer/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:france-chartreuse",
+      "lang": "en",
+      "type": "drink",
+      "title": "Chartreuse",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "chartreuse-site",
+          "title": "Chartreuse — Official Site",
+          "publisher": "Pères Chartreux",
+          "url": "https://www.chartreuse.fr/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:france-chateaulafiterothschild",
+      "lang": "en",
+      "type": "drink",
+      "title": "Château Lafite Rothschild",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "lafite-site",
+          "title": "Château Lafite Rothschild — Official Site",
+          "publisher": "Domaines Barons de Rothschild (Lafite)",
+          "url": "https://www.lafite.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:france-domperignon",
+      "lang": "en",
+      "type": "drink",
+      "title": "Dom Pérignon",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "dom-site",
+          "title": "Dom Pérignon — Official Site",
+          "publisher": "Dom Pérignon",
+          "url": "https://www.domperignon.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "champagne",
+          "title": "Comité Champagne — Champagne Production Rules",
+          "publisher": "Comité Interprofessionnel du vin de Champagne",
+          "url": "https://www.champagne.fr/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:france-hennessyxo",
+      "lang": "en",
+      "type": "drink",
+      "title": "Hennessy XO",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "hennessy-site",
+          "title": "Hennessy — Official Site",
+          "publisher": "Hennessy",
+          "url": "https://www.hennessy.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "bnic",
+          "title": "BNIC — Cognac Production Rules",
+          "publisher": "Bureau National Interprofessionnel du Cognac",
+          "url": "https://www.cognac.fr/en/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:france-romaneeconti",
+      "lang": "en",
+      "type": "drink",
+      "title": "Romanée-Conti",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oiv",
+          "title": "International Organisation of Vine and Wine (OIV)",
+          "publisher": "OIV",
+          "url": "https://www.oiv.int/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:guizhou-moutai",
+      "lang": "en",
+      "type": "drink",
+      "title": "Moutai",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "moutai-site",
+          "title": "贵州茅台酒股份有限公司官方网站",
+          "publisher": "贵州茅台酒股份有限公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:hunan-jiugui",
+      "lang": "en",
+      "type": "drink",
+      "title": "Jiugui",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "jiugui-site",
+          "title": "酒鬼酒股份有限公司官方网站",
+          "publisher": "酒鬼酒股份有限公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:ireland-guinnessdraughtstout",
+      "lang": "en",
+      "type": "drink",
+      "title": "Guinness Draught",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "guinness-site",
+          "title": "Guinness — Official Site",
+          "publisher": "Guinness",
+          "url": "https://www.guinness.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:ireland-jamesonirishwhiskey",
+      "lang": "en",
+      "type": "drink",
+      "title": "Jameson Irish Whiskey",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "jameson-site",
+          "title": "Jameson — Official Site",
+          "publisher": "Jameson",
+          "url": "https://www.jamesonwhiskey.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "irish-whiskey",
+          "title": "Irish Whiskey Association — Protected Status",
+          "publisher": "Irish Whiskey Association",
+          "url": "https://www.irishwhiskeyassociation.ie/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:italy-campari",
+      "lang": "en",
+      "type": "drink",
+      "title": "Campari",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "campari-site",
+          "title": "Campari — Official Site",
+          "publisher": "Campari",
+          "url": "https://www.campari.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "iba",
+          "title": "International Bartenders Association — Negroni",
+          "publisher": "IBA",
+          "url": "https://iba-world.com/iba-cocktail/negroni/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:italy-sassicaia",
+      "lang": "en",
+      "type": "drink",
+      "title": "Sassicaia",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "sassicaia-site",
+          "title": "Tenuta San Guido — Sassicaia",
+          "publisher": "Tenuta San Guido",
+          "url": "https://www.sassicaia.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:japan-yamazaki",
+      "lang": "en",
+      "type": "drink",
+      "title": "Yamazaki Single Malt",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "suntory-site",
+          "title": "Suntory — Yamazaki Distillery",
+          "publisher": "Suntory",
+          "url": "https://www.suntory.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "yoshu",
+          "title": "日本洋酒酒造组合 — 日本威士忌标示标准",
+          "publisher": "日本洋酒酒造组合",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:jiangsu-yanghe",
+      "lang": "en",
+      "type": "drink",
+      "title": "Yanghe",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "yanghe-site",
+          "title": "江苏洋河酒厂股份有限公司官方网站",
+          "publisher": "江苏洋河酒厂股份有限公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:scotland-themacallan",
+      "lang": "en",
+      "type": "drink",
+      "title": "The Macallan 18 Sherry Oak",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "macallan-site",
+          "title": "The Macallan — Official Site",
+          "publisher": "The Macallan",
+          "url": "https://www.themacallan.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "swa",
+          "title": "Scotch Whisky Association — Regulations",
+          "publisher": "Scotch Whisky Association",
+          "url": "https://www.scotch-whisky.org.uk/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:shaanxi-xifengjiu",
+      "lang": "en",
+      "type": "drink",
+      "title": "Xifengjiu",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "xifeng-site",
+          "title": "陕西西凤酒股份有限公司官方网站",
+          "publisher": "陕西西凤酒股份有限公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:shandong-changyu",
+      "lang": "en",
+      "type": "drink",
+      "title": "Changyu Wine",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "changyu-site",
+          "title": "烟台张裕葡萄酿酒股份有限公司官方网站",
+          "publisher": "烟台张裕葡萄酿酒股份有限公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oiv",
+          "title": "International Organisation of Vine and Wine (OIV)",
+          "publisher": "OIV",
+          "url": "https://www.oiv.int/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:shandong-tsingtao",
+      "lang": "en",
+      "type": "drink",
+      "title": "Tsingtao Beer",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "tsingtao-site",
+          "title": "青岛啤酒股份有限公司官方网站",
+          "publisher": "青岛啤酒股份有限公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:shanxi-fenjiu",
+      "lang": "en",
+      "type": "drink",
+      "title": "Fenjiu",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "fenjiu-site",
+          "title": "山西杏花村汾酒厂股份有限公司官方网站",
+          "publisher": "山西杏花村汾酒厂股份有限公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:sichuan-jiannanchun",
+      "lang": "en",
+      "type": "drink",
+      "title": "Jiannanchun",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "jiannanchun-site",
+          "title": "四川剑南春（集团）有限责任公司官方网站",
+          "publisher": "四川剑南春（集团）有限责任公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:sichuan-langjiu",
+      "lang": "en",
+      "type": "drink",
+      "title": "Langjiu",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "langjiu-site",
+          "title": "四川郎酒股份有限公司官方网站",
+          "publisher": "四川郎酒股份有限公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:sichuan-luzhoulaojiao",
+      "lang": "en",
+      "type": "drink",
+      "title": "Luzhou Laojiao",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "luzhou-site",
+          "title": "泸州老窖股份有限公司官方网站",
+          "publisher": "泸州老窖股份有限公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:sichuan-wuliangye",
+      "lang": "en",
+      "type": "drink",
+      "title": "Wuliangye",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "wuliangye-site",
+          "title": "宜宾五粮液股份有限公司官方网站",
+          "publisher": "宜宾五粮液股份有限公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:sweden-absolutvodka",
+      "lang": "en",
+      "type": "drink",
+      "title": "Absolut Vodka",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "absolut-site",
+          "title": "Absolut — Official Site",
+          "publisher": "Absolut",
+          "url": "https://www.absolut.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Vodka Definition",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:uk-beefeater",
+      "lang": "en",
+      "type": "drink",
+      "title": "Beefeater London Dry Gin",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "beefeater-site",
+          "title": "Beefeater — Official Site",
+          "publisher": "Beefeater",
+          "url": "https://www.beefeatergin.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gin-guild",
+          "title": "The Gin Guild — Gin Categories",
+          "publisher": "The Gin Guild",
+          "url": "https://www.theginguild.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:usa-jackdaniels",
+      "lang": "en",
+      "type": "drink",
+      "title": "Jack Daniel's Old No. 7",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "jack-site",
+          "title": "Jack Daniel's — Official Site",
+          "publisher": "Jack Daniel's",
+          "url": "https://www.jackdaniels.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "ttb",
+          "title": "TTB Beverage Alcohol Manual — Distilled Spirits",
+          "publisher": "U.S. Alcohol and Tobacco Tax and Trade Bureau",
+          "url": "https://www.ttb.gov/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink:zhejiang-guyuelongshan",
+      "lang": "en",
+      "type": "drink",
+      "title": "Guyuelongshan Huadiao",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "guyuelongshan-site",
+          "title": "浙江古越龙山绍兴酒股份有限公司官方网站",
+          "publisher": "浙江古越龙山绍兴酒股份有限公司",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-yellow-wine",
+          "title": "GB/T 13662-2018《黄酒》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-shaoxing",
+          "title": "GB/T 17946-2008《地理标志产品 绍兴酒（绍兴黄酒）》",
+          "publisher": "国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:aperitif",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Aperitif",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails — Aperitif entries",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "iba",
+          "title": "International Bartenders Association — Cocktail Categories",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Aromatised Wine and Spirit Definitions",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:baijiu-medicinal",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Medicinal liquor",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "samr-health-food",
+          "title": "《保健食品注册与备案管理办法》",
+          "publisher": "国家市场监督管理总局",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "advertising-law",
+          "title": "《中华人民共和国广告法》",
+          "publisher": "全国人民代表大会常务委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:baijiu",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Baijiu",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored sample based on public standard definitions; no standard text is reproduced. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "gbt-15109",
+          "title": "GB/T 15109-2021 Terminology for baijiu industry",
+          "publisher": "State Administration for Market Regulation; Standardization Administration of China",
+          "url": null,
+          "note": null
+        },
+        {
+          "key": "gbt-17204",
+          "title": "GB/T 17204-2021 Terminology and classification of alcoholic beverages",
+          "publisher": "State Administration for Market Regulation; Standardization Administration of China",
+          "url": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "drink-style:beer",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Beer",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "bjcp-2021",
+          "title": "BJCP 2021 Beer Style Guidelines",
+          "publisher": "Beer Judge Certification Program",
+          "url": "https://www.bjcp.org/style/2021/beer/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "brewers-association",
+          "title": "Brewers Association — Beer Styles and Definitions",
+          "publisher": "Brewers Association",
+          "url": "https://www.brewersassociation.org/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:brandy",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Brandy",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "bnic",
+          "title": "Bureau National Interprofessionnel du Cognac — Cognac Production Rules",
+          "publisher": "BNIC",
+          "url": "https://www.cognac.fr/en/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "bnia",
+          "title": "Bureau National Interprofessionnel de l'Armagnac — Armagnac Appellation",
+          "publisher": "BNIA",
+          "url": "https://www.armagnac.fr/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Definitions for Spirit Drinks",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:fruit-wine",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Fruit wine",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "qb-fruit-wine",
+          "title": "QB/T 5476-2020《果酒通用技术要求》",
+          "publisher": "中国轻工业联合会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine — Fruit wine entries",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "eu-wine",
+          "title": "EU Regulation 1308/2013 — Wine and Fruit Wine Labelling",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2013/1308/oj",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:gin",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Gin",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Definitions for Spirit Drinks",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gin-guild",
+          "title": "The Gin Guild — Gin Production and Categories",
+          "publisher": "The Gin Guild",
+          "url": "https://www.theginguild.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:liqueur",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Liqueur",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Liqueur Definitions",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:rum",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Rum",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Definitions for Spirit Drinks",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "caribbean-rum",
+          "title": "Caribbean Rum — Production and Geographical Indications",
+          "publisher": "West Indies Rum and Spirits Producers' Association",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:sake",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Sake",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "jss",
+          "title": "Japan Sake and Shochu Makers Association — Sake Classification",
+          "publisher": "Japan Sake and Shochu Makers Association",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "nta-sake",
+          "title": "National Tax Agency of Japan — Sake Labeling Standards",
+          "publisher": "National Tax Agency of Japan",
+          "url": "https://www.nta.go.jp/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-sake",
+          "title": "The Oxford Companion to Spirits and Cocktails — Sake entries",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:soju",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Soju",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails — Soju entry",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "korea-law",
+          "title": "Korean Liquor Tax Act and Liquor License Regulations",
+          "publisher": "National Tax Service of Korea",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:strong-aroma-baijiu",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Strong-aroma baijiu",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored sample based on public standard definitions; no standard text is reproduced. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "gbt-10781-1",
+          "title": "GB/T 10781.1-2021 Quality requirements for baijiu — Part 1: Strong-aroma baijiu",
+          "publisher": "State Administration for Market Regulation; Standardization Administration of China",
+          "url": null,
+          "note": null
+        },
+        {
+          "key": "gbt-15109",
+          "title": "GB/T 15109-2021 Terminology for baijiu industry",
+          "publisher": "State Administration for Market Regulation; Standardization Administration of China",
+          "url": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "drink-style:tequila",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Tequila",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "crt",
+          "title": "Consejo Regulador del Tequila — Tequila Regulatory Council",
+          "publisher": "Consejo Regulador del Tequila",
+          "url": "https://www.crt.org.mx/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "nom-006",
+          "title": "NOM-006-SCFI-2012 — Tequila Specifications",
+          "publisher": "Secretaría de Economía, Mexico",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:vodka",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Vodka",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787 — Definition of Vodka",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "ttb",
+          "title": "TTB Beverage Alcohol Manual — Vodka",
+          "publisher": "U.S. Alcohol and Tobacco Tax and Trade Bureau",
+          "url": "https://www.ttb.gov/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:whisky",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Whisky",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "swa",
+          "title": "Scotch Whisky Association — Scotch Whisky Regulations and Facts",
+          "publisher": "Scotch Whisky Association",
+          "url": "https://www.scotch-whisky.org.uk/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "irish-whiskey",
+          "title": "Irish Whiskey Association — Protected Status and Production",
+          "publisher": "Irish Whiskey Association",
+          "url": "https://www.irishwhiskeyassociation.ie/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "ttb",
+          "title": "TTB Beverage Alcohol Manual — Distilled Spirits",
+          "publisher": "U.S. Alcohol and Tobacco Tax and Trade Bureau",
+          "url": "https://www.ttb.gov/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:wine",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Wine",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "oiv",
+          "title": "International Organisation of Vine and Wine (OIV) — Statistical and Technical References",
+          "publisher": "International Organisation of Vine and Wine",
+          "url": "https://www.oiv.int/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "eu-wine",
+          "title": "EU Regulation 1308/2013 — Common Market Organisation for Wine",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2013/1308/oj",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "drink-style:yellow-wine",
+      "lang": "en",
+      "type": "drink-style",
+      "title": "Yellow wine",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "gb-yellow-wine",
+          "title": "GB/T 13662-2018《黄酒》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "gb-shaoxing",
+          "title": "GB/T 17946-2008《地理标志产品 绍兴酒（绍兴黄酒）》",
+          "publisher": "国家标准化管理委员会",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine — Huangjiu entry",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "producer:gujing-distillery",
+      "lang": "en",
+      "type": "producer",
+      "title": "Anhui Gujing Distillery Co., Ltd.",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored sample using public company-disclosure information; no promotional copy is reproduced. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "cninfo-profile",
+          "title": "Anhui Gujing Distillery Co., Ltd. company profile (A shares 000596 / B shares 200596)",
+          "publisher": "CNINFO listed-company disclosure",
+          "url": null,
+          "note": null
+        },
+        {
+          "key": "gujing-site",
+          "title": "Gujing Group official website",
+          "publisher": "Anhui Gujing Group",
+          "url": "https://www.gujing.com/",
+          "note": null
+        },
+        {
+          "key": "bozhou-museum",
+          "title": "Gujing Wine Culture Museum",
+          "publisher": "Bozhou Municipal People's Government",
+          "url": "https://www.bozhou.gov.cn/News/show/105123.html",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "region:anhui",
+      "lang": "en",
+      "type": "region",
+      "title": "Anhui",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored sample using public administrative and government website information only. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "gbt-2260",
+          "title": "GB/T 2260-2007 Codes for the administrative divisions of the People's Republic of China",
+          "publisher": "General Administration of Quality Supervision, Inspection and Quarantine; Standardization Administration of China",
+          "url": null,
+          "note": null
+        },
+        {
+          "key": "anhui-gov",
+          "title": "People's Government of Anhui Province",
+          "publisher": "People's Government of Anhui Province",
+          "url": "https://www.ah.gov.cn/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "region:bozhou",
+      "lang": "en",
+      "type": "region",
+      "title": "Bozhou",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored sample using public administrative and government website information only. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "gbt-2260",
+          "title": "GB/T 2260-2007 Codes for the administrative divisions of the People's Republic of China",
+          "publisher": "General Administration of Quality Supervision, Inspection and Quarantine; Standardization Administration of China",
+          "url": null,
+          "note": null
+        },
+        {
+          "key": "bozhou-gov",
+          "title": "Bozhou Municipal People's Government",
+          "publisher": "Bozhou Municipal People's Government",
+          "url": "https://www.bozhou.gov.cn/",
+          "note": null
+        },
+        {
+          "key": "bozhou-museum",
+          "title": "Gujing Wine Culture Museum",
+          "publisher": "Bozhou Municipal People's Government",
+          "url": "https://www.bozhou.gov.cn/News/show/105123.html",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "region:china",
+      "lang": "en",
+      "type": "region",
+      "title": "China",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored sample using public administrative hierarchy information only. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "gbt-2260",
+          "title": "GB/T 2260-2007 Codes for the administrative divisions of the People's Republic of China",
+          "publisher": "General Administration of Quality Supervision, Inspection and Quarantine; Standardization Administration of China",
+          "url": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "guide:choose-a-glass",
+      "lang": "zh",
+      "type": "guide",
+      "title": "换一只杯子，会有什么不同？",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；结构参考公开资料，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for glass shape, aroma and serving temperature."
+        },
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for beer glassware and foam."
+        }
+      ]
+    },
+    {
+      "id": "guide:cocktail-basics",
+      "lang": "zh",
+      "type": "guide",
+      "title": "调酒，是另一种认识酒的方式",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；结构参考公开资料，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "iba-cocktails",
+          "title": "IBA Cocktails",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/cocktails/",
+          "note": "Reference for classic cocktail categories and recipes; no text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for dilution, shaking and stirring."
+        }
+      ]
+    },
+    {
+      "id": "guide:first-tasting",
+      "lang": "zh",
+      "type": "guide",
+      "title": "第一口，先别急着下结论",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写样本；结构参考公开品鉴方法，未复制原文。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "wset-tasting",
+          "title": "How to taste wine",
+          "publisher": "WSET",
+          "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/december/19/how-to-taste-wine",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "guide:food-pairing",
+      "lang": "zh",
+      "type": "guide",
+      "title": "先看盘子里，再看杯子里",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；结构参考公开资料，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "wset-pairing",
+          "title": "Four rules to masterful food and wine pairing",
+          "publisher": "WSET",
+          "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/july/13/four-rules-to-masterful-food-and-wine-pairing/",
+          "note": "Reference for pairing principles; no text is reproduced."
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for acidity, tannin and sweetness in pairing."
+        }
+      ]
+    },
+    {
+      "id": "guide:ice-and-temperature",
+      "lang": "zh",
+      "type": "guide",
+      "title": "加冰这件事，没有标准答案",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；结构参考公开资料，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "liquid-intelligence",
+          "title": "Liquid Intelligence",
+          "publisher": "Dave Arnold / W. W. Norton",
+          "url": null,
+          "note": "Reference for chilling, dilution and shaking; no text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for serving temperature and dilution."
+        }
+      ]
+    },
+    {
+      "id": "guide:read-a-label",
+      "lang": "zh",
+      "type": "guide",
+      "title": "酒标很小，线索不少",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；结构参考公开资料，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "Reference for spirit-drink definitions and labelling."
+        },
+        {
+          "key": "ttb",
+          "title": "TTB Beverage Alcohol Manual",
+          "publisher": "U.S. Alcohol and Tobacco Tax and Trade Bureau",
+          "url": "https://www.ttb.gov/",
+          "note": "Reference for US beverage-alcohol labelling."
+        },
+        {
+          "key": "gb-7718",
+          "title": "GB 7718-2011《预包装食品标签通则》",
+          "publisher": "中华人民共和国卫生部",
+          "url": null,
+          "note": "Reference for Chinese prepackaged-food labelling; no standard text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "recipe:negroni",
+      "lang": "zh",
+      "type": "recipe",
+      "title": "内格罗尼配方（IBA 版本）",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写配方说明；用量与成品依据 IBA 公开配方，步骤为项目整理。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "iba-negroni",
+          "title": "IBA Official Cocktails — Negroni",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/negroni/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "vessel:rocks-glass",
+      "lang": "zh",
+      "type": "vessel",
+      "title": "古典杯",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写样本；器型用途依据公开配方中的成品杯型与常见器具说明。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "iba-negroni",
+          "title": "IBA Official Cocktails — Negroni",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/negroni/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "guide:choose-a-glass",
+      "lang": "en",
+      "type": "guide",
+      "title": "A different glass, a different view",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English text; structure informed by public sources, no text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for glass shape, aroma and serving temperature."
+        },
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for beer glassware and foam."
+        }
+      ]
+    },
+    {
+      "id": "guide:cocktail-basics",
+      "lang": "en",
+      "type": "guide",
+      "title": "A cocktail is another way in",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English text; structure informed by public sources, no text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "iba-cocktails",
+          "title": "IBA Cocktails",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/cocktails/",
+          "note": "Reference for classic cocktail categories and recipes; no text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for dilution, shaking and stirring."
+        }
+      ]
+    },
+    {
+      "id": "guide:first-tasting",
+      "lang": "en",
+      "type": "guide",
+      "title": "Give the first sip a moment",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored sample; structure informed by public tasting guidance, no text is reproduced. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "wset-tasting",
+          "title": "How to taste wine",
+          "publisher": "WSET",
+          "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/december/19/how-to-taste-wine",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "guide:food-pairing",
+      "lang": "en",
+      "type": "guide",
+      "title": "Look at the plate before the glass",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English text; structure informed by public sources, no text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "wset-pairing",
+          "title": "Four rules to masterful food and wine pairing",
+          "publisher": "WSET",
+          "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/july/13/four-rules-to-masterful-food-and-wine-pairing/",
+          "note": "Reference for pairing principles; no text is reproduced."
+        },
+        {
+          "key": "oxford-wine",
+          "title": "The Oxford Companion to Wine",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for acidity, tannin and sweetness in pairing."
+        }
+      ]
+    },
+    {
+      "id": "guide:ice-and-temperature",
+      "lang": "en",
+      "type": "guide",
+      "title": "Ice is a choice, not a test",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English text; structure informed by public sources, no text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "liquid-intelligence",
+          "title": "Liquid Intelligence",
+          "publisher": "Dave Arnold / W. W. Norton",
+          "url": null,
+          "note": "Reference for chilling, dilution and shaking; no text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for serving temperature and dilution."
+        }
+      ]
+    },
+    {
+      "id": "guide:read-a-label",
+      "lang": "en",
+      "type": "guide",
+      "title": "A small label, plenty of clues",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English text; structure informed by public sources, no text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "eu-spirits",
+          "title": "EU Regulation 2019/787",
+          "publisher": "European Union",
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/787/oj",
+          "note": "Reference for spirit-drink definitions and labelling."
+        },
+        {
+          "key": "ttb",
+          "title": "TTB Beverage Alcohol Manual",
+          "publisher": "U.S. Alcohol and Tobacco Tax and Trade Bureau",
+          "url": "https://www.ttb.gov/",
+          "note": "Reference for US beverage-alcohol labelling."
+        },
+        {
+          "key": "gb-7718",
+          "title": "GB 7718-2011《预包装食品标签通则》",
+          "publisher": "中华人民共和国卫生部",
+          "url": null,
+          "note": "Reference for Chinese prepackaged-food labelling; no standard text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "recipe:negroni",
+      "lang": "en",
+      "type": "recipe",
+      "title": "Negroni recipe (IBA version)",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored recipe notes; quantities and serving follow the public IBA recipe, steps are project wording. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "iba-negroni",
+          "title": "IBA Official Cocktails — Negroni",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/negroni/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "vessel:rocks-glass",
+      "lang": "en",
+      "type": "vessel",
+      "title": "Rocks glass",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored sample; vessel usage follows public recipe serving notes and common glassware descriptions. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "iba-negroni",
+          "title": "IBA Official Cocktails — Negroni",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/negroni/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "culture-article:beyond-the-pub",
+      "lang": "zh",
+      "type": "article",
+      "title": "从酒馆，再走到酿酒的地方",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；结构参考公开资料，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "swa-tours",
+          "title": "Scotch Whisky — Tours, Trails and Tourism",
+          "publisher": "Scotch Whisky Association",
+          "url": "https://www.scotch-whisky.org.uk/discover-scotch/tours-trails-and-tourism/",
+          "note": "Reference for distillery tourism; no text is reproduced."
+        },
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for brewery visits and production."
+        }
+      ]
+    },
+    {
+      "id": "culture-article:place-and-process",
+      "lang": "zh",
+      "type": "article",
+      "title": "一杯酒，为什么有地方的味道？",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；结构参考公开资料，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "oiv",
+          "title": "International Organisation of Vine and Wine (OIV)",
+          "publisher": "OIV",
+          "url": "https://www.oiv.int/",
+          "note": "Reference for wine origin and labelling; no text is reproduced."
+        },
+        {
+          "key": "swa",
+          "title": "Scotch Whisky Association",
+          "publisher": "Scotch Whisky Association",
+          "url": "https://www.scotch-whisky.org.uk/",
+          "note": "Reference for Scotch production and protected origin."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Reference for baijiu production terms."
+        }
+      ]
+    },
+    {
+      "id": "culture-article:pub-and-city",
+      "lang": "zh",
+      "type": "article",
+      "title": "认识一座城，从一间酒馆开始",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；结构参考公开资料，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。"
+      },
+      "sources": [
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for pub culture and beer-history context."
+        },
+        {
+          "key": "camra",
+          "title": "Campaign for Real Ale (CAMRA)",
+          "publisher": "CAMRA",
+          "url": "https://www.camra.org.uk/",
+          "note": "Reference for British pub culture and pub preservation; no text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "culture-article:time-in-a-cup",
+      "lang": "zh",
+      "type": "article",
+      "title": "一杯酒里的时间",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写文章；所引古籍为公共领域文本，引用不超过必要范围。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "shijing",
+          "title": "《诗经·豳风·七月》",
+          "publisher": "中华书局《诗经注析》通行文本",
+          "url": null,
+          "note": "公共领域古籍；“八月剥枣，十月获稻。为此春酒，以介眉寿”见该篇。"
+        },
+        {
+          "key": "qimin-yaoshu",
+          "title": "《齐民要术》",
+          "publisher": "北魏贾思勰撰；中华书局整理本",
+          "url": null,
+          "note": "卷七等篇章记录制曲、用曲与酿酒方法。"
+        },
+        {
+          "key": "quantangshi",
+          "title": "《全唐诗》李白《将进酒》",
+          "publisher": "中华书局",
+          "url": null,
+          "note": "公共领域古籍；本文使用通行文本节选。"
+        }
+      ]
+    },
+    {
+      "id": "culture-article:beyond-the-pub",
+      "lang": "en",
+      "type": "article",
+      "title": "Beyond the pub, to where it is made",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English text; structure informed by public sources, no text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "swa-tours",
+          "title": "Scotch Whisky — Tours, Trails and Tourism",
+          "publisher": "Scotch Whisky Association",
+          "url": "https://www.scotch-whisky.org.uk/discover-scotch/tours-trails-and-tourism/",
+          "note": "Reference for distillery tourism; no text is reproduced."
+        },
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for brewery visits and production."
+        }
+      ]
+    },
+    {
+      "id": "culture-article:place-and-process",
+      "lang": "en",
+      "type": "article",
+      "title": "How does a place end up in a glass?",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English text; structure informed by public sources, no text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "oiv",
+          "title": "International Organisation of Vine and Wine (OIV)",
+          "publisher": "OIV",
+          "url": "https://www.oiv.int/",
+          "note": "Reference for wine origin and labelling; no text is reproduced."
+        },
+        {
+          "key": "swa",
+          "title": "Scotch Whisky Association",
+          "publisher": "Scotch Whisky Association",
+          "url": "https://www.scotch-whisky.org.uk/",
+          "note": "Reference for Scotch production and protected origin."
+        },
+        {
+          "key": "gb-baijiu",
+          "title": "GB/T 15109-2021《白酒工业术语》",
+          "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+          "url": null,
+          "note": "Reference for baijiu production terms."
+        }
+      ]
+    },
+    {
+      "id": "culture-article:pub-and-city",
+      "lang": "en",
+      "type": "article",
+      "title": "Meet a city through one of its pubs",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English text; structure informed by public sources, no text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "oxford-beer",
+          "title": "The Oxford Companion to Beer",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Reference for pub culture and beer-history context."
+        },
+        {
+          "key": "camra",
+          "title": "Campaign for Real Ale (CAMRA)",
+          "publisher": "CAMRA",
+          "url": "https://www.camra.org.uk/",
+          "note": "Reference for British pub culture and pub preservation; no text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "culture-article:time-in-a-cup",
+      "lang": "en",
+      "type": "article",
+      "title": "Time in a cup",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored essay; quoted classical texts are public domain and quoted only as needed. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "shijing",
+          "title": "Book of Songs, \"Odes of Bin: Seventh Month\"",
+          "publisher": "Zhonghua Book Company edition of the received text",
+          "url": null,
+          "note": "Public-domain classical text; the quoted lines on spring wine and long life appear in this poem."
+        },
+        {
+          "key": "qimin-yaoshu",
+          "title": "Qimin Yaoshu (Essential Techniques for the Common People)",
+          "publisher": "Northern Wei, Jia Sixie; Zhonghua Book Company edition",
+          "url": null,
+          "note": "Its chapters on starter culture and brewing record methods for making and using qu."
+        },
+        {
+          "key": "quantangshi",
+          "title": "Complete Tang Poems, Li Bai, \"Bring in the Wine\"",
+          "publisher": "Zhonghua Book Company",
+          "url": null,
+          "note": "Public-domain classical text; this article cites an excerpt from the received version."
+        }
+      ]
+    },
+    {
+      "id": "place:american-bar-savoy",
+      "lang": "zh",
+      "type": "place",
+      "title": "萨沃伊美式酒吧",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "savoy-site",
+          "title": "American Bar — 50Best Discovery",
+          "publisher": "50 Best",
+          "url": "https://www.theworlds50best.com/discovery/Establishments/UK/London/American-Bar.html",
+          "note": "用于核对酒吧位置、历史与营业信息。"
+        },
+        {
+          "key": "savoy-book",
+          "title": "The Savoy Cocktail Book",
+          "publisher": "Harry Craddock / Constable & Co.",
+          "url": null,
+          "note": "1930 年出版的经典鸡尾酒书，用于核对酒吧的调酒史背景。"
+        }
+      ]
+    },
+    {
+      "id": "place:cafe-central",
+      "lang": "zh",
+      "type": "place",
+      "title": "中央咖啡馆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "central-site",
+          "title": "Café Central — Official Site",
+          "publisher": "Café Central",
+          "url": "https://www.cafecentral.wien/",
+          "note": "用于核对历史、地址与营业信息。"
+        },
+        {
+          "key": "vienna-tourism",
+          "title": "Vienna Tourist Board — Coffee House Culture",
+          "publisher": "WienTourismus",
+          "url": "https://www.wien.info/",
+          "note": "用于核对维也纳咖啡馆文化背景。"
+        }
+      ]
+    },
+    {
+      "id": "place:cafe-de-flore",
+      "lang": "zh",
+      "type": "place",
+      "title": "花神咖啡馆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "flore-site",
+          "title": "Café de Flore — Official Site",
+          "publisher": "Café de Flore",
+          "url": "https://cafedeflore.fr/",
+          "note": "用于核对地址、历史与营业信息。"
+        },
+        {
+          "key": "paris-tourism",
+          "title": "Paris Convention and Visitors Bureau — Saint-Germain-des-Prés",
+          "publisher": "Office de Tourisme de Paris",
+          "url": "https://www.parisinfo.com/",
+          "note": "用于核对街区背景与咖啡馆文化。"
+        }
+      ]
+    },
+    {
+      "id": "place:caffe-florian",
+      "lang": "zh",
+      "type": "place",
+      "title": "花神咖啡馆（威尼斯）",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "florian-site",
+          "title": "Caffè Florian — Official Site",
+          "publisher": "Caffè Florian",
+          "url": "https://www.caffeflorian.com/",
+          "note": "用于核对地址、历史与营业信息。"
+        },
+        {
+          "key": "venice-tourism",
+          "title": "Venice Tourism — Piazza San Marco",
+          "publisher": "Comune di Venezia",
+          "url": "https://www.veneziaunica.it/",
+          "note": "用于核对圣马可广场与历史咖啡馆背景。"
+        }
+      ]
+    },
+    {
+      "id": "place:eagle-and-child",
+      "lang": "zh",
+      "type": "place",
+      "title": "鹰与孩童酒馆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "eagle-site",
+          "title": "The Eagle and Child — Official Site",
+          "publisher": "Nicholson’s Pubs",
+          "url": null,
+          "note": "用于核对地址、历史与营业信息。"
+        },
+        {
+          "key": "oxford-tourism",
+          "title": "Experience Oxfordshire — Literary Oxford",
+          "publisher": "Experience Oxfordshire",
+          "url": "https://www.experienceoxfordshire.org/",
+          "note": "用于核对牛津文学酒馆背景。"
+        }
+      ]
+    },
+    {
+      "id": "place:el-floridita",
+      "lang": "zh",
+      "type": "place",
+      "title": "小佛罗里达酒馆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "floridita-history",
+          "title": "El Floridita — History",
+          "publisher": "El Floridita",
+          "url": null,
+          "note": "用于核对创立时间、地址与海明威相关历史。"
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于代基里与哈瓦那酒吧文化的条目。"
+        }
+      ]
+    },
+    {
+      "id": "place:gujing-wine-culture-museum",
+      "lang": "zh",
+      "type": "place",
+      "title": "古井酒文化博物馆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写地点档案；事实依据亳州市政府与文化旅游部门公开介绍。 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "bozhou-museum",
+          "title": "古井酒文化博物馆",
+          "publisher": "亳州市人民政府",
+          "url": "https://www.bozhou.gov.cn/News/show/105123.html",
+          "note": null
+        },
+        {
+          "key": "bozhou-culture",
+          "title": "古井酒文化博物馆",
+          "publisher": "亳州市文化旅游体育局",
+          "url": "https://wlt.bozhou.gov.cn/News/show/367285.html",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "place:harrys-bar-venice",
+      "lang": "zh",
+      "type": "place",
+      "title": "哈里酒吧（威尼斯）",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "cipriani-site",
+          "title": "Cipriani — Harry’s Bar",
+          "publisher": "Cipriani",
+          "url": "https://www.cipriani.com/",
+          "note": "用于核对酒吧位置、历史与营业信息。"
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于贝里尼与哈里酒吧的条目。"
+        }
+      ]
+    },
+    {
+      "id": "place:hofbrauhaus",
+      "lang": "zh",
+      "type": "place",
+      "title": "皇家啤酒屋",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "hofbrauhaus-site",
+          "title": "Hofbräuhaus München — Official Site",
+          "publisher": "Hofbräuhaus München",
+          "url": "https://www.hofbraeuhaus.de/",
+          "note": "用于核对历史、地址与营业信息。"
+        },
+        {
+          "key": "munich-tourism",
+          "title": "Simply Munich — Hofbräuhaus",
+          "publisher": "Landeshauptstadt München",
+          "url": "https://www.muenchen.de/",
+          "note": "用于核对啤酒馆历史与城市背景。"
+        }
+      ]
+    },
+    {
+      "id": "place:la-bodeguita-del-medio",
+      "lang": "zh",
+      "type": "place",
+      "title": "半途小酒馆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "bodeguita-history",
+          "title": "La Bodeguita del Medio — History",
+          "publisher": "La Bodeguita del Medio",
+          "url": null,
+          "note": "用于核对创立时间、地址与历史背景。"
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于莫吉托与哈瓦那酒吧文化的条目。"
+        }
+      ]
+    },
+    {
+      "id": "place:les-deux-magots",
+      "lang": "zh",
+      "type": "place",
+      "title": "双叟咖啡馆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "magots-site",
+          "title": "Les Deux Magots — Official Site",
+          "publisher": "Les Deux Magots",
+          "url": "https://www.lesdeuxmagots.fr/",
+          "note": "用于核对地址、历史与营业信息。"
+        },
+        {
+          "key": "paris-tourism",
+          "title": "Paris Convention and Visitors Bureau — Saint-Germain-des-Prés",
+          "publisher": "Office de Tourisme de Paris",
+          "url": "https://www.parisinfo.com/",
+          "note": "用于核对街区背景与咖啡馆文化。"
+        }
+      ]
+    },
+    {
+      "id": "place:mcsorleys-old-ale-house",
+      "lang": "zh",
+      "type": "place",
+      "title": "麦克索利老麦酒馆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "mcsorleys-site",
+          "title": "McSorley’s Old Ale House — Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/McSorley%27s_Old_Ale_House",
+          "note": "用于核对历史、地址与营业信息。"
+        },
+        {
+          "key": "nyc-tourism",
+          "title": "NYC Tourism — East Village",
+          "publisher": "City of New York",
+          "url": "https://www.nyc.gov/",
+          "note": "用于核对东村与历史酒馆背景。"
+        }
+      ]
+    },
+    {
+      "id": "place:raffles-long-bar",
+      "lang": "zh",
+      "type": "place",
+      "title": "莱佛士长廊酒吧",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "raffles-site",
+          "title": "Raffles Hotel Singapore — Long Bar",
+          "publisher": "Raffles Hotel Singapore",
+          "url": "https://www.raffles.com/singapore/",
+          "note": "用于核对酒吧位置、历史与营业信息。"
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "参考其关于新加坡司令的条目。"
+        }
+      ]
+    },
+    {
+      "id": "place:schlenkerla",
+      "lang": "zh",
+      "type": "place",
+      "title": "施伦克拉烟熏啤酒馆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "schlenkerla-site",
+          "title": "Schlenkerla — Official Site",
+          "publisher": "Schlenkerla",
+          "url": "https://www.schlenkerla.de/",
+          "note": "用于核对历史、地址与营业信息。"
+        },
+        {
+          "key": "bamberg-tourism",
+          "title": "Bamberg Tourism — Brewing Culture",
+          "publisher": "Bamberg Tourismus",
+          "url": "https://www.bamberg.info/",
+          "note": "用于核对班贝格啤酒文化与烟熏啤酒背景。"
+        }
+      ]
+    },
+    {
+      "id": "place:u-fleku",
+      "lang": "zh",
+      "type": "place",
+      "title": "弗勒克啤酒屋",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "ufleku-site",
+          "title": "U Fleků — Official Site",
+          "publisher": "U Fleků",
+          "url": null,
+          "note": "用于核对历史、地址与营业信息。"
+        },
+        {
+          "key": "prague-tourism",
+          "title": "Prague City Tourism — Beer Culture",
+          "publisher": "Prague City Tourism",
+          "url": "https://www.prague.eu/",
+          "note": "用于核对布拉格啤酒馆文化背景。"
+        }
+      ]
+    },
+    {
+      "id": "place:white-horse-tavern",
+      "lang": "zh",
+      "type": "place",
+      "title": "白马酒馆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "whitehorse-history",
+          "title": "White Horse Tavern — History",
+          "publisher": "White Horse Tavern",
+          "url": null,
+          "note": "用于核对创立时间、地址与历史背景。"
+        },
+        {
+          "key": "nyc-tourism",
+          "title": "NYC Tourism — Greenwich Village",
+          "publisher": "City of New York",
+          "url": "https://www.nyc.gov/",
+          "note": "用于核对格林威治村与文学酒吧背景。"
+        }
+      ]
+    },
+    {
+      "id": "place:ye-olde-cheshire-cheese",
+      "lang": "zh",
+      "type": "place",
+      "title": "柴郡奶酪酒馆",
+      "rights": {
+        "status": "allowed",
+        "basis": "项目自写；依据场所官方页面与公开历史资料核验，未复制原文。项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方商标、图片与引用文本不在本许可内；营业时间、菜单与价格会变化，以官方渠道为准。"
+      },
+      "sources": [
+        {
+          "key": "cheshire-site",
+          "title": "Ye Olde Cheshire Cheese — Official Site",
+          "publisher": "Ye Olde Cheshire Cheese",
+          "url": null,
+          "note": "用于核对地址、历史与营业信息。"
+        },
+        {
+          "key": "london-tourism",
+          "title": "Visit London — Fleet Street",
+          "publisher": "London & Partners",
+          "url": "https://www.visitlondon.com/",
+          "note": "用于核对舰队街与历史酒馆背景。"
+        }
+      ]
+    },
+    {
+      "id": "place:american-bar-savoy",
+      "lang": "en",
+      "type": "place",
+      "title": "American Bar at The Savoy",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "savoy-site",
+          "title": "American Bar — 50Best Discovery",
+          "publisher": "50 Best",
+          "url": "https://www.theworlds50best.com/discovery/Establishments/UK/London/American-Bar.html",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "savoy-book",
+          "title": "The Savoy Cocktail Book",
+          "publisher": "Harry Craddock / Constable & Co.",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:cafe-central",
+      "lang": "en",
+      "type": "place",
+      "title": "Café Central",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "central-site",
+          "title": "Café Central — Official Site",
+          "publisher": "Café Central",
+          "url": "https://www.cafecentral.wien/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "vienna-tourism",
+          "title": "Vienna Tourist Board — Coffee House Culture",
+          "publisher": "WienTourismus",
+          "url": "https://www.wien.info/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:cafe-de-flore",
+      "lang": "en",
+      "type": "place",
+      "title": "Café de Flore",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "flore-site",
+          "title": "Café de Flore — Official Site",
+          "publisher": "Café de Flore",
+          "url": "https://cafedeflore.fr/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "paris-tourism",
+          "title": "Paris Convention and Visitors Bureau — Saint-Germain-des-Prés",
+          "publisher": "Office de Tourisme de Paris",
+          "url": "https://www.parisinfo.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:caffe-florian",
+      "lang": "en",
+      "type": "place",
+      "title": "Caffè Florian",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "florian-site",
+          "title": "Caffè Florian — Official Site",
+          "publisher": "Caffè Florian",
+          "url": "https://www.caffeflorian.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "venice-tourism",
+          "title": "Venice Tourism — Piazza San Marco",
+          "publisher": "Comune di Venezia",
+          "url": "https://www.veneziaunica.it/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:eagle-and-child",
+      "lang": "en",
+      "type": "place",
+      "title": "The Eagle and Child",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "eagle-site",
+          "title": "The Eagle and Child — Official Site",
+          "publisher": "Nicholson’s Pubs",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-tourism",
+          "title": "Experience Oxfordshire — Literary Oxford",
+          "publisher": "Experience Oxfordshire",
+          "url": "https://www.experienceoxfordshire.org/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:el-floridita",
+      "lang": "en",
+      "type": "place",
+      "title": "El Floridita",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "floridita-history",
+          "title": "El Floridita — History",
+          "publisher": "El Floridita",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:gujing-wine-culture-museum",
+      "lang": "en",
+      "type": "place",
+      "title": "Gujing Wine Culture Museum",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored place profile based on public information from Bozhou municipal government sources. 项目所有者于 2026-10-29 声明项目内容采用 CC BY 4.0。",
+        "license": "CC-BY-4.0",
+        "note": "第三方标准、商标、图片与引用文本不在本许可内；来源仅作核验引用。旧站档案中的事实与营业断言仍需独立核验。"
+      },
+      "sources": [
+        {
+          "key": "bozhou-museum",
+          "title": "Gujing Wine Culture Museum",
+          "publisher": "Bozhou Municipal People's Government",
+          "url": "https://www.bozhou.gov.cn/News/show/105123.html",
+          "note": null
+        },
+        {
+          "key": "bozhou-culture",
+          "title": "Gujing Wine Culture Museum",
+          "publisher": "Bozhou Municipal Culture, Tourism and Sports Bureau",
+          "url": "https://wlt.bozhou.gov.cn/News/show/367285.html",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "place:harrys-bar-venice",
+      "lang": "en",
+      "type": "place",
+      "title": "Harry's Bar Venice",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "cipriani-site",
+          "title": "Cipriani — Harry’s Bar",
+          "publisher": "Cipriani",
+          "url": "https://www.cipriani.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:hofbrauhaus",
+      "lang": "en",
+      "type": "place",
+      "title": "Hofbräuhaus",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "hofbrauhaus-site",
+          "title": "Hofbräuhaus München — Official Site",
+          "publisher": "Hofbräuhaus München",
+          "url": "https://www.hofbraeuhaus.de/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "munich-tourism",
+          "title": "Simply Munich — Hofbräuhaus",
+          "publisher": "Landeshauptstadt München",
+          "url": "https://www.muenchen.de/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:la-bodeguita-del-medio",
+      "lang": "en",
+      "type": "place",
+      "title": "La Bodeguita del Medio",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "bodeguita-history",
+          "title": "La Bodeguita del Medio — History",
+          "publisher": "La Bodeguita del Medio",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:les-deux-magots",
+      "lang": "en",
+      "type": "place",
+      "title": "Les Deux Magots",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "magots-site",
+          "title": "Les Deux Magots — Official Site",
+          "publisher": "Les Deux Magots",
+          "url": "https://www.lesdeuxmagots.fr/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "paris-tourism",
+          "title": "Paris Convention and Visitors Bureau — Saint-Germain-des-Prés",
+          "publisher": "Office de Tourisme de Paris",
+          "url": "https://www.parisinfo.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:mcsorleys-old-ale-house",
+      "lang": "en",
+      "type": "place",
+      "title": "McSorley's Old Ale House",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "mcsorleys-site",
+          "title": "McSorley’s Old Ale House — Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/McSorley%27s_Old_Ale_House",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "nyc-tourism",
+          "title": "NYC Tourism — East Village",
+          "publisher": "City of New York",
+          "url": "https://www.nyc.gov/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:raffles-long-bar",
+      "lang": "en",
+      "type": "place",
+      "title": "Raffles Long Bar",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "raffles-site",
+          "title": "Raffles Hotel Singapore — Long Bar",
+          "publisher": "Raffles Hotel Singapore",
+          "url": "https://www.raffles.com/singapore/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "oxford-spirits",
+          "title": "The Oxford Companion to Spirits and Cocktails",
+          "publisher": "Oxford University Press",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:schlenkerla",
+      "lang": "en",
+      "type": "place",
+      "title": "Schlenkerla",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "schlenkerla-site",
+          "title": "Schlenkerla — Official Site",
+          "publisher": "Schlenkerla",
+          "url": "https://www.schlenkerla.de/",
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "bamberg-tourism",
+          "title": "Bamberg Tourism — Brewing Culture",
+          "publisher": "Bamberg Tourismus",
+          "url": "https://www.bamberg.info/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:u-fleku",
+      "lang": "en",
+      "type": "place",
+      "title": "U Fleků",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "ufleku-site",
+          "title": "U Fleků — Official Site",
+          "publisher": "U Fleků",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "prague-tourism",
+          "title": "Prague City Tourism — Beer Culture",
+          "publisher": "Prague City Tourism",
+          "url": "https://www.prague.eu/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:white-horse-tavern",
+      "lang": "en",
+      "type": "place",
+      "title": "White Horse Tavern",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "whitehorse-history",
+          "title": "White Horse Tavern — History",
+          "publisher": "White Horse Tavern",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "nyc-tourism",
+          "title": "NYC Tourism — Greenwich Village",
+          "publisher": "City of New York",
+          "url": "https://www.nyc.gov/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    },
+    {
+      "id": "place:ye-olde-cheshire-cheese",
+      "lang": "en",
+      "type": "place",
+      "title": "Ye Olde Cheshire Cheese",
+      "rights": {
+        "status": "allowed",
+        "basis": "Project-authored English translation of the Chinese page; no source text is reproduced. The project owner declared project content CC BY 4.0 on 2026-10-29.",
+        "license": "CC-BY-4.0",
+        "note": "Third-party standards, trademarks, photographs and quoted texts are not covered by this licence."
+      },
+      "sources": [
+        {
+          "key": "cheshire-site",
+          "title": "Ye Olde Cheshire Cheese — Official Site",
+          "publisher": "Ye Olde Cheshire Cheese",
+          "url": null,
+          "note": "Used for factual verification; no source text is reproduced."
+        },
+        {
+          "key": "london-tourism",
+          "title": "Visit London — Fleet Street",
+          "publisher": "London & Partners",
+          "url": "https://www.visitlondon.com/",
+          "note": "Used for factual verification; no source text is reproduced."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@hejiu/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./types.json": "./types.json",
+    "./repositories.json": "./repositories.json",
+    "./relations.json": "./relations.json",
+    "./sites.json": "./sites.json",
+    "./labels.json": "./labels.json",
+    "./contract-sources.json": "./contract-sources.json"
+  }
+}

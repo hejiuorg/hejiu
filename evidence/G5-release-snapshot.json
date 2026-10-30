@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T23:32:38.223Z",
+  "releaseId": "e0fe09d-d00d83ce80b6",
+  "workspaceCommit": "e0fe09dbe270b58ec7c6770d63ac60a7d05fe62e",
+  "siteCommit": "e0fe09dbe270b58ec7c6770d63ac60a7d05fe62e",
+  "dirtyWorkingTree": false,
+  "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+  "contentCommitNote": "Local one-workspace build. Content identity is contentTreeSha256; remote eight-repository commits are not created yet.",
+  "coreVersion": "0.1.0",
+  "schemaVersionContent": 1,
+  "lockSha256": "a869e34e477441bafdf470e3f6ab808a674427dceba6f4910abc4e724277815c",
+  "versions": {
+    "node": "v26.8.1",
+    "npm": "npm/11.19.0 node/v26.8.1 win32 x64 workspaces/false",
+    "astro": "7.4.4",
+    "pagefind": "1.5.2"
+  },
+  "sites": [
+    {
+      "key": "beverages",
+      "host": "hejiu.org",
+      "buildMode": "production",
+      "siteCommit": "e0fe09dbe270b58ec7c6770d63ac60a7d05fe62e",
+      "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+      "pageCounts": {
+        "total": 108,
+        "published": 108,
+        "preview": 0
+      },
+      "searchRecords": 108,
+      "artifactSha256": "bd94c0c5446f7907c0ad28fc692a2e9b2ddf56b2bc60205201e25607ebe8cf22",
+      "artifactFiles": 482,
+      "manifestSha256": "128370119157f2ceca87d20a9f6e3aad00c0ef4ba85b89256149eb38841eecde",
+      "manifestDistTreeSha256": "36d6d922b8d2c8b95bb7a142a8935b44fac7054722d107851741eb1b56863d27"
+    },
+    {
+      "key": "guide",
+      "host": "guide.hejiu.org",
+      "buildMode": "production",
+      "siteCommit": "e0fe09dbe270b58ec7c6770d63ac60a7d05fe62e",
+      "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+      "pageCounts": {
+        "total": 16,
+        "published": 16,
+        "preview": 0
+      },
+      "searchRecords": 16,
+      "artifactSha256": "a31c45d0d4cab463368d83565ccf517fec144a9f4d775bdad9bd46c4a64c4b00",
+      "artifactFiles": 90,
+      "manifestSha256": "cea7eb77969d65aa7dd88311ecf1e2f99e981fe545cf9b1e374eb270e6feb454",
+      "manifestDistTreeSha256": "392caea69f01f1824898914b137ed531f8a0b5a2fade9e6b5709183da6140cb2"
+    },
+    {
+      "key": "culture",
+      "host": "culture.hejiu.org",
+      "buildMode": "production",
+      "siteCommit": "e0fe09dbe270b58ec7c6770d63ac60a7d05fe62e",
+      "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+      "pageCounts": {
+        "total": 8,
+        "published": 8,
+        "preview": 0
+      },
+      "searchRecords": 8,
+      "artifactSha256": "aaeaefef11f0738572e8eb4e2fc10c7f4425aab6ede667381143afd934623035",
+      "artifactFiles": 70,
+      "manifestSha256": "e5f15026b8b57321482378018d2c7edefb0000de4daa71924e1f608d31f1ed18",
+      "manifestDistTreeSha256": "9e3d5947724e61f911106ac554d7ef98bb1f0b97eb73b5f9d43162145d2ca73c"
+    },
+    {
+      "key": "atlas",
+      "host": "atlas.hejiu.org",
+      "buildMode": "production",
+      "siteCommit": "e0fe09dbe270b58ec7c6770d63ac60a7d05fe62e",
+      "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+      "pageCounts": {
+        "total": 34,
+        "published": 34,
+        "preview": 0
+      },
+      "searchRecords": 34,
+      "artifactSha256": "da2cf7e0e827bccc7e408e6dea8d184fdf8000f74c40adc43c3a20b166d45216",
+      "artifactFiles": 122,
+      "manifestSha256": "eeff4c92e1b0c86eef1c0440f713291d9de027cf6e069306674c837fb79e2b1d",
+      "manifestDistTreeSha256": "60db7fcc72c5fe9a7e7ba2a47927f5878cd9519745701edf00091559088e1593"
+    }
+  ],
+  "aggregate": {
+    "scope": "published-only",
+    "recordCount": 166,
+    "sources": [
+      {
+        "siteKey": "beverages",
+        "generatedAt": "2026-10-29T23:32:27.925Z",
+        "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+        "recordCount": 108
+      },
+      {
+        "siteKey": "guide",
+        "generatedAt": "2026-10-29T23:32:16.595Z",
+        "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+        "recordCount": 16
+      },
+      {
+        "siteKey": "culture",
+        "generatedAt": "2026-10-29T23:32:19.881Z",
+        "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+        "recordCount": 8
+      },
+      {
+        "siteKey": "atlas",
+        "generatedAt": "2026-10-29T23:32:23.585Z",
+        "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+        "recordCount": 34
+      }
+    ]
+  },
+  "registry": {
+    "counts": {
+      "records": 166,
+      "entities": 83,
+      "publishedPages": 166,
+      "previewPages": 0,
+      "sourceRecords": 167,
+      "sourceEntities": 84
+    },
+    "entities": 83
+  },
+  "publishedPages": 166,
+  "localSearchRecords": 166,
+  "excludedContent": {
+    "reviewRecords": 167,
+    "reviewPass": 166,
+    "reviewBlocked": 0,
+    "draftRecords": 1,
+    "sourceVerifiedRecords": 166,
+    "archiveRecords": 0
+  },
+  "checks": {
+    "fourProductionSites": true,
+    "allSitesSameContentTree": true,
+    "allSitesSameCommit": true,
+    "noPreviewPages": true,
+    "publishedPagesMatch": true,
+    "localSearchMatchesPublished": true,
+    "aggregatePublishedOnly": true,
+    "aggregateMatchesLocalSearch": true,
+    "aggregateCoversFourSites": true,
+    "registryNoPreview": true,
+    "sourceVerifiedRecords": true,
+    "noArchiveRecords": true,
+    "noBlockedRecords": true,
+    "oneDraftTaxonomyContainer": true,
+    "cleanWorkingTree": true
+  }
+}

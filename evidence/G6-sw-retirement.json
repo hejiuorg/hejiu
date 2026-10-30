@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T13:54:01.368Z",
+  "environment": {
+    "browser": "Headless Chrome via puppeteer-core",
+    "origin": "http://127.0.0.1:4525",
+    "note": "Simulated old hejiu-v1 cache and registration; transition worker served at the same /sw.js URL and scope."
+  },
+  "checks": [
+    {
+      "name": "old worker and hejiu-v1 cache are present",
+      "ok": true,
+      "detail": "{\"registrations\":1,\"caches\":[\"hejiu-v1\"],\"active\":true}"
+    },
+    {
+      "name": "transition worker removes old registration and cache",
+      "ok": true,
+      "detail": "{\"registrations\":0,\"caches\":[]}"
+    }
+  ]
+}

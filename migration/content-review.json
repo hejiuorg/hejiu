@@ -1,0 +1,4899 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T23:31:55.504Z",
+  "method": "Every record reviewed against status, independent source, rights and English publication rules. Legacy-only sources do not count as independent verification. No record was promoted without evidence.",
+  "summary": {
+    "recordsProcessed": 167,
+    "entitiesProcessed": 84,
+    "recordPass": 166,
+    "recordBlocked": 0,
+    "draftRecords": 1,
+    "sourceVerifiedRecords": 166,
+    "archiveRecords": 0,
+    "entitiesBilingual": 83,
+    "entitiesZhOnly": 0,
+    "entitiesBlocked": 0,
+    "entitiesDraft": 1,
+    "entitiesArchive": 0,
+    "newLegacyRecordsReviewed": 48,
+    "blockerCounts": {},
+    "byType": {
+      "brand": {
+        "records": 2,
+        "pass": 2,
+        "blocked": 0,
+        "draft": 0
+      },
+      "cocktail": {
+        "records": 2,
+        "pass": 2,
+        "blocked": 0,
+        "draft": 0
+      },
+      "drink": {
+        "records": 62,
+        "pass": 62,
+        "blocked": 0,
+        "draft": 0
+      },
+      "drink-style": {
+        "records": 35,
+        "pass": 34,
+        "blocked": 0,
+        "draft": 1
+      },
+      "producer": {
+        "records": 2,
+        "pass": 2,
+        "blocked": 0,
+        "draft": 0
+      },
+      "region": {
+        "records": 6,
+        "pass": 6,
+        "blocked": 0,
+        "draft": 0
+      },
+      "guide": {
+        "records": 12,
+        "pass": 12,
+        "blocked": 0,
+        "draft": 0
+      },
+      "recipe": {
+        "records": 2,
+        "pass": 2,
+        "blocked": 0,
+        "draft": 0
+      },
+      "vessel": {
+        "records": 2,
+        "pass": 2,
+        "blocked": 0,
+        "draft": 0
+      },
+      "article": {
+        "records": 8,
+        "pass": 8,
+        "blocked": 0,
+        "draft": 0
+      },
+      "place": {
+        "records": 34,
+        "pass": 34,
+        "blocked": 0,
+        "draft": 0
+      }
+    },
+    "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95"
+  },
+  "records": [
+    {
+      "id": "brand:gujing-gongjiu",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "brand",
+      "slug": "gujing-gongjiu",
+      "title": "古井贡酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:anhui_gujinggongjiu"
+      ],
+      "sources": [
+        "gujing-site",
+        "producer-page"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "cocktail:negroni",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "cocktail",
+      "slug": "negroni",
+      "title": "内格罗尼",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "iba-negroni"
+      ],
+      "independentSourceCount": 1,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:australia-penfolds-grange",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "australia-penfolds-grange",
+      "title": "奔富葛兰许",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:australia_penfolds_grange"
+      ],
+      "sources": [
+        "penfolds-site",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:beijing-erguotou",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "beijing-erguotou",
+      "title": "二锅头",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:beijing_erguotou"
+      ],
+      "sources": [
+        "gb-baijiu",
+        "cada"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:cuba-bacardi-carta-blanca",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "cuba-bacardi-carta-blanca",
+      "title": "百加得白朗姆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:cuba_bacardi_carta_blanca"
+      ],
+      "sources": [
+        "bacardi-site",
+        "eu-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:cuba-havana-club-7-year-old",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "cuba-havana-club-7-year-old",
+      "title": "哈瓦那俱乐部7年",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:cuba_havana_club_7_year_old"
+      ],
+      "sources": [
+        "havana-site",
+        "eu-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:czech-pilsnerurquell",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "czech-pilsnerurquell",
+      "title": "皮尔森之源",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:czech_pilsnerurquell"
+      ],
+      "sources": [
+        "pilsner-site",
+        "bjcp"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:france-chartreuse",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "france-chartreuse",
+      "title": "查特酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:france_chartreuse"
+      ],
+      "sources": [
+        "chartreuse-site",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:france-chateaulafiterothschild",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "france-chateaulafiterothschild",
+      "title": "拉菲古堡红葡萄酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:france_chateaulafiterothschild"
+      ],
+      "sources": [
+        "lafite-site",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:france-domperignon",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "france-domperignon",
+      "title": "唐·培里侬香槟",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:france_domperignon"
+      ],
+      "sources": [
+        "dom-site",
+        "champagne"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:france-hennessyxo",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "france-hennessyxo",
+      "title": "轩尼诗XO",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:france_hennessyxo"
+      ],
+      "sources": [
+        "hennessy-site",
+        "bnic"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:france-romaneeconti",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "france-romaneeconti",
+      "title": "罗曼尼·康帝",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:france_romaneeconti"
+      ],
+      "sources": [
+        "oxford-wine",
+        "oiv"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:guizhou-moutai",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "guizhou-moutai",
+      "title": "茅台酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:guizhou_moutai"
+      ],
+      "sources": [
+        "moutai-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:hunan-jiugui",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "hunan-jiugui",
+      "title": "酒鬼酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:hunan_jiugui"
+      ],
+      "sources": [
+        "jiugui-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:ireland-guinnessdraughtstout",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "ireland-guinnessdraughtstout",
+      "title": "健力士世涛啤酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:ireland_guinnessdraughtstout"
+      ],
+      "sources": [
+        "guinness-site",
+        "oxford-beer"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:ireland-jamesonirishwhiskey",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "ireland-jamesonirishwhiskey",
+      "title": "尊美醇爱尔兰威士忌",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:ireland_jamesonirishwhiskey"
+      ],
+      "sources": [
+        "jameson-site",
+        "irish-whiskey"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:italy-campari",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "italy-campari",
+      "title": "金巴利",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:italy_campari"
+      ],
+      "sources": [
+        "campari-site",
+        "iba"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:italy-sassicaia",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "italy-sassicaia",
+      "title": "西施佳雅",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:italy_sassicaia"
+      ],
+      "sources": [
+        "sassicaia-site",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:japan-yamazaki",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "japan-yamazaki",
+      "title": "山崎单一麦芽威士忌",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:japan_yamazaki"
+      ],
+      "sources": [
+        "suntory-site",
+        "yoshu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:jiangsu-yanghe",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "jiangsu-yanghe",
+      "title": "洋河酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:jiangsu_yanghe"
+      ],
+      "sources": [
+        "yanghe-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:scotland-themacallan",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "scotland-themacallan",
+      "title": "麦卡伦18年雪莉桶",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:scotland_themacallan"
+      ],
+      "sources": [
+        "macallan-site",
+        "swa"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:shaanxi-xifengjiu",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "shaanxi-xifengjiu",
+      "title": "西凤酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:shaanxi_xifengjiu"
+      ],
+      "sources": [
+        "xifeng-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:shandong-changyu",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "shandong-changyu",
+      "title": "张裕葡萄酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:shandong_changyu"
+      ],
+      "sources": [
+        "changyu-site",
+        "oiv"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:shandong-tsingtao",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "shandong-tsingtao",
+      "title": "青岛啤酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:shandong_tsingtao"
+      ],
+      "sources": [
+        "tsingtao-site",
+        "oxford-beer"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:shanxi-fenjiu",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "shanxi-fenjiu",
+      "title": "汾酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:shanxi_fenjiu"
+      ],
+      "sources": [
+        "fenjiu-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:sichuan-jiannanchun",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "sichuan-jiannanchun",
+      "title": "剑南春",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:sichuan_jiannanchun"
+      ],
+      "sources": [
+        "jiannanchun-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:sichuan-langjiu",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "sichuan-langjiu",
+      "title": "郎酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:sichuan_langjiu"
+      ],
+      "sources": [
+        "langjiu-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:sichuan-luzhoulaojiao",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "sichuan-luzhoulaojiao",
+      "title": "泸州老窖",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:sichuan_luzhoulaojiao"
+      ],
+      "sources": [
+        "luzhou-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:sichuan-wuliangye",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "sichuan-wuliangye",
+      "title": "五粮液",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:sichuan_wuliangye"
+      ],
+      "sources": [
+        "wuliangye-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:sweden-absolutvodka",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "sweden-absolutvodka",
+      "title": "绝对伏特加",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:sweden_absolutvodka"
+      ],
+      "sources": [
+        "absolut-site",
+        "eu-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:uk-beefeater",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "uk-beefeater",
+      "title": "必富达伦敦干金酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:uk_beefeater"
+      ],
+      "sources": [
+        "beefeater-site",
+        "gin-guild"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:usa-jackdaniels",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "usa-jackdaniels",
+      "title": "杰克丹尼老7号",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:usa_jackdaniels"
+      ],
+      "sources": [
+        "jack-site",
+        "ttb"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:zhejiang-guyuelongshan",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink",
+      "slug": "zhejiang-guyuelongshan",
+      "title": "古越龙山花雕酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "liquor:zhejiang_guyuelongshan"
+      ],
+      "sources": [
+        "guyuelongshan-site",
+        "gb-yellow-wine",
+        "gb-shaoxing"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:aperitif",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "aperitif",
+      "title": "开胃酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oxford-spirits",
+        "iba",
+        "eu-spirits"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:baijiu-medicinal",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "baijiu-medicinal",
+      "title": "保健酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "samr-health-food",
+        "advertising-law",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:baijiu",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "baijiu",
+      "title": "白酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gbt-15109",
+        "gbt-17204"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:beer",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "beer",
+      "title": "啤酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "bjcp-2021",
+        "brewers-association",
+        "oxford-beer"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:brandy",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "brandy",
+      "title": "白兰地",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "bnic",
+        "bnia",
+        "eu-spirits"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:fruit-wine",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "fruit-wine",
+      "title": "果酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "qb-fruit-wine",
+        "oxford-wine",
+        "eu-wine"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:gin",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "gin",
+      "title": "金酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "eu-spirits",
+        "gin-guild",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:liqueur",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "liqueur",
+      "title": "利口酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "eu-spirits",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:other",
+      "verificationScope": "needs-review",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "other",
+      "title": "其他酒类（旧分类容器）",
+      "status": "draft",
+      "rights": "unverified",
+      "legacyRefs": [],
+      "sources": [
+        "legacy-category"
+      ],
+      "independentSourceCount": 0,
+      "published": false,
+      "pass": false,
+      "decision": "draft",
+      "blockers": [],
+      "bilingualBlocker": "missing-en"
+    },
+    {
+      "id": "drink-style:rum",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "rum",
+      "title": "朗姆酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "eu-spirits",
+        "oxford-spirits",
+        "caribbean-rum"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:sake",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "sake",
+      "title": "清酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "jss",
+        "nta-sake",
+        "oxford-sake"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:soju",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "soju",
+      "title": "烧酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oxford-spirits",
+        "korea-law"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:strong-aroma-baijiu",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "strong-aroma-baijiu",
+      "title": "浓香型白酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gbt-10781-1",
+        "gbt-15109"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:tequila",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "tequila",
+      "title": "龙舌兰酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "crt",
+        "nom-006",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:vodka",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "vodka",
+      "title": "伏特加",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "eu-spirits",
+        "ttb",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:whisky",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "whisky",
+      "title": "威士忌",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "swa",
+        "irish-whiskey",
+        "ttb",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 4,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:wine",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "wine",
+      "title": "葡萄酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oiv",
+        "eu-wine",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:yellow-wine",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "drink-style",
+      "slug": "yellow-wine",
+      "title": "黄酒",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gb-yellow-wine",
+        "gb-shaoxing",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "producer:gujing-distillery",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "producer",
+      "slug": "gujing-distillery",
+      "title": "安徽古井贡酒股份有限公司",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "cninfo-profile",
+        "gujing-site",
+        "bozhou-museum"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "region:anhui",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "region",
+      "slug": "anhui",
+      "title": "安徽省",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gbt-2260",
+        "anhui-gov"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "region:bozhou",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "region",
+      "slug": "bozhou",
+      "title": "亳州市",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gbt-2260",
+        "bozhou-gov",
+        "bozhou-museum"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "region:china",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "region",
+      "slug": "china",
+      "title": "中国",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gbt-2260"
+      ],
+      "independentSourceCount": 1,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "brand:gujing-gongjiu",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "brand",
+      "slug": "gujing-gongjiu",
+      "title": "Gujing Gongjiu",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gujing-site",
+        "producer-page"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "cocktail:negroni",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "cocktail",
+      "slug": "negroni",
+      "title": "Negroni",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "iba-negroni"
+      ],
+      "independentSourceCount": 1,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:australia-penfolds-grange",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "australia-penfolds-grange",
+      "title": "Penfolds Grange",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "penfolds-site",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:beijing-erguotou",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "beijing-erguotou",
+      "title": "Erguotou",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gb-baijiu",
+        "cada"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:cuba-bacardi-carta-blanca",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "cuba-bacardi-carta-blanca",
+      "title": "Bacardí Carta Blanca",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "bacardi-site",
+        "eu-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:cuba-havana-club-7-year-old",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "cuba-havana-club-7-year-old",
+      "title": "Havana Club 7",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "havana-site",
+        "eu-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:czech-pilsnerurquell",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "czech-pilsnerurquell",
+      "title": "Pilsner Urquell",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "pilsner-site",
+        "bjcp"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:france-chartreuse",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "france-chartreuse",
+      "title": "Chartreuse",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "chartreuse-site",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:france-chateaulafiterothschild",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "france-chateaulafiterothschild",
+      "title": "Château Lafite Rothschild",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "lafite-site",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:france-domperignon",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "france-domperignon",
+      "title": "Dom Pérignon",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "dom-site",
+        "champagne"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:france-hennessyxo",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "france-hennessyxo",
+      "title": "Hennessy XO",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "hennessy-site",
+        "bnic"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:france-romaneeconti",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "france-romaneeconti",
+      "title": "Romanée-Conti",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oxford-wine",
+        "oiv"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:guizhou-moutai",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "guizhou-moutai",
+      "title": "Moutai",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "moutai-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:hunan-jiugui",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "hunan-jiugui",
+      "title": "Jiugui",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "jiugui-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:ireland-guinnessdraughtstout",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "ireland-guinnessdraughtstout",
+      "title": "Guinness Draught",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "guinness-site",
+        "oxford-beer"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:ireland-jamesonirishwhiskey",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "ireland-jamesonirishwhiskey",
+      "title": "Jameson Irish Whiskey",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "jameson-site",
+        "irish-whiskey"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:italy-campari",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "italy-campari",
+      "title": "Campari",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "campari-site",
+        "iba"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:italy-sassicaia",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "italy-sassicaia",
+      "title": "Sassicaia",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "sassicaia-site",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:japan-yamazaki",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "japan-yamazaki",
+      "title": "Yamazaki Single Malt",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "suntory-site",
+        "yoshu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:jiangsu-yanghe",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "jiangsu-yanghe",
+      "title": "Yanghe",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "yanghe-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:scotland-themacallan",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "scotland-themacallan",
+      "title": "The Macallan 18 Sherry Oak",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "macallan-site",
+        "swa"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:shaanxi-xifengjiu",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "shaanxi-xifengjiu",
+      "title": "Xifengjiu",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "xifeng-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:shandong-changyu",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "shandong-changyu",
+      "title": "Changyu Wine",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "changyu-site",
+        "oiv"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:shandong-tsingtao",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "shandong-tsingtao",
+      "title": "Tsingtao Beer",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "tsingtao-site",
+        "oxford-beer"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:shanxi-fenjiu",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "shanxi-fenjiu",
+      "title": "Fenjiu",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "fenjiu-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:sichuan-jiannanchun",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "sichuan-jiannanchun",
+      "title": "Jiannanchun",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "jiannanchun-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:sichuan-langjiu",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "sichuan-langjiu",
+      "title": "Langjiu",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "langjiu-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:sichuan-luzhoulaojiao",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "sichuan-luzhoulaojiao",
+      "title": "Luzhou Laojiao",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "luzhou-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:sichuan-wuliangye",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "sichuan-wuliangye",
+      "title": "Wuliangye",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "wuliangye-site",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:sweden-absolutvodka",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "sweden-absolutvodka",
+      "title": "Absolut Vodka",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "absolut-site",
+        "eu-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:uk-beefeater",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "uk-beefeater",
+      "title": "Beefeater London Dry Gin",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "beefeater-site",
+        "gin-guild"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:usa-jackdaniels",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "usa-jackdaniels",
+      "title": "Jack Daniel's Old No. 7",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "jack-site",
+        "ttb"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink:zhejiang-guyuelongshan",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink",
+      "slug": "zhejiang-guyuelongshan",
+      "title": "Guyuelongshan Huadiao",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "guyuelongshan-site",
+        "gb-yellow-wine",
+        "gb-shaoxing"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:aperitif",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "aperitif",
+      "title": "Aperitif",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oxford-spirits",
+        "iba",
+        "eu-spirits"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:baijiu-medicinal",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "baijiu-medicinal",
+      "title": "Medicinal liquor",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "samr-health-food",
+        "advertising-law",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:baijiu",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "baijiu",
+      "title": "Baijiu",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gbt-15109",
+        "gbt-17204"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:beer",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "beer",
+      "title": "Beer",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "bjcp-2021",
+        "brewers-association",
+        "oxford-beer"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:brandy",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "brandy",
+      "title": "Brandy",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "bnic",
+        "bnia",
+        "eu-spirits"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:fruit-wine",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "fruit-wine",
+      "title": "Fruit wine",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "qb-fruit-wine",
+        "oxford-wine",
+        "eu-wine"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:gin",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "gin",
+      "title": "Gin",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "eu-spirits",
+        "gin-guild",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:liqueur",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "liqueur",
+      "title": "Liqueur",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "eu-spirits",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:rum",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "rum",
+      "title": "Rum",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "eu-spirits",
+        "oxford-spirits",
+        "caribbean-rum"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:sake",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "sake",
+      "title": "Sake",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "jss",
+        "nta-sake",
+        "oxford-sake"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:soju",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "soju",
+      "title": "Soju",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oxford-spirits",
+        "korea-law"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:strong-aroma-baijiu",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "strong-aroma-baijiu",
+      "title": "Strong-aroma baijiu",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gbt-10781-1",
+        "gbt-15109"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:tequila",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "tequila",
+      "title": "Tequila",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "crt",
+        "nom-006",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:vodka",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "vodka",
+      "title": "Vodka",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "eu-spirits",
+        "ttb",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:whisky",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "whisky",
+      "title": "Whisky",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "swa",
+        "irish-whiskey",
+        "ttb",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 4,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:wine",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "wine",
+      "title": "Wine",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oiv",
+        "eu-wine",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "drink-style:yellow-wine",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "drink-style",
+      "slug": "yellow-wine",
+      "title": "Yellow wine",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gb-yellow-wine",
+        "gb-shaoxing",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "producer:gujing-distillery",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "producer",
+      "slug": "gujing-distillery",
+      "title": "Anhui Gujing Distillery Co., Ltd.",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "cninfo-profile",
+        "gujing-site",
+        "bozhou-museum"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "region:anhui",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "region",
+      "slug": "anhui",
+      "title": "Anhui",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gbt-2260",
+        "anhui-gov"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "region:bozhou",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "region",
+      "slug": "bozhou",
+      "title": "Bozhou",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gbt-2260",
+        "bozhou-gov",
+        "bozhou-museum"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "region:china",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "region",
+      "slug": "china",
+      "title": "China",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "gbt-2260"
+      ],
+      "independentSourceCount": 1,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:choose-a-glass",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "guide",
+      "slug": "choose-a-glass",
+      "title": "换一只杯子，会有什么不同？",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oxford-wine",
+        "oxford-beer"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:cocktail-basics",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "guide",
+      "slug": "cocktail-basics",
+      "title": "调酒，是另一种认识酒的方式",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "iba-cocktails",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:first-tasting",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "guide",
+      "slug": "first-tasting",
+      "title": "第一口，先别急着下结论",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "wset-tasting"
+      ],
+      "independentSourceCount": 1,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:food-pairing",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "guide",
+      "slug": "food-pairing",
+      "title": "先看盘子里，再看杯子里",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "wset-pairing",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:ice-and-temperature",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "guide",
+      "slug": "ice-and-temperature",
+      "title": "加冰这件事，没有标准答案",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "liquid-intelligence",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:read-a-label",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "guide",
+      "slug": "read-a-label",
+      "title": "酒标很小，线索不少",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "eu-spirits",
+        "ttb",
+        "gb-7718"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "recipe:negroni",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "recipe",
+      "slug": "negroni",
+      "title": "内格罗尼配方（IBA 版本）",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "iba-negroni"
+      ],
+      "independentSourceCount": 1,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "vessel:rocks-glass",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "vessel",
+      "slug": "rocks-glass",
+      "title": "古典杯",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "iba-negroni"
+      ],
+      "independentSourceCount": 1,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:choose-a-glass",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "guide",
+      "slug": "choose-a-glass",
+      "title": "A different glass, a different view",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oxford-wine",
+        "oxford-beer"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:cocktail-basics",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "guide",
+      "slug": "cocktail-basics",
+      "title": "A cocktail is another way in",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "iba-cocktails",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:first-tasting",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "guide",
+      "slug": "first-tasting",
+      "title": "Give the first sip a moment",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "wset-tasting"
+      ],
+      "independentSourceCount": 1,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:food-pairing",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "guide",
+      "slug": "food-pairing",
+      "title": "Look at the plate before the glass",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "wset-pairing",
+        "oxford-wine"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:ice-and-temperature",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "guide",
+      "slug": "ice-and-temperature",
+      "title": "Ice is a choice, not a test",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "liquid-intelligence",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "guide:read-a-label",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "guide",
+      "slug": "read-a-label",
+      "title": "A small label, plenty of clues",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "eu-spirits",
+        "ttb",
+        "gb-7718"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "recipe:negroni",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "recipe",
+      "slug": "negroni",
+      "title": "Negroni recipe (IBA version)",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "iba-negroni"
+      ],
+      "independentSourceCount": 1,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "vessel:rocks-glass",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "vessel",
+      "slug": "rocks-glass",
+      "title": "Rocks glass",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "iba-negroni"
+      ],
+      "independentSourceCount": 1,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "culture-article:beyond-the-pub",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "article",
+      "slug": "beyond-the-pub",
+      "title": "从酒馆，再走到酿酒的地方",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "swa-tours",
+        "oxford-beer"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "culture-article:place-and-process",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "article",
+      "slug": "place-and-process",
+      "title": "一杯酒，为什么有地方的味道？",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oiv",
+        "swa",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "culture-article:pub-and-city",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "article",
+      "slug": "pub-and-city",
+      "title": "认识一座城，从一间酒馆开始",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oxford-beer",
+        "camra"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "culture-article:time-in-a-cup",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "article",
+      "slug": "time-in-a-cup",
+      "title": "一杯酒里的时间",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "shijing",
+        "qimin-yaoshu",
+        "quantangshi"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "culture-article:beyond-the-pub",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "article",
+      "slug": "beyond-the-pub",
+      "title": "Beyond the pub, to where it is made",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "swa-tours",
+        "oxford-beer"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "culture-article:place-and-process",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "article",
+      "slug": "place-and-process",
+      "title": "How does a place end up in a glass?",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oiv",
+        "swa",
+        "gb-baijiu"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "culture-article:pub-and-city",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "article",
+      "slug": "pub-and-city",
+      "title": "Meet a city through one of its pubs",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "oxford-beer",
+        "camra"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "culture-article:time-in-a-cup",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "article",
+      "slug": "time-in-a-cup",
+      "title": "Time in a cup",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "shijing",
+        "qimin-yaoshu",
+        "quantangshi"
+      ],
+      "independentSourceCount": 3,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:american-bar-savoy",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "american-bar-savoy",
+      "title": "萨沃伊美式酒吧",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:american_bar_savoy"
+      ],
+      "sources": [
+        "savoy-site",
+        "savoy-book"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:cafe-central",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "cafe-central",
+      "title": "中央咖啡馆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:cafe_central"
+      ],
+      "sources": [
+        "central-site",
+        "vienna-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:cafe-de-flore",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "cafe-de-flore",
+      "title": "花神咖啡馆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:cafe_de_flore"
+      ],
+      "sources": [
+        "flore-site",
+        "paris-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:caffe-florian",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "caffe-florian",
+      "title": "花神咖啡馆（威尼斯）",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:caffe_florian"
+      ],
+      "sources": [
+        "florian-site",
+        "venice-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:eagle-and-child",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "eagle-and-child",
+      "title": "鹰与孩童酒馆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:eagle_and_child"
+      ],
+      "sources": [
+        "eagle-site",
+        "oxford-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:el-floridita",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "el-floridita",
+      "title": "小佛罗里达酒馆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:el_floridita"
+      ],
+      "sources": [
+        "floridita-history",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:gujing-wine-culture-museum",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "gujing-wine-culture-museum",
+      "title": "古井酒文化博物馆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "bozhou-museum",
+        "bozhou-culture"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:harrys-bar-venice",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "harrys-bar-venice",
+      "title": "哈里酒吧（威尼斯）",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:harrys_bar_venice"
+      ],
+      "sources": [
+        "cipriani-site",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:hofbrauhaus",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "hofbrauhaus",
+      "title": "皇家啤酒屋",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:hofbrauhaus"
+      ],
+      "sources": [
+        "hofbrauhaus-site",
+        "munich-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:la-bodeguita-del-medio",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "la-bodeguita-del-medio",
+      "title": "半途小酒馆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:la_bodeguita_del_medio"
+      ],
+      "sources": [
+        "bodeguita-history",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:les-deux-magots",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "les-deux-magots",
+      "title": "双叟咖啡馆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:les_deux_magots"
+      ],
+      "sources": [
+        "magots-site",
+        "paris-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:mcsorleys-old-ale-house",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "mcsorleys-old-ale-house",
+      "title": "麦克索利老麦酒馆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:mcsorleys_old_ale_house"
+      ],
+      "sources": [
+        "mcsorleys-site",
+        "nyc-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:raffles-long-bar",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "raffles-long-bar",
+      "title": "莱佛士长廊酒吧",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:raffles_long_bar"
+      ],
+      "sources": [
+        "raffles-site",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:schlenkerla",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "schlenkerla",
+      "title": "施伦克拉烟熏啤酒馆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:schlenkerla"
+      ],
+      "sources": [
+        "schlenkerla-site",
+        "bamberg-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:u-fleku",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "u-fleku",
+      "title": "弗勒克啤酒屋",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:u_fleku"
+      ],
+      "sources": [
+        "ufleku-site",
+        "prague-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:white-horse-tavern",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "white-horse-tavern",
+      "title": "白马酒馆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:white_horse_tavern"
+      ],
+      "sources": [
+        "whitehorse-history",
+        "nyc-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:ye-olde-cheshire-cheese",
+      "verificationScope": "source-verified",
+      "lang": "zh",
+      "type": "place",
+      "slug": "ye-olde-cheshire-cheese",
+      "title": "柴郡奶酪酒馆",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [
+        "pub:ye_olde_cheshire_cheese"
+      ],
+      "sources": [
+        "cheshire-site",
+        "london-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:american-bar-savoy",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "american-bar-savoy",
+      "title": "American Bar at The Savoy",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "savoy-site",
+        "savoy-book"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:cafe-central",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "cafe-central",
+      "title": "Café Central",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "central-site",
+        "vienna-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:cafe-de-flore",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "cafe-de-flore",
+      "title": "Café de Flore",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "flore-site",
+        "paris-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:caffe-florian",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "caffe-florian",
+      "title": "Caffè Florian",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "florian-site",
+        "venice-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:eagle-and-child",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "eagle-and-child",
+      "title": "The Eagle and Child",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "eagle-site",
+        "oxford-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:el-floridita",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "el-floridita",
+      "title": "El Floridita",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "floridita-history",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:gujing-wine-culture-museum",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "gujing-wine-culture-museum",
+      "title": "Gujing Wine Culture Museum",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "bozhou-museum",
+        "bozhou-culture"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:harrys-bar-venice",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "harrys-bar-venice",
+      "title": "Harry's Bar Venice",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "cipriani-site",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:hofbrauhaus",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "hofbrauhaus",
+      "title": "Hofbräuhaus",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "hofbrauhaus-site",
+        "munich-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:la-bodeguita-del-medio",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "la-bodeguita-del-medio",
+      "title": "La Bodeguita del Medio",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "bodeguita-history",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:les-deux-magots",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "les-deux-magots",
+      "title": "Les Deux Magots",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "magots-site",
+        "paris-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:mcsorleys-old-ale-house",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "mcsorleys-old-ale-house",
+      "title": "McSorley's Old Ale House",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "mcsorleys-site",
+        "nyc-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:raffles-long-bar",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "raffles-long-bar",
+      "title": "Raffles Long Bar",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "raffles-site",
+        "oxford-spirits"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:schlenkerla",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "schlenkerla",
+      "title": "Schlenkerla",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "schlenkerla-site",
+        "bamberg-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:u-fleku",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "u-fleku",
+      "title": "U Fleků",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "ufleku-site",
+        "prague-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:white-horse-tavern",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "white-horse-tavern",
+      "title": "White Horse Tavern",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "whitehorse-history",
+        "nyc-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    },
+    {
+      "id": "place:ye-olde-cheshire-cheese",
+      "verificationScope": "source-verified",
+      "lang": "en",
+      "type": "place",
+      "slug": "ye-olde-cheshire-cheese",
+      "title": "Ye Olde Cheshire Cheese",
+      "status": "reviewed",
+      "rights": "allowed",
+      "legacyRefs": [],
+      "sources": [
+        "cheshire-site",
+        "london-tourism"
+      ],
+      "independentSourceCount": 2,
+      "published": true,
+      "pass": true,
+      "decision": "source-verified",
+      "blockers": [],
+      "bilingualBlocker": null
+    }
+  ],
+  "entities": [
+    {
+      "id": "brand:gujing-gongjiu",
+      "type": "brand",
+      "siteKey": "beverages",
+      "title": "古井贡酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "cocktail:negroni",
+      "type": "cocktail",
+      "siteKey": "beverages",
+      "title": "内格罗尼",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:australia-penfolds-grange",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "奔富葛兰许",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:beijing-erguotou",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "二锅头",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:cuba-bacardi-carta-blanca",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "百加得白朗姆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:cuba-havana-club-7-year-old",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "哈瓦那俱乐部7年",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:czech-pilsnerurquell",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "皮尔森之源",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:france-chartreuse",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "查特酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:france-chateaulafiterothschild",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "拉菲古堡红葡萄酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:france-domperignon",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "唐·培里侬香槟",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:france-hennessyxo",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "轩尼诗XO",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:france-romaneeconti",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "罗曼尼·康帝",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:guizhou-moutai",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "茅台酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:hunan-jiugui",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "酒鬼酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:ireland-guinnessdraughtstout",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "健力士世涛啤酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:ireland-jamesonirishwhiskey",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "尊美醇爱尔兰威士忌",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:italy-campari",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "金巴利",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:italy-sassicaia",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "西施佳雅",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:japan-yamazaki",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "山崎单一麦芽威士忌",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:jiangsu-yanghe",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "洋河酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:scotland-themacallan",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "麦卡伦18年雪莉桶",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:shaanxi-xifengjiu",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "西凤酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:shandong-changyu",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "张裕葡萄酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:shandong-tsingtao",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "青岛啤酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:shanxi-fenjiu",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "汾酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:sichuan-jiannanchun",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "剑南春",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:sichuan-langjiu",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "郎酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:sichuan-luzhoulaojiao",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "泸州老窖",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:sichuan-wuliangye",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "五粮液",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:sweden-absolutvodka",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "绝对伏特加",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:uk-beefeater",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "必富达伦敦干金酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:usa-jackdaniels",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "杰克丹尼老7号",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink:zhejiang-guyuelongshan",
+      "type": "drink",
+      "siteKey": "beverages",
+      "title": "古越龙山花雕酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:aperitif",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "开胃酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:baijiu-medicinal",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "保健酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:baijiu",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "白酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:beer",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "啤酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:brandy",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "白兰地",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:fruit-wine",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "果酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:gin",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "金酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:liqueur",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "利口酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:other",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "其他酒类（旧分类容器）",
+      "decision": "draft",
+      "verificationScope": "needs-review",
+      "reviewedLangs": [],
+      "bilingualComplete": false,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:rum",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "朗姆酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:sake",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "清酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:soju",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "烧酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:strong-aroma-baijiu",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "浓香型白酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:tequila",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "龙舌兰酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:vodka",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "伏特加",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:whisky",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "威士忌",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:wine",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "葡萄酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "drink-style:yellow-wine",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "title": "黄酒",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "producer:gujing-distillery",
+      "type": "producer",
+      "siteKey": "beverages",
+      "title": "安徽古井贡酒股份有限公司",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "region:anhui",
+      "type": "region",
+      "siteKey": "beverages",
+      "title": "安徽省",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "region:bozhou",
+      "type": "region",
+      "siteKey": "beverages",
+      "title": "亳州市",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "region:china",
+      "type": "region",
+      "siteKey": "beverages",
+      "title": "中国",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "guide:choose-a-glass",
+      "type": "guide",
+      "siteKey": "guide",
+      "title": "换一只杯子，会有什么不同？",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "guide:cocktail-basics",
+      "type": "guide",
+      "siteKey": "guide",
+      "title": "调酒，是另一种认识酒的方式",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "guide:first-tasting",
+      "type": "guide",
+      "siteKey": "guide",
+      "title": "第一口，先别急着下结论",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "guide:food-pairing",
+      "type": "guide",
+      "siteKey": "guide",
+      "title": "先看盘子里，再看杯子里",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "guide:ice-and-temperature",
+      "type": "guide",
+      "siteKey": "guide",
+      "title": "加冰这件事，没有标准答案",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "guide:read-a-label",
+      "type": "guide",
+      "siteKey": "guide",
+      "title": "酒标很小，线索不少",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "recipe:negroni",
+      "type": "recipe",
+      "siteKey": "guide",
+      "title": "内格罗尼配方（IBA 版本）",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "vessel:rocks-glass",
+      "type": "vessel",
+      "siteKey": "guide",
+      "title": "古典杯",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "culture-article:beyond-the-pub",
+      "type": "article",
+      "siteKey": "culture",
+      "title": "从酒馆，再走到酿酒的地方",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "culture-article:place-and-process",
+      "type": "article",
+      "siteKey": "culture",
+      "title": "一杯酒，为什么有地方的味道？",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "culture-article:pub-and-city",
+      "type": "article",
+      "siteKey": "culture",
+      "title": "认识一座城，从一间酒馆开始",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "culture-article:time-in-a-cup",
+      "type": "article",
+      "siteKey": "culture",
+      "title": "一杯酒里的时间",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:american-bar-savoy",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "萨沃伊美式酒吧",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:cafe-central",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "中央咖啡馆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:cafe-de-flore",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "花神咖啡馆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:caffe-florian",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "花神咖啡馆（威尼斯）",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:eagle-and-child",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "鹰与孩童酒馆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:el-floridita",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "小佛罗里达酒馆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:gujing-wine-culture-museum",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "古井酒文化博物馆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:harrys-bar-venice",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "哈里酒吧（威尼斯）",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:hofbrauhaus",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "皇家啤酒屋",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:la-bodeguita-del-medio",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "半途小酒馆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:les-deux-magots",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "双叟咖啡馆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:mcsorleys-old-ale-house",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "麦克索利老麦酒馆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:raffles-long-bar",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "莱佛士长廊酒吧",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:schlenkerla",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "施伦克拉烟熏啤酒馆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:u-fleku",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "弗勒克啤酒屋",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:white-horse-tavern",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "白马酒馆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "place:ye-olde-cheshire-cheese",
+      "type": "place",
+      "siteKey": "atlas",
+      "title": "柴郡奶酪酒馆",
+      "decision": "reviewed-bilingual",
+      "verificationScope": "source-verified",
+      "reviewedLangs": [
+        "zh",
+        "en"
+      ],
+      "bilingualComplete": true,
+      "blockers": []
+    }
+  ]
+}

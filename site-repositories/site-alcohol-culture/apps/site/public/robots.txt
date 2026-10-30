@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /search/
+Disallow: /en/search/
+Sitemap: https://culture.hejiu.org/sitemap.xml

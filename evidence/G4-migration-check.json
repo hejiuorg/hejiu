@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T13:48:06.892Z",
+  "checks": {
+    "all 602 ledger rows have a migration row": {
+      "ok": true,
+      "detail": "602"
+    },
+    "all ledger rows are mapped or explicitly retired": {
+      "ok": true,
+      "detail": "48+554"
+    },
+    "no pending classification": {
+      "ok": true,
+      "detail": "0"
+    },
+    "field map covers every row": {
+      "ok": true,
+      "detail": "602"
+    },
+    "generated file list is present": {
+      "ok": true,
+      "detail": "613"
+    },
+    "generated content files exist or are in the retirement manifest": {
+      "ok": true,
+      "detail": ""
+    },
+    "detail route coverage is 602": {
+      "ok": true,
+      "detail": "{\"detailRows\":602,\"detailRowsWithTargets\":48,\"functionalBranches\":7,\"categories\":17,\"subcategories\":93,\"provinces\":64,\"chinaCities\":313,\"countries\":43,\"continents\":6,\"pubCountries\":43,\"pubCities\":97,\"tags\":397,\"detailRowsRetired\":554}"
+    },
+    "category route coverage is 17": {
+      "ok": true,
+      "detail": "17"
+    },
+    "subcategory route coverage is 93": {
+      "ok": true,
+      "detail": "93"
+    },
+    "region/country/continent/tag coverage present": {
+      "ok": true,
+      "detail": "{\"detailRows\":602,\"detailRowsWithTargets\":48,\"functionalBranches\":7,\"categories\":17,\"subcategories\":93,\"provinces\":64,\"chinaCities\":313,\"countries\":43,\"continents\":6,\"pubCountries\":43,\"pubCities\":97,\"tags\":397,\"detailRowsRetired\":554}"
+    },
+    "every retained detail route has a primary target": {
+      "ok": true,
+      "detail": ""
+    },
+    "no migration conflicts": {
+      "ok": true,
+      "detail": "0"
+    },
+    "prototype samples accounted for": {
+      "ok": true,
+      "detail": "{\"guides\":6,\"stories\":3,\"migrated\":9,\"pending\":0}"
+    },
+    "metadata categories preserved": {
+      "ok": true,
+      "detail": "17"
+    },
+    "all 151 records have review decisions": {
+      "ok": true,
+      "detail": "151"
+    },
+    "150 source-verified / 0 archive / 0 blocked / 1 draft": {
+      "ok": true,
+      "detail": "{\"verified\":150,\"archive\":0,\"blocked\":0,\"draft\":1}"
+    },
+    "every published record has an independent source": {
+      "ok": true,
+      "detail": ""
+    }
+  },
+  "failures": [],
+  "coverage": {
+    "detailRows": 602,
+    "detailRowsWithTargets": 48,
+    "functionalBranches": 7,
+    "categories": 17,
+    "subcategories": 93,
+    "provinces": 64,
+    "chinaCities": 313,
+    "countries": 43,
+    "continents": 6,
+    "pubCountries": 43,
+    "pubCities": 97,
+    "tags": 397,
+    "detailRowsRetired": 554
+  },
+  "report": {
+    "ledgerRows": 602,
+    "mappedRows": 602,
+    "pendingRows": 0,
+    "statuses": {
+      "split": 1,
+      "migrated-needs-review": 597,
+      "merged": 4
+    },
+    "generatedContentFiles": 612,
+    "generatedByType": {
+      "drink": 354,
+      "place": 186,
+      "poem": 56,
+      "drink-style": 16
+    },
+    "createdStyles": 16
+  },
+  "prototype": {
+    "guides": 6,
+    "stories": 3,
+    "migrated": 9,
+    "pending": 0
+  },
+  "contentTreeSha256": null
+}

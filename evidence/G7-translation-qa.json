@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T23:26:43.126Z",
+  "checks": [
+    {
+      "name": "every published Chinese entity has an English translation",
+      "ok": true,
+      "detail": "83/83"
+    },
+    {
+      "name": "published pairs are 83 / 83",
+      "ok": true,
+      "detail": "83/83"
+    },
+    {
+      "name": "English pages declare reviewed translation provenance",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "English source hashes match the current Chinese source",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "every English page has at least one source",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "English bodies preserve Chinese numeric tokens",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "English headings match the Chinese structure",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "English body length is within the review band",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "every English place has an English address",
+      "ok": true,
+      "detail": "17"
+    },
+    {
+      "name": "no English page is published as archive-record",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "English body text has no untranslated Chinese paragraphs",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "English body text contains no legacy archive copy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "search index contains 83 Chinese and 83 English records",
+      "ok": true,
+      "detail": "{\"en\":83,\"zh\":83}"
+    },
+    {
+      "name": "content tree hash is present",
+      "ok": true,
+      "detail": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95"
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "entities": 84,
+    "publishedZh": 83,
+    "publishedEn": 83
+  }
+}

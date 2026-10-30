@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "relations": [
+    {"key": "belongs-to-style", "from": ["drink"], "to": ["drink-style"]},
+    {"key": "made-by", "from": ["drink", "brand"], "to": ["producer"]},
+    {"key": "has-brand", "from": ["producer", "drink"], "to": ["brand"]},
+    {"key": "uses-ingredient", "from": ["drink", "cocktail", "pairing"], "to": ["ingredient", "variety"]},
+    {"key": "from-region", "from": ["drink", "brand", "producer", "variety", "place", "organization", "person"], "to": ["region"]},
+    {"key": "uses-process", "from": ["drink"], "to": ["process"]},
+    {"key": "recipe-for", "from": ["recipe"], "to": ["cocktail"]},
+    {"key": "uses-vessel", "from": ["recipe", "guide", "pairing"], "to": ["vessel"]},
+    {"key": "uses-tool", "from": ["recipe", "guide"], "to": ["tool"]},
+    {"key": "uses-technique", "from": ["recipe", "guide"], "to": ["technique"]},
+    {"key": "visitor-place-of", "from": ["place"], "to": ["producer"]},
+    {"key": "stops-at", "from": ["route"], "to": ["place"]},
+    {"key": "takes-place-at", "from": ["event"], "to": ["place"]},
+    {"key": "organized-by", "from": ["event"], "to": ["organization", "producer", "person"]},
+    {"key": "about", "from": ["article", "guide", "technique", "pairing", "poem", "person", "book", "custom", "historical-event", "artwork", "organization"], "to": ["*"]}
+  ],
+  "required": {
+    "drink": ["belongs-to-style"],
+    "brand": ["made-by"],
+    "producer": ["from-region"],
+    "recipe": ["recipe-for"],
+    "route": ["stops-at"],
+    "event": ["takes-place-at"],
+    "article": ["about"]
+  },
+  "typedReferenceRelations": {
+    "drink": {"style_refs": "belongs-to-style", "brand_refs": "has-brand", "producer_refs": "made-by", "region_refs": "from-region", "ingredient_refs": "uses-ingredient", "process_refs": "uses-process"},
+    "brand": {"producer_refs": "made-by", "region_refs": "from-region"},
+    "producer": {"region_refs": "from-region"},
+    "cocktail": {"ingredient_refs": "uses-ingredient"},
+    "recipe": {"product_id": "recipe-for", "vessel_refs": "uses-vessel", "tool_refs": "uses-tool", "technique_refs": "uses-technique"},
+    "place": {"producer_refs": "visitor-place-of", "region_refs": "from-region"},
+    "event": {"place_refs": "takes-place-at", "organizer_refs": "organized-by"},
+    "route": {"stop_ids": "stops-at"},
+    "article": {"about_refs": "about"},
+    "guide": {"about_refs": "about"},
+    "poem": {"about_refs": "about"}
+  }
+}

@@ -1,0 +1,823 @@
+[
+  {
+    "id": "baijiu",
+    "name": "白酒",
+    "color": "#c0392b",
+    "subcategories": [
+      {
+        "icon": "🏺",
+        "name": "酱香型",
+        "id": "sauce_aroma",
+        "nameEn": "Sauce Aroma",
+        "desc": "以茅台为代表，酱香突出、幽雅细腻、空杯留香持久"
+      },
+      {
+        "icon": "🏮",
+        "name": "浓香型",
+        "id": "strong_aroma",
+        "nameEn": "Strong Aroma",
+        "desc": "以五粮液、泸州老窖为代表，窖香浓郁、绵甜甘洌"
+      },
+      {
+        "icon": "🌿",
+        "name": "清香型",
+        "id": "light_aroma",
+        "nameEn": "Light Aroma",
+        "desc": "以汾酒为代表，清香纯正、醇甜柔和、余味爽净"
+      },
+      {
+        "icon": "🍚",
+        "name": "米香型",
+        "id": "rice_aroma",
+        "nameEn": "Rice Aroma",
+        "desc": "以桂林三花酒为代表，蜜香清雅、入口绵柔"
+      },
+      {
+        "icon": "🎭",
+        "name": "兼香型",
+        "id": "mixed_aroma",
+        "nameEn": "Mixed Aroma",
+        "desc": "兼具浓香与酱香风格，口感层次丰富"
+      },
+      {
+        "icon": "🦅",
+        "name": "凤香型",
+        "id": "phoenix_aroma",
+        "nameEn": "Phoenix Aroma",
+        "desc": "以西凤酒为代表，醇香秀雅、甘润挺爽、尾净悠长"
+      },
+      {
+        "icon": "🫘",
+        "name": "芝麻香型",
+        "id": "sesame_aroma",
+        "nameEn": "Sesame Aroma",
+        "desc": "以景芝白干为代表，芝麻香突出、幽雅醇厚"
+      },
+      {
+        "icon": "🏔️",
+        "name": "老白干香型",
+        "id": "laobaigan_aroma",
+        "nameEn": "Laobaigan Aroma",
+        "desc": "以衡水老白干为代表，醇香清雅、甘洌挺拔"
+      },
+      {
+        "icon": "🌸",
+        "name": "馥郁香型",
+        "id": "fuyu_aroma",
+        "nameEn": "Fuyu Aroma",
+        "desc": "以酒鬼酒为代表，馥郁幽雅、醇和细腻"
+      },
+      {
+        "icon": "🫙",
+        "name": "豉香型",
+        "id": "chi_aroma",
+        "nameEn": "Chi Aroma",
+        "desc": "以玉冰烧为代表，豉香独特、醇和甘润"
+      },
+      {
+        "icon": "🌿",
+        "name": "药香型",
+        "id": "herbal_aroma",
+        "nameEn": "Herbal Aroma",
+        "desc": "以董酒为代表，药香舒适、醇和浓郁"
+      },
+      {
+        "icon": "⭐",
+        "name": "特香型",
+        "id": "special_aroma",
+        "nameEn": "Special Aroma",
+        "desc": "以四特酒为代表，香气独特、醇和绵甜"
+      }
+    ],
+    "icon": "🥃",
+    "nameEn": "Baijiu",
+    "desc": "中国传统蒸馏酒，以高粱等谷物为原料，大曲或小曲发酵，是世界消费量最大的烈酒品类"
+  },
+  {
+    "id": "yellow_wine",
+    "name": "黄酒",
+    "color": "#d4a017",
+    "subcategories": [
+      {
+        "icon": "🍶",
+        "name": "半干型黄酒",
+        "id": "semi_dry_yellow",
+        "nameEn": "Semi-Dry Yellow Wine",
+        "desc": "含糖量适中，口感醇和，是黄酒中最常见的品类"
+      },
+      {
+        "icon": "🍯",
+        "name": "甜型黄酒",
+        "id": "sweet_yellow",
+        "nameEn": "Sweet Yellow Wine",
+        "desc": "含糖量较高，甜润醇厚，适合温饮"
+      },
+      {
+        "icon": "🍵",
+        "name": "半甜型黄酒",
+        "id": "half_sweet_yellow",
+        "nameEn": "Half-Sweet Yellow Wine",
+        "desc": "甜度介于干型和甜型之间，口感柔和"
+      }
+    ],
+    "icon": "🍶",
+    "nameEn": "Yellow Wine",
+    "desc": "中国最古老的酒种，以糯米等谷物发酵酿制，温润滋养，被誉为国酒"
+  },
+  {
+    "id": "wine",
+    "name": "葡萄酒",
+    "color": "#722f37",
+    "subcategories": [
+      {
+        "icon": "🍷",
+        "name": "干红葡萄酒",
+        "id": "dry_red_wine",
+        "nameEn": "Dry Red Wine",
+        "desc": "含糖量≤4g/L，口感干爽，单宁丰富"
+      },
+      {
+        "icon": "🍇",
+        "name": "葡萄果酒",
+        "id": "grape_wine",
+        "nameEn": "Grape Wine",
+        "desc": "以葡萄为原料酿造的果酒，涵盖红、白、桃红等多种风格"
+      },
+      {
+        "icon": "🥂",
+        "name": "干白葡萄酒",
+        "id": "dry_white_wine",
+        "nameEn": "Dry White Wine",
+        "desc": "含糖量≤4g/L，清爽酸度，果香纯净"
+      },
+      {
+        "icon": "🍯",
+        "name": "甜白葡萄酒",
+        "id": "sweet_white_wine",
+        "nameEn": "Sweet White Wine",
+        "desc": "含糖量>45g/L，甜润饱满，贵腐/冰酒/晚收"
+      },
+      {
+        "icon": "🌸",
+        "name": "桃红葡萄酒",
+        "id": "rose_wine",
+        "nameEn": "Rosé Wine",
+        "desc": "短暂浸皮获得粉色调，清新果味，介于红白之间"
+      },
+      {
+        "icon": "🍾",
+        "name": "起泡酒",
+        "id": "sparkling",
+        "nameEn": "Sparkling Wine",
+        "desc": "二次发酵产生气泡，欢快活泼"
+      },
+      {
+        "icon": "🍾",
+        "name": "香槟",
+        "id": "champagne",
+        "nameEn": "Champagne",
+        "desc": "法国香槟区传统法起泡酒，气泡细腻持久"
+      },
+      {
+        "icon": "🏺",
+        "name": "加强酒",
+        "id": "fortified",
+        "nameEn": "Fortified Wine",
+        "desc": "添加烈酒强化，包括波特、雪利、马德拉等"
+      },
+      {
+        "icon": "❄️",
+        "name": "冰酒",
+        "id": "ice_wine",
+        "nameEn": "Ice Wine",
+        "desc": "冰冻葡萄酿造，浓缩甜蜜，天赐珍品"
+      }
+    ],
+    "icon": "🍷",
+    "nameEn": "Wine",
+    "desc": "以葡萄发酵酿制的酒类，从干红到甜白到起泡，风格多样，是西方文明的重要载体"
+  },
+  {
+    "id": "beer",
+    "name": "啤酒",
+    "color": "#f39c12",
+    "subcategories": [
+      {
+        "icon": "🍺",
+        "name": "拉格",
+        "id": "lager",
+        "nameEn": "Lager",
+        "desc": "下层发酵，低温熟成，清爽顺口，全球最普及的啤酒类型"
+      },
+      {
+        "icon": "🍻",
+        "name": "艾尔",
+        "id": "ale",
+        "nameEn": "Ale",
+        "desc": "上层发酵，风味丰富，果香酯香突出"
+      },
+      {
+        "icon": "🖤",
+        "name": "世涛",
+        "id": "stout",
+        "nameEn": "Stout",
+        "desc": "深色烘烤，咖啡巧克力风味，口感醇厚"
+      },
+      {
+        "icon": "⛪",
+        "name": "修道院啤酒",
+        "id": "trappist",
+        "nameEn": "Trappist Beer",
+        "desc": "修道院酿造，传统工艺，品质卓越"
+      },
+      {
+        "icon": "🌾",
+        "name": "小麦啤",
+        "id": "wheat",
+        "nameEn": "Wheat Beer",
+        "desc": "小麦比例高，浑浊微酸，爽口宜人"
+      },
+      {
+        "icon": "🦠",
+        "name": "兰比克",
+        "id": "lambic",
+        "nameEn": "Lambic",
+        "desc": "自然发酵，酸爽独特，比利时特色"
+      },
+      {
+        "icon": "🔧",
+        "name": "精酿",
+        "id": "craft",
+        "nameEn": "Craft Beer",
+        "desc": "小批量手工酿造，创新风味，个性表达"
+      },
+      {
+        "icon": "🍺",
+        "name": "皮尔森",
+        "id": "pilsner",
+        "nameEn": "Pilsner",
+        "desc": "捷克起源，金黄色泽，酒花苦香突出"
+      },
+      {
+        "icon": "🌿",
+        "name": "IPA",
+        "id": "ipa",
+        "nameEn": "India Pale Ale",
+        "desc": "大量酒花投入，强烈苦香与果香，精酿运动代表"
+      },
+      {
+        "icon": "🍫",
+        "name": "波特",
+        "id": "porter",
+        "nameEn": "Porter",
+        "desc": "深色艾尔，烘烤麦芽风味，世涛的前身"
+      },
+      {
+        "icon": "🍺",
+        "name": "烈性艾尔",
+        "id": "strong_ale",
+        "nameEn": "Strong Ale",
+        "desc": "高酒精度艾尔啤酒，口感浓郁，层次丰富"
+      }
+    ],
+    "icon": "🍺",
+    "nameEn": "Beer",
+    "desc": "全球最普遍的酒精饮料，以大麦芽、啤酒花、酵母和水为原料，品类繁多"
+  },
+  {
+    "id": "sake",
+    "name": "清酒",
+    "color": "#f5f5dc",
+    "subcategories": [
+      {
+        "icon": "🍚",
+        "name": "纯米酒",
+        "id": "junmai",
+        "nameEn": "Junmai",
+        "desc": "纯米酿造，无添加酒精，米香醇厚"
+      },
+      {
+        "icon": "✨",
+        "name": "大吟酿",
+        "id": "daiginjo",
+        "nameEn": "Daiginjo",
+        "desc": "精米步合50%以下，低温发酵，果香优雅细腻"
+      },
+      {
+        "icon": "🍶",
+        "name": "纯米大吟酿",
+        "id": "junmai_daiginjo",
+        "nameEn": "Junmai Daiginjo",
+        "desc": "纯米大吟酿，精米步合50%以下，清酒最高等级"
+      }
+    ],
+    "icon": "🍶",
+    "nameEn": "Sake",
+    "desc": "日本传统酿造酒，以大米、米曲和水为原料，精致细腻，被称为日本国酒"
+  },
+  {
+    "id": "whisky",
+    "name": "威士忌",
+    "color": "#8b4513",
+    "subcategories": [
+      {
+        "icon": "🏴",
+        "name": "苏格兰威士忌",
+        "id": "scotch",
+        "nameEn": "Scotch Whisky",
+        "desc": "苏格兰酿造，泥煤烟熏或花果芬芳，单一麦芽与调和型各有千秋"
+      },
+      {
+        "icon": "🇺🇸",
+        "name": "波本威士忌",
+        "id": "bourbon",
+        "nameEn": "Bourbon Whiskey",
+        "desc": "美国肯塔基州特产，新橡木桶陈年，甜美香草焦糖风味"
+      },
+      {
+        "icon": "🇯🇵",
+        "name": "日本威士忌",
+        "id": "japanese",
+        "nameEn": "Japanese Whisky",
+        "desc": "日本精工酿造，细腻平衡，近年来屡获国际大奖"
+      },
+      {
+        "icon": "🇮🇪",
+        "name": "爱尔兰威士忌",
+        "id": "irish",
+        "nameEn": "Irish Whiskey",
+        "desc": "三次蒸馏，口感柔顺，花香果香清新"
+      },
+      {
+        "icon": "🇺🇸",
+        "name": "田纳西威士忌",
+        "id": "tennessee",
+        "nameEn": "Tennessee Whiskey",
+        "desc": "田纳西州特产，林肯县工艺木炭过滤，口感柔顺，区别于波本"
+      },
+      {
+        "icon": "⭐",
+        "name": "单一麦芽",
+        "id": "single_malt",
+        "nameEn": "Single Malt",
+        "desc": "单一酒厂的麦芽威士忌，风格纯粹，个性鲜明"
+      },
+      {
+        "icon": "🥃",
+        "name": "调和威士忌",
+        "id": "blended",
+        "nameEn": "Blended Whisky",
+        "desc": "多厂原酒调配，平衡圆润，稳定可靠"
+      }
+    ],
+    "icon": "🥃",
+    "nameEn": "Whisky",
+    "desc": "以谷物为原料，经发芽、发酵、蒸馏、橡木桶陈年而成的烈酒，风味丰富深邃"
+  },
+  {
+    "id": "brandy",
+    "name": "白兰地",
+    "color": "#d2691e",
+    "subcategories": [
+      {
+        "icon": "🇫🇷",
+        "name": "干邑",
+        "id": "cognac",
+        "nameEn": "Cognac",
+        "desc": "法国干邑产区，双重蒸馏，利穆赞橡木桶陈年，优雅细腻"
+      },
+      {
+        "icon": "🇫🇷",
+        "name": "雅文邑",
+        "id": "armagnac",
+        "nameEn": "Armagnac",
+        "desc": "法国雅文邑产区，连续蒸馏，风味更浓郁粗犷"
+      },
+      {
+        "icon": "🍑",
+        "name": "水果白兰地",
+        "id": "fruit_brandy",
+        "nameEn": "Fruit Brandy",
+        "desc": "以葡萄以外的水果蒸馏，果香浓郁，包括樱桃、苹果、梨等"
+      },
+      {
+        "icon": "🍇",
+        "name": "果渣白兰地",
+        "id": "grappa",
+        "nameEn": "Grappa",
+        "desc": "意大利果渣蒸馏烈酒，粗犷有力，风味独特"
+      }
+    ],
+    "icon": "🍇",
+    "nameEn": "Brandy",
+    "desc": "以水果为原料蒸馏陈年而成的烈酒，法国干邑和雅文邑最为著名"
+  },
+  {
+    "id": "vodka",
+    "name": "伏特加",
+    "color": "#e0e0e0",
+    "subcategories": [
+      {
+        "icon": "🔲",
+        "name": "纯伏特加",
+        "id": "plain",
+        "nameEn": "Plain Vodka",
+        "desc": "纯净中性，无添加风味，追求极致纯净"
+      },
+      {
+        "icon": "🍋",
+        "name": "风味伏特加",
+        "id": "flavored",
+        "nameEn": "Flavored Vodka",
+        "desc": "添加天然水果或香料风味，调配更丰富"
+      },
+      {
+        "icon": "💎",
+        "name": "高端伏特加",
+        "id": "premium",
+        "nameEn": "Premium Vodka",
+        "desc": "精选原料，多重蒸馏过滤，口感极致顺滑"
+      },
+      {
+        "icon": "🍸",
+        "name": "经典伏特加",
+        "id": "vodka",
+        "nameEn": "Classic Vodka",
+        "desc": "经典伏特加风味，纯净中性，适合调酒"
+      }
+    ],
+    "icon": "🍸",
+    "nameEn": "Vodka",
+    "desc": "以谷物或马铃薯蒸馏精制的中性烈酒，纯净无色，是鸡尾酒的核心基酒"
+  },
+  {
+    "id": "rum",
+    "name": "朗姆酒",
+    "color": "#654321",
+    "subcategories": [
+      {
+        "icon": "⚪",
+        "name": "白朗姆",
+        "id": "white",
+        "nameEn": "White Rum",
+        "desc": "短期陈年或直接装瓶，清爽纯净，鸡尾酒主力"
+      },
+      {
+        "icon": "🟤",
+        "name": "黑朗姆",
+        "id": "dark",
+        "nameEn": "Dark Rum",
+        "desc": "长期橡木桶陈年，深色浓郁，焦糖香料风味"
+      },
+      {
+        "icon": "🟡",
+        "name": "金朗姆",
+        "id": "gold",
+        "nameEn": "Gold Rum",
+        "desc": "中等陈年，琥珀色泽，平衡了白朗姆与黑朗姆的特点"
+      },
+      {
+        "icon": "🌶️",
+        "name": "加香朗姆",
+        "id": "spiced",
+        "nameEn": "Spiced Rum",
+        "desc": "添加香料调味，肉桂香草等风味，适合调饮"
+      }
+    ],
+    "icon": "🏴‍☠️",
+    "nameEn": "Rum",
+    "desc": "以甘蔗汁或糖蜜发酵蒸馏而成的烈酒，加勒比海特产，海盗与鸡尾酒之魂"
+  },
+  {
+    "id": "tequila",
+    "name": "龙舌兰酒",
+    "color": "#2e8b57",
+    "subcategories": [
+      {
+        "icon": "⚪",
+        "name": "银龙舌兰",
+        "id": "blanco",
+        "nameEn": "Blanco",
+        "desc": "未经陈年或短期陈年，纯正龙舌兰风味，玛格丽特基酒"
+      },
+      {
+        "icon": "🟤",
+        "name": "陈年龙舌兰",
+        "id": "anejo",
+        "nameEn": "Añejo",
+        "desc": "橡木桶陈年1年以上，醇厚复杂，适合细品"
+      },
+      {
+        "icon": "🔥",
+        "name": "梅斯卡尔",
+        "id": "mezcal",
+        "nameEn": "Mezcal",
+        "desc": "龙舌兰芯坑烤蒸馏，烟熏风味独特，风格粗犷"
+      },
+      {
+        "icon": "🟡",
+        "name": "微陈年龙舌兰",
+        "id": "reposado",
+        "nameEn": "Reposado",
+        "desc": "橡木桶陈年2-12个月，兼顾龙舌兰原味与木桶温和"
+      }
+    ],
+    "icon": "🌵",
+    "nameEn": "Tequila",
+    "desc": "墨西哥特产，以蓝色龙舌兰为原料蒸馏而成的烈酒，热情奔放"
+  },
+  {
+    "id": "gin",
+    "name": "金酒",
+    "color": "#87ceeb",
+    "subcategories": [
+      {
+        "icon": "🏴",
+        "name": "伦敦干金酒",
+        "id": "london_dry",
+        "nameEn": "London Dry Gin",
+        "desc": "经典风格，杜松子主导，干爽芳香，金汤力标配"
+      },
+      {
+        "icon": "🇳🇱",
+        "name": "荷兰金酒",
+        "id": "genever",
+        "nameEn": "Genever",
+        "desc": "金酒鼻祖，麦芽风味更重，口感醇厚"
+      },
+      {
+        "icon": "🍸",
+        "name": "干金酒",
+        "id": "dry_gin",
+        "nameEn": "Dry Gin",
+        "desc": "伦敦干金酒风格，以杜松子为主调的经典金酒品类"
+      }
+    ],
+    "icon": "🍸",
+    "nameEn": "Gin",
+    "desc": "以杜松子为主要风味的蒸馏烈酒，草药香气丰富，是鸡尾酒文化的基石"
+  },
+  {
+    "id": "soju",
+    "name": "烧酒",
+    "color": "#95a5a6",
+    "subcategories": [
+      {
+        "icon": "🔥",
+        "name": "蒸馏式",
+        "id": "distilled",
+        "nameEn": "Distilled Soju",
+        "desc": "传统蒸馏工艺，风味醇厚，类似日本烧酎"
+      },
+      {
+        "icon": "💧",
+        "name": "稀释式",
+        "id": "diluted",
+        "nameEn": "Diluted Soju",
+        "desc": "高度酒精稀释调配，清爽顺口，市面主流"
+      }
+    ],
+    "icon": "🥤",
+    "nameEn": "Soju",
+    "desc": "韩国传统蒸馏酒，以大米等谷物为原料，清爽顺口，韩国国民饮品"
+  },
+  {
+    "id": "liqueur",
+    "name": "利口酒",
+    "color": "#e91e63",
+    "subcategories": [
+      {
+        "icon": "🌿",
+        "name": "草本利口酒",
+        "id": "herbal",
+        "nameEn": "Herbal Liqueur",
+        "desc": "以草药、香料调味，风味复杂，常用于餐后消化"
+      },
+      {
+        "icon": "🍓",
+        "name": "水果利口酒",
+        "id": "fruit",
+        "nameEn": "Fruit Liqueur",
+        "desc": "以水果浸泡调味，甜润果香，色彩鲜艳"
+      },
+      {
+        "icon": "🥛",
+        "name": "奶油利口酒",
+        "id": "cream",
+        "nameEn": "Cream Liqueur",
+        "desc": "奶油基利口酒，丝滑醇厚，甜品般享受"
+      },
+      {
+        "icon": "☕",
+        "name": "咖啡利口酒",
+        "id": "coffee",
+        "nameEn": "Coffee Liqueur",
+        "desc": "咖啡风味利口酒，咖啡与酒精的完美融合"
+      },
+      {
+        "icon": "⭐",
+        "name": "茴香味利口酒",
+        "id": "anise",
+        "nameEn": "Anise Liqueur",
+        "desc": "以茴香为主要风味，口感甘甜，常用于餐后消化"
+      }
+    ],
+    "icon": "🍹",
+    "nameEn": "Liqueur",
+    "desc": "以烈酒为基酒，添加糖、水果、草药等调味而成的甜酒，色彩缤纷，风味多样"
+  },
+  {
+    "id": "aperitif",
+    "name": "开胃酒",
+    "color": "#ff6f00",
+    "subcategories": [
+      {
+        "icon": "🌿",
+        "name": "苦味酒",
+        "id": "bitter",
+        "nameEn": "Bitter",
+        "desc": "以草药苦味为特色，刺激味蕾，开胃助消化"
+      },
+      {
+        "icon": "🍸",
+        "name": "味美思",
+        "id": "vermouth",
+        "nameEn": "Vermouth",
+        "desc": "以葡萄酒为基酒，加入草本香料调制的加香型开胃酒"
+      },
+      {
+        "icon": "🌿",
+        "name": "茴香开胃酒",
+        "id": "anise",
+        "nameEn": "Anise Aperitif",
+        "desc": "以茴香为主要风味的开胃酒，加水后呈现乳白色"
+      }
+    ],
+    "icon": "🍸",
+    "nameEn": "Aperitif",
+    "desc": "餐前饮用的酒类，以苦味或草药风味刺激食欲，欧洲饮食文化的重要部分"
+  },
+  {
+    "id": "baijiu_medicinal",
+    "name": "保健酒",
+    "color": "#8b0000",
+    "subcategories": [
+      {
+        "icon": "🏥",
+        "name": "药酒",
+        "id": "medicinal",
+        "nameEn": "Medicinal Wine",
+        "desc": "中药材浸泡，保健养生，传统医学智慧"
+      }
+    ],
+    "icon": "💊",
+    "nameEn": "Medicinal Baijiu",
+    "desc": "以白酒为基酒，加入中药材浸泡调配而成的保健酒，兼具饮用与养生功能"
+  },
+  {
+    "id": "fruit_wine",
+    "name": "果酒",
+    "color": "#ff6347",
+    "subcategories": [
+      {
+        "icon": "🫐",
+        "name": "枸杞酒",
+        "id": "goji",
+        "nameEn": "Goji Wine",
+        "desc": "枸杞发酵，甘甜滋补，宁夏特色"
+      },
+      {
+        "icon": "🍎",
+        "name": "苹果酒",
+        "id": "apple",
+        "nameEn": "Apple Wine",
+        "desc": "苹果发酵酿制，果香清新"
+      },
+      {
+        "icon": "🫐",
+        "name": "梅子酒",
+        "id": "plum",
+        "nameEn": "Plum Wine",
+        "desc": "梅子浸泡或发酵，酸甜可口"
+      },
+      {
+        "icon": "🍇",
+        "name": "桑葚酒",
+        "id": "mulberry",
+        "nameEn": "Mulberry Wine",
+        "desc": "桑葚发酵，色泽紫红，营养丰富"
+      },
+      {
+        "icon": "🍑",
+        "name": "石榴酒",
+        "id": "pomegranate",
+        "nameEn": "Pomegranate Wine",
+        "desc": "石榴发酵，酸甜平衡，抗氧化"
+      },
+      {
+        "icon": "🍒",
+        "name": "山楂酒",
+        "id": "hawthorn",
+        "nameEn": "Hawthorn Wine",
+        "desc": "山楂发酵，酸甜开胃"
+      },
+      {
+        "icon": "🍈",
+        "name": "荔枝酒",
+        "id": "lychee",
+        "nameEn": "Lychee Wine",
+        "desc": "荔枝发酵，花香果甜，岭南特色"
+      },
+      {
+        "icon": "🥝",
+        "name": "猕猴桃酒",
+        "id": "kiwi",
+        "nameEn": "Kiwi Wine",
+        "desc": "猕猴桃发酵，清新果酸"
+      },
+      {
+        "icon": "🌸",
+        "name": "桂花酒",
+        "id": "osmanthus",
+        "nameEn": "Osmanthus Wine",
+        "desc": "桂花浸酿，花香馥郁，中秋佳品"
+      },
+      {
+        "icon": "🏵️",
+        "name": "菊花酒",
+        "id": "chrysanthemum",
+        "nameEn": "Chrysanthemum Wine",
+        "desc": "菊花浸酿，清香淡雅，重阳传统"
+      },
+      {
+        "icon": "🌹",
+        "name": "玫瑰酒",
+        "id": "rose",
+        "nameEn": "Rose Wine",
+        "desc": "玫瑰花瓣浸酿，花香浓郁，浪漫之选"
+      },
+      {
+        "icon": "🍇",
+        "name": "葡萄酒",
+        "id": "grape",
+        "nameEn": "Grape Wine",
+        "desc": "葡萄发酵，广谱品类"
+      },
+      {
+        "icon": "🥛",
+        "name": "奶酒",
+        "id": "milk_wine",
+        "nameEn": "Milk Wine",
+        "desc": "奶类发酵，草原特色，蒙古传统"
+      }
+    ],
+    "icon": "🍎",
+    "nameEn": "Fruit Wine",
+    "desc": "以水果发酵酿制的酒类，果香浓郁，口感甜美，广受欢迎"
+  },
+  {
+    "id": "other",
+    "name": "其他酒类",
+    "color": "#6a6a6a",
+    "subcategories": [
+      {
+        "icon": "🇧🇷",
+        "name": "卡夏莎",
+        "id": "cachaça",
+        "nameEn": "Cachaça",
+        "desc": "巴西甘蔗烈酒，凯匹林纳鸡尾酒基酒"
+      },
+      {
+        "icon": "🐴",
+        "name": "马奶酒",
+        "id": "mare_milk_wine",
+        "nameEn": "Mare Milk Wine",
+        "desc": "马奶发酵，草原游牧民族的古老乳酒"
+      },
+      {
+        "icon": "🍚",
+        "name": "米酒",
+        "id": "rice_wine",
+        "nameEn": "Rice Wine",
+        "desc": "米类发酵酒，亚洲各国各有特色"
+      },
+      {
+        "icon": "🍞",
+        "name": "格瓦斯",
+        "id": "kvass",
+        "nameEn": "Kvass",
+        "desc": "俄罗斯传统面包发酵饮料，微酒精"
+      },
+      {
+        "icon": "🔮",
+        "name": "其他",
+        "id": "other",
+        "nameEn": "Other",
+        "desc": "其他特色酒品"
+      }
+    ],
+    "icon": "🏺",
+    "nameEn": "Other Spirits",
+    "desc": "其他未归类的酒品，包括各国特色酒类和新兴品类"
+  }
+]

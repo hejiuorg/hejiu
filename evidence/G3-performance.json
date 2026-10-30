@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T23:31:27.296Z",
+  "environment": {
+    "browser": "Headless Chrome via puppeteer-core",
+    "server": "Local static server, loopback, no TLS/CDN/compression",
+    "throttling": "Mobile run: 1.6 Mbps down / 750 kbps up / 150 ms latency, CPU 4×; desktop unthrottled",
+    "note": "Lab measurements only; not field data or Lighthouse scoring."
+  },
+  "metrics": {
+    "homeMobile": {
+      "fcp": 1456,
+      "lcp": 1456,
+      "cls": 0,
+      "longtasks": 0,
+      "domContentLoaded": 1355,
+      "loadEventEnd": 1359,
+      "htmlEncoded": 27149,
+      "htmlDecoded": 27149,
+      "requestCount": 8,
+      "totalEncoded": 78185,
+      "cssEncoded": 27835,
+      "jsEncoded": 13730,
+      "imageEncoded": 8842,
+      "pagefindEncoded": 0,
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4401/compat.js",
+          "type": "script",
+          "transfer": 2187,
+          "encoded": 1887,
+          "decoded": 1887,
+          "duration": 182
+        },
+        {
+          "name": "http://127.0.0.1:4401/_astro/SiteLayout.Dk839a8z.css",
+          "type": "link",
+          "transfer": 28135,
+          "encoded": 27835,
+          "decoded": 27835,
+          "duration": 380
+        },
+        {
+          "name": "http://127.0.0.1:4401/brand/d-mark.svg",
+          "type": "img",
+          "transfer": 1276,
+          "encoded": 976,
+          "decoded": 976,
+          "duration": 364
+        },
+        {
+          "name": "http://127.0.0.1:4401/site.webmanifest",
+          "type": "link",
+          "transfer": 929,
+          "encoded": 629,
+          "decoded": 629,
+          "duration": 167
+        },
+        {
+          "name": "http://127.0.0.1:4401/brand/d-mascot.svg",
+          "type": "img",
+          "transfer": 1288,
+          "encoded": 988,
+          "decoded": 988,
+          "duration": 163
+        },
+        {
+          "name": "http://127.0.0.1:4401/_astro/SiteLayout.astro_astro_type_script_index_0_lang.CvElb3yl.js",
+          "type": "script",
+          "transfer": 12143,
+          "encoded": 11843,
+          "decoded": 11843,
+          "duration": 284
+        },
+        {
+          "name": "http://127.0.0.1:4401/favicon.svg",
+          "type": "other",
+          "transfer": 1276,
+          "encoded": 976,
+          "decoded": 976,
+          "duration": 175
+        },
+        {
+          "name": "http://127.0.0.1:4401/brand/d-mark-192.png",
+          "type": "other",
+          "transfer": 6202,
+          "encoded": 5902,
+          "decoded": 5902,
+          "duration": 205
+        }
+      ],
+      "domNodes": 380
+    },
+    "homeDesktop": {
+      "fcp": 216,
+      "lcp": 216,
+      "cls": 0,
+      "longtasks": 0,
+      "domContentLoaded": 185,
+      "loadEventEnd": 186,
+      "htmlEncoded": 27149,
+      "htmlDecoded": 27149,
+      "requestCount": 7,
+      "totalEncoded": 77209,
+      "cssEncoded": 27835,
+      "jsEncoded": 13730,
+      "imageEncoded": 7866,
+      "pagefindEncoded": 0,
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4401/compat.js",
+          "type": "script",
+          "transfer": 2187,
+          "encoded": 1887,
+          "decoded": 1887,
+          "duration": 3
+        },
+        {
+          "name": "http://127.0.0.1:4401/_astro/SiteLayout.Dk839a8z.css",
+          "type": "link",
+          "transfer": 28135,
+          "encoded": 27835,
+          "decoded": 27835,
+          "duration": 2
+        },
+        {
+          "name": "http://127.0.0.1:4401/brand/d-mark.svg",
+          "type": "img",
+          "transfer": 1276,
+          "encoded": 976,
+          "decoded": 976,
+          "duration": 9
+        },
+        {
+          "name": "http://127.0.0.1:4401/brand/d-mascot.svg",
+          "type": "img",
+          "transfer": 1288,
+          "encoded": 988,
+          "decoded": 988,
+          "duration": 4
+        },
+        {
+          "name": "http://127.0.0.1:4401/_astro/SiteLayout.astro_astro_type_script_index_0_lang.CvElb3yl.js",
+          "type": "script",
+          "transfer": 12143,
+          "encoded": 11843,
+          "decoded": 11843,
+          "duration": 4
+        },
+        {
+          "name": "http://127.0.0.1:4401/site.webmanifest",
+          "type": "link",
+          "transfer": 929,
+          "encoded": 629,
+          "decoded": 629,
+          "duration": 2
+        },
+        {
+          "name": "http://127.0.0.1:4401/brand/d-mark-192.png",
+          "type": "other",
+          "transfer": 6202,
+          "encoded": 5902,
+          "decoded": 5902,
+          "duration": 2
+        }
+      ],
+      "domNodes": 380
+    },
+    "detailMobile": {
+      "fcp": 1104,
+      "lcp": 1104,
+      "cls": 0,
+      "longtasks": 0,
+      "domContentLoaded": 1085,
+      "loadEventEnd": 1089,
+      "htmlEncoded": 22881,
+      "htmlDecoded": 22881,
+      "requestCount": 6,
+      "totalEncoded": 71953,
+      "cssEncoded": 27835,
+      "jsEncoded": 13730,
+      "imageEncoded": 6878,
+      "pagefindEncoded": 0,
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4401/compat.js",
+          "type": "script",
+          "transfer": 2187,
+          "encoded": 1887,
+          "decoded": 1887,
+          "duration": 192
+        },
+        {
+          "name": "http://127.0.0.1:4401/_astro/SiteLayout.Dk839a8z.css",
+          "type": "link",
+          "transfer": 28135,
+          "encoded": 27835,
+          "decoded": 27835,
+          "duration": 396
+        },
+        {
+          "name": "http://127.0.0.1:4401/brand/d-mark.svg",
+          "type": "img",
+          "transfer": 1276,
+          "encoded": 976,
+          "decoded": 976,
+          "duration": 368
+        },
+        {
+          "name": "http://127.0.0.1:4401/site.webmanifest",
+          "type": "link",
+          "transfer": 929,
+          "encoded": 629,
+          "decoded": 629,
+          "duration": 178
+        },
+        {
+          "name": "http://127.0.0.1:4401/_astro/SiteLayout.astro_astro_type_script_index_0_lang.CvElb3yl.js",
+          "type": "script",
+          "transfer": 12143,
+          "encoded": 11843,
+          "decoded": 11843,
+          "duration": 283
+        },
+        {
+          "name": "http://127.0.0.1:4401/brand/d-mark-192.png",
+          "type": "other",
+          "transfer": 6202,
+          "encoded": 5902,
+          "decoded": 5902,
+          "duration": 191
+        }
+      ],
+      "domNodes": 293
+    },
+    "search": {
+      "before": {
+        "pagefindEncoded": 0,
+        "jsEncoded": 13730,
+        "requestCount": 6
+      },
+      "after": {
+        "pagefindEncoded": 86810,
+        "jsEncoded": 100540,
+        "requestCount": 8,
+        "results": 5,
+        "pagefindResources": [
+          {
+            "name": "http://127.0.0.1:4401/all-search/pagefind.js",
+            "encoded": 45555
+          },
+          {
+            "name": "http://127.0.0.1:4401/all-search/pagefind-worker.js",
+            "encoded": 41255
+          }
+        ]
+      }
+    },
+    "brand": {
+      "status": 200,
+      "bytes": 976,
+      "imageSrc": "/brand/d-mark.svg",
+      "imageLoaded": true,
+      "imageNatural": "64x64"
+    }
+  },
+  "budgets": {
+    "homeJsUnder50kb": true,
+    "homeCssUnder60kb": true,
+    "homeTotalUnder200kb": true,
+    "homeLcpUnder2500ms": true,
+    "homeClsUnder01": true,
+    "searchNotLoadedOnHome": true,
+    "searchLoadedOnDemand": true,
+    "brandImageLoads": true
+  },
+  "allBudgetsPassed": true
+}

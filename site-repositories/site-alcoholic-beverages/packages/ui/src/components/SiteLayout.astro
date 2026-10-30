@@ -1,0 +1,337 @@
+---
+import '@hejiu/ui/styles/global.css';
+import Icon from './Icon.astro';
+import Mascot from './Mascot.astro';
+import {
+  bottomNav,
+  headerNav,
+  homePath,
+  aboutPath,
+  contributePath,
+  savedPath,
+  searchPath,
+  searchBundle,
+  siteLink,
+  staticAlternatePath,
+  uiFor,
+  type UiLang,
+} from '../lib';
+
+interface Props {
+  siteKey: string;
+  lang: UiLang;
+  title: string;
+  description: string;
+  canonical: string;
+  pagePath: string;
+  noindex?: boolean;
+  active?: string;
+  pageType?: string;
+  alternateHref?: string | null;
+  alternateState?: 'available' | 'missing' | 'needs-review' | 'outdated';
+  statusText?: string;
+}
+const {
+  siteKey,
+  lang,
+  title,
+  description,
+  canonical,
+  pagePath,
+  noindex = false,
+  active = 'discover',
+  pageType = 'page',
+  alternateHref,
+  alternateState = 'available',
+  statusText,
+} = Astro.props;
+
+const context = uiFor(siteKey, lang);
+const { site, labels, origins, data } = context;
+const nav = headerNav(context);
+const mobile = bottomNav(context, active);
+const home = homePath(lang);
+const alternate =
+  alternateHref === undefined ? staticAlternatePath(pagePath, lang) : alternateHref;
+const fullTitle = title;
+const alternateLabel = lang === 'zh' ? 'EN' : '中文';
+const languageStatusText =
+  alternateState === 'missing'
+    ? labels.missingTranslation
+    : alternateState === 'needs-review'
+      ? labels.needsReviewTranslation
+      : alternateState === 'outdated'
+        ? labels.languageOutdated
+        : labels.language;
+const searchPageHref = searchPath(lang);
+const aboutHref = aboutPath(lang);
+const contributeHref = contributePath(lang);
+const savedHref = siteLink(site.key, 'beverages', savedPath(lang), origins);
+const mainHome = siteLink(site.key, 'beverages', home, origins);
+const siteCardsForSearch = data.contracts.sites.map((entry) => ({
+  key: entry.key,
+  label: lang === 'zh' ? entry.labelZh : entry.labelEn,
+}));
+const hreflangAlternate =
+  !noindex && alternate && alternateState === 'available'
+    ? {
+        lang: lang === 'zh' ? 'en' : 'zh',
+        url: alternate.startsWith('http') ? alternate : `https://${site.host}${alternate}`,
+      }
+    : null;
+const year = 2026;
+const base = import.meta.env.BASE_URL;
+const pageState = !noindex
+  ? labels.published
+  : pageType === 'detail'
+    ? labels.previewNotice
+    : data.mode === 'preview'
+      ? labels.previewBuild
+      : labels.noindex;
+---
+<!doctype html>
+<html
+  lang={lang}
+  data-theme="light"
+  data-theme-choice="system"
+  data-site={site.key}
+  style={`--accent-base:${site.accent}`}
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {hreflangAlternate && <link rel="alternate" hreflang={hreflangAlternate.lang} href={hreflangAlternate.url} />}
+    {!noindex && <link rel="alternate" hreflang={lang} href={canonical} />}
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+    <meta name="hejiu-content-state" content={!noindex ? 'published' : pageType === 'detail' ? 'preview' : 'utility'} />
+    <meta name="theme-color" content={site.accent} />
+    <meta property="og:type" content={pageType === 'detail' ? 'article' : 'website'} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="喝酒去 Hejiu" />
+    <meta property="og:image" content={`https://${site.host}${base}brand/d-mascot-512.png`} />
+    <meta property="og:image:alt" content="D 泡沫酒杯品牌形象" />
+    <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+    <link rel="apple-touch-icon" href={`${base}brand/d-mark-180.png`} />
+    <link rel="manifest" href={`${base}site.webmanifest`} />
+    {site.key === 'beverages' && <script is:inline src={`${base}compat.js`}></script>}
+    <script is:inline>
+      (function () {
+        function readPreferenceCookie(name) {
+          try {
+            var parts = document.cookie ? document.cookie.split('; ') : [];
+            for (var i = 0; i < parts.length; i += 1) {
+              if (parts[i].indexOf(name + '=') === 0) return decodeURIComponent(parts[i].slice(name.length + 1));
+            }
+          } catch (error) {
+            return null;
+          }
+          return null;
+        }
+        try {
+          var host = location.hostname;
+          var shared = host === 'hejiu.org' || host.slice(-10) === '.hejiu.org';
+          var choice = shared ? readPreferenceCookie('hejiu_theme') : null;
+          if (!choice) choice = localStorage.getItem('hejiu:theme');
+          if (choice !== 'light' && choice !== 'dark' && choice !== 'system') choice = 'system';
+          var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.dataset.themeChoice = choice;
+          document.documentElement.dataset.theme = choice === 'system' ? (dark ? 'dark' : 'light') : choice;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+        }
+      })();
+    </script>
+  </head>
+  <body
+    class="site-body"
+    data-site={site.key}
+    data-lang={lang}
+    data-page-type={pageType}
+    data-labels={JSON.stringify({
+      searchLoading: labels.searchLoading,
+      searchEmpty: labels.searchEmpty,
+      searchError: labels.searchError,
+      resultsCount: labels.resultsCount,
+      save: labels.save,
+      saved: labels.saved,
+      remove: labels.savedRemove,
+      savedUnknown: labels.savedUnknown,
+      savedImported: labels.savedImported,
+      themeSystem: labels.themeSystem,
+      themeLight: labels.themeLight,
+      themeDark: labels.themeDark,
+      archiveRecordShort: labels.archiveRecordShort,
+    })}
+  >
+    <a class="skip-link" href="#main">{labels.skipToContent}</a>
+    <header class="site-header">
+      <div class="site-header__inner shell">
+        <a class="brand" href={home}>
+          <Mascot size="sm" class="brand__mascot" />
+          <span class="brand__text">
+            <span class="brand__name">喝酒去</span>
+            <span class="brand__site">{lang === 'zh' ? site.labelZh : site.labelEn}</span>
+          </span>
+        </a>
+        <nav class="desktop-nav" aria-label={labels.desktopNav}>
+          {nav.map((item) => (
+            <a
+              class="desktop-nav__link"
+              href={item.href}
+              aria-current={active === item.key ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
+        <div class="header-actions">
+          <button class="icon-button" type="button" data-open-search aria-label={labels.search} title={labels.search}>
+            <Icon name="search" />
+          </button>
+          {
+            alternate && alternateState !== 'missing' ? (
+              <a class="lang-switch" href={alternate} aria-label={`${alternateLabel} · ${languageStatusText}`} title={languageStatusText} data-lang-switch>
+                <Icon name="globe" size={18} />
+                <span>{alternateLabel}</span>
+                {alternateState === 'needs-review' && <span class="lang-switch__dot" aria-hidden="true" />}
+              </a>
+            ) : (
+              <span class="lang-switch lang-switch--missing" aria-label={`EN · ${languageStatusText}`} title={languageStatusText}>
+                <Icon name="globe" size={18} />
+                <span>EN</span>
+              </span>
+            )
+          }
+          <button
+            class="icon-button theme-button"
+            type="button"
+            data-theme-toggle
+            aria-label={`${labels.theme}：${labels.themeSystem}`}
+            title={labels.theme}
+          >
+            <span class="theme-icon theme-icon--system"><Icon name="system" size={18} /></span>
+            <span class="theme-icon theme-icon--light"><Icon name="sun" size={18} /></span>
+            <span class="theme-icon theme-icon--dark"><Icon name="moon" size={18} /></span>
+          </button>
+          <a class="icon-button saved-link" href={savedHref} aria-label={labels.savedTitle} title={labels.savedTitle}>
+            <Icon name="bookmark" />
+          </a>
+          <details class="mobile-menu">
+            <summary class="icon-button" aria-label={labels.openMenu} title={labels.menu}>
+              <Icon name="menu" />
+            </summary>
+            <div class="mobile-menu__panel">
+              <p class="mobile-menu__title">{labels.menu}</p>
+              {nav.map((item) => (
+                <a class="mobile-menu__link" href={item.href} aria-current={active === item.key ? 'page' : undefined}>
+                  <Icon name={item.icon} />
+                  <span>{item.label}</span>
+                </a>
+              ))}
+              <a class="mobile-menu__link" href={aboutHref}><Icon name="spark" /><span>{labels.about}</span></a>
+              <a class="mobile-menu__link" href={contributeHref}><Icon name="source" /><span>{labels.contribute}</span></a>
+              <a class="mobile-menu__link" href={savedHref}><Icon name="bookmark" /><span>{labels.savedTitle}</span></a>
+              {alternate && alternateState !== 'missing' ? (
+                <a class="mobile-menu__link" href={alternate} data-lang-switch><Icon name="globe" /><span>{alternateLabel} · {languageStatusText}</span></a>
+              ) : (
+                <span class="mobile-menu__link mobile-menu__link--muted"><Icon name="globe" /><span>{alternateLabel} · {languageStatusText}</span></span>
+              )}
+            </div>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="site-main" tabindex="-1">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand__row">
+            <Mascot size="sm" />
+            <div>
+              <p class="footer-brand__name">喝酒去</p>
+              <p class="footer-brand__tagline">{lang === 'zh' ? site.taglineZh : site.taglineEn}</p>
+            </div>
+          </div>
+          <p class="footer-note">{labels.footerNote}</p>
+          <p class="footer-note footer-note--muted">{labels.footerRights}</p>
+        </div>
+        <nav class="footer-col" aria-label={labels.otherSites}>
+          <p class="footer-col__title">{labels.otherSites}</p>
+          {context.data.contracts.sites.map((entry) => (
+            <a href={siteLink(site.key, entry.key, home, origins)}>{lang === 'zh' ? entry.labelZh : entry.labelEn}</a>
+          ))}
+        </nav>
+        <nav class="footer-col" aria-label={labels.siteSummary}>
+          <p class="footer-col__title">{labels.about}</p>
+          <a href={aboutHref}>{labels.about}</a>
+          <a href={contributeHref}>{labels.contribute}</a>
+          <a href={searchPageHref}>{labels.search}</a>
+          <a href={savedHref}>{labels.savedTitle}</a>
+        </nav>
+      </div>
+      <div class="shell footer-bottom">
+        <span>© {year} 喝酒去 Hejiu</span>
+        <span>{pageState} · {labels.statusLabel}: {statusText ?? (noindex ? labels.noindex : labels.reviewed)}</span>
+        <span>代码 <a href={`${base}LICENSE.txt`}>MIT</a> · 内容 <a href={`${base}LICENSE-CONTENT.txt`}>CC BY 4.0</a></span>
+      </div>
+    </footer>
+
+    <nav class="bottom-nav" aria-label={labels.mobileNav}>
+      {mobile.map((item) => (
+        <a class="bottom-nav__item" href={item.href} aria-current={item.active ? 'page' : undefined}>
+          <Icon name={item.icon} size={22} />
+          <span>{item.label}</span>
+        </a>
+      ))}
+    </nav>
+
+    <dialog
+      class="search-dialog"
+      id="hejiu-search-dialog"
+      aria-labelledby="search-dialog-title"
+      data-search-root
+      data-bundle={searchBundle(site.key)}
+      data-scope={site.key === 'beverages' ? 'all' : 'local'}
+      data-lang={lang}
+      data-sites={JSON.stringify(siteCardsForSearch)}
+    >
+      <div class="search-dialog__head">
+        <h2 id="search-dialog-title">{labels.searchDialogTitle}</h2>
+        <button class="icon-button" type="button" data-close-search aria-label={labels.close} title={labels.close}>
+          <Icon name="close" />
+        </button>
+      </div>
+      <form class="search-form" action={searchPageHref} method="get" data-search-form>
+        <label class="sr-only" for="search-dialog-input">{labels.search}</label>
+        <input
+          id="search-dialog-input"
+          class="search-input"
+          type="search"
+          name="q"
+          placeholder={labels.searchPlaceholder}
+          autocomplete="off"
+          data-search-input
+        />
+        <button class="button button--primary" type="submit">{labels.searchSubmit}</button>
+      </form>
+      <p class="search-status" role="status" aria-live="polite" data-search-status></p>
+      <div class="search-results" data-search-results></div>
+      <div class="search-dialog__foot">
+        <a class="text-link" href={searchPageHref}>{labels.searchPageLink} <Icon name="arrow-right" size={16} /></a>
+        <span class="search-scope-note">{labels.searchScopeNote}</span>
+      </div>
+    </dialog>
+    <script>
+      import '@hejiu/ui/scripts/client.ts';
+    </script>
+  </body>
+</html>

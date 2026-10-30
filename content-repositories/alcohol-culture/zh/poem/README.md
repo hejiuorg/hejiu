@@ -1,0 +1,63 @@
+# 诗词
+
+[返回中文目录](../README.md)
+
+- [将进酒（节选）](jiang-jin-jiu-excerpt.md) — 李白《将进酒》中的四句节选，据《全唐诗》通行文本整理。此页只保存节选，不冒充全文。
+- [客中行（旧站摘句 005）（needs-review）](poetry-005.md) — 兰陵美酒郁金香，玉碗盛来琥珀光
+- [月下独酌（旧站摘句 006）（needs-review）](poetry-006.md) — 花间一壶酒，独酌无相亲。举杯邀明月，对影成三人
+- [宣州谢朓楼饯别校书叔云（旧站摘句 007）（needs-review）](poetry-007.md) — 抽刀断水水更流，举杯消愁愁更愁
+- [行路难（旧站摘句 008）（needs-review）](poetry-008.md) — 且乐生前一杯酒，何须身后千载名
+- [金陵酒肆留别（旧站摘句 009）（needs-review）](poetry-009.md) — 风吹柳花满店香，吴姬压酒唤客尝
+- [闻官军收河南河北（旧站摘句 010）（needs-review）](poetry-010.md) — 白日放歌须纵酒，青春作伴好还乡
+- [登高（旧站摘句 011）（needs-review）](poetry-011.md) — 艰难苦恨繁霜鬓，潦倒新停浊酒杯
+- [绝句漫兴（旧站摘句 012）（needs-review）](poetry-012.md) — 莫思身外无穷事，且尽生前有限杯
+- [凉州词（旧站摘句 013）（needs-review）](poetry-013.md) — 葡萄美酒夜光杯，欲饮琵琶马上催
+- [凉州词（旧站摘句 014）（needs-review）](poetry-014.md) — 醉卧沙场君莫笑，古来征战几人回
+- [清明（旧站摘句 015）（needs-review）](poetry-015.md) — 借问酒家何处有，牧童遥指杏花村
+- [泊秦淮（旧站摘句 016）（needs-review）](poetry-016.md) — 烟笼寒水月笼沙，夜泊秦淮近酒家
+- [短歌行（旧站摘句 017）（needs-review）](poetry-017.md) — 对酒当歌，人生几何！譬如朝露，去日苦多
+- [短歌行（旧站摘句 018）（needs-review）](poetry-018.md) — 何以解忧？唯有杜康
+- [问刘十九（旧站摘句 019）（needs-review）](poetry-019.md) — 绿蚁新醅酒，红泥小火炉。晚来天欲雪，能饮一杯无
+- [琵琶行（旧站摘句 020）（needs-review）](poetry-020.md) — 醉不成欢惨将别，别时茫茫江浸月
+- [醉赠刘二十八使君（旧站摘句 021）（needs-review）](poetry-021.md) — 为我引杯添酒饮，与君把箸击盘歌
+- [苏幕遮（旧站摘句 022）（needs-review）](poetry-022.md) — 酒入愁肠，化作相思泪
+- [水调歌头（旧站摘句 023）（needs-review）](poetry-023.md) — 明月几时有，把酒问青天
+- [念奴娇·赤壁怀古（旧站摘句 024）（needs-review）](poetry-024.md) — 人生如梦，一尊还酹江月
+- [江城子·密州出猎（旧站摘句 025）（needs-review）](poetry-025.md) — 酒酣胸胆尚开张，鬓微霜，又何妨
+- [破阵子（旧站摘句 026）（needs-review）](poetry-026.md) — 醉里挑灯看剑，梦回吹角连营
+- [雨霖铃（旧站摘句 027）（needs-review）](poetry-027.md) — 今宵酒醒何处，杨柳岸，晓风残月
+- [蝶恋花（旧站摘句 028）（needs-review）](poetry-028.md) — 拟把疏狂图一醉，对酒当歌，强乐还无味
+- [醉花阴（旧站摘句 029）（needs-review）](poetry-029.md) — 东篱把酒黄昏后，有暗香盈袖
+- [声声慢（旧站摘句 030）（needs-review）](poetry-030.md) — 三杯两盏淡酒，怎敌他、晚来风急
+- [送元二使安西（旧站摘句 031）（needs-review）](poetry-031.md) — 劝君更尽一杯酒，西出阳关无故人
+- [过故人庄（旧站摘句 032）（needs-review）](poetry-032.md) — 开轩面场圃，把酒话桑麻
+- [题龙阳县青草湖（旧站摘句 033）（needs-review）](poetry-033.md) — 醉后不知天在水，满船清梦压星河
+- [寄黄几复（旧站摘句 034）（needs-review）](poetry-034.md) — 桃李春风一杯酒，江湖夜雨十年灯
+- [浣溪沙（旧站摘句 035）（needs-review）](poetry-035.md) — 一曲新词酒一杯，去年天气旧亭台
+- [玉楼春（旧站摘句 036）（needs-review）](poetry-036.md) — 为君持酒劝斜阳，且向花间留晚照
+- [春日西湖寄谢法曹韵（旧站摘句 037）（needs-review）](poetry-037.md) — 酒逢知己千杯少，话不投机半句多
+- [自遣（旧站摘句 038）（needs-review）](poetry-038.md) — 今朝有酒今朝醉，明日愁来明日愁
+- [曲江（旧站摘句 039）（needs-review）](poetry-039.md) — 酒债寻常行处有，人生七十古来稀
+- [凉州馆中与诸判官夜集（旧站摘句 040）（needs-review）](poetry-040.md) — 一生大笑能几回，斗酒相逢须醉倒
+- [山中与幽人对酌（旧站摘句 041）（needs-review）](poetry-041.md) — 我醉欲眠卿且去，明朝有意抱琴来
+- [游洞庭湖（旧站摘句 042）（needs-review）](poetry-042.md) — 且就洞庭赊月色，将船买酒白云边
+- [浪淘沙（旧站摘句 043）（needs-review）](poetry-043.md) — 把酒祝东风，且共从容
+- [临江仙（旧站摘句 044）（needs-review）](poetry-044.md) — 酒浓春入梦，窗破月寻人
+- [水调歌头（旧站摘句 045）（needs-review）](poetry-045.md) — 醉舞下山去，明月逐人归
+- [渔父（旧站摘句 046）（needs-review）](poetry-046.md) — 酒醒还醉醉还醒，一笑人间今古
+- [过酒家（旧站摘句 047）（needs-review）](poetry-047.md) — 床头一壶酒，能更几回眠
+- [客中行（旧站摘句 048）（needs-review）](poetry-048.md) — 但使主人能醉客，不知何处是他乡
+- [如梦令（旧站摘句 049）（needs-review）](poetry-049.md) — 常记溪亭日暮，沉醉不知归路
+- [游山西村（旧站摘句 050）（needs-review）](poetry-050.md) — 莫笑农家腊酒浑，丰年留客足鸡豚
+- [与梦得沽酒闲饮且约后期（旧站摘句 051）（needs-review）](poetry-051.md) — 更待菊黄家酝熟，共君一醉一陶然
+- [自洛之越（旧站摘句 052）（needs-review）](poetry-052.md) — 且乐杯中物，谁论世上名
+- [赠孟浩然（旧站摘句 053）（needs-review）](poetry-053.md) — 醉月频中圣，迷花不事君
+- [少年行（旧站摘句 054）（needs-review）](poetry-054.md) — 相逢意气为君饮，系马高楼垂柳边
+- [浣溪沙（旧站摘句 055）（needs-review）](poetry-055.md) — 酒困路长惟欲睡，日高人渴漫思茶
+- [清明日对酒（旧站摘句 056）（needs-review）](poetry-056.md) — 人生有酒须当醉，一滴何曾到九泉
+- [望江南（旧站摘句 057）（needs-review）](poetry-057.md) — 对酒当歌，人生几何？诗酒趁年华
+- [浣溪沙（旧站摘句 058）（needs-review）](poetry-058.md) — 一生须惜少年时，那能白首下书帷
+- [长命女（旧站摘句 059）（needs-review）](poetry-059.md) — 春日宴，绿酒一杯歌一遍
+- [西江月（旧站摘句 060）（needs-review）](poetry-060.md) — 我欲醉眠芳草，只恐花深里，红尘不到
+
+状态不是 `reviewed` 的条目只用于迁移预览，不进入正式搜索。

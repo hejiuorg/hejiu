@@ -1,0 +1,113 @@
+---
+import SiteLayout from './SiteLayout.astro';
+import Icon from './Icon.astro';
+import { homePath, searchPath, uiFor, type UiLang } from '../lib';
+
+interface Props {
+  siteKey: string;
+  lang: UiLang;
+}
+const { siteKey, lang } = Astro.props;
+const context = uiFor(siteKey, lang);
+const { site, labels } = context;
+const pathName = '/review/';
+const title = lang === 'zh' ? '旧地址复核说明 · 喝酒去' : 'Legacy address review · Hejiu';
+const canonical = `https://${site.host}/review/`;
+const base = import.meta.env.BASE_URL;
+---
+<SiteLayout
+  siteKey={siteKey}
+  lang={lang}
+  title={title}
+  description={lang === 'zh' ? '旧地址承接与内容复核说明。' : 'Legacy address and review notice.'}
+  canonical={canonical}
+  pagePath={pathName}
+  noindex={true}
+  active=""
+  pageType="review"
+  alternateHref={null}
+  alternateState="missing"
+>
+  <div
+    class="shell narrow-page"
+    data-review-page
+    data-registry={`${base}review-registry.json`}
+    data-not-found={`${base}404.html`}
+  >
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href={homePath(lang)}>{labels.home}</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span aria-current="page">{lang === 'zh' ? '复核说明' : 'Review notice'}</span>
+    </nav>
+    <header class="page-head">
+      <p class="eyebrow">{lang === 'zh' ? '旧地址承接' : 'Legacy address'}</p>
+      <h1>{lang === 'zh' ? '旧地址复核说明' : 'Legacy address review'}</h1>
+      <p data-review-state>
+        {lang === 'zh' ? '正在读取旧地址记录…' : 'Loading the legacy record…'}
+      </p>
+    </header>
+    <article class="card" style="max-width:760px">
+      <h2 data-review-title style="margin-top:0"></h2>
+      <p class="muted" data-review-meta></p>
+      <div class="preview-banner" data-review-banner hidden style="display:none"></div>
+      <div data-review-blockers></div>
+      <p class="small muted" style="margin-top:18px">
+        {lang === 'zh'
+          ? '旧地址已被承接。该条目的正文、来源、权利或译文仍在复核，因此不发布正文，也不进入搜索。未知旧地址会显示 404，不会伪造内容。'
+          : 'The old address has been mapped. The body, sources, rights or translation are still under review, so no body is published and it is excluded from search. Unknown addresses show a 404; content is never invented.'}
+      </p>
+      <div class="hero__actions">
+        <a class="button button--primary" href={homePath(lang)}>
+          {labels.backToHome} <Icon name="arrow-right" size={18} />
+        </a>
+        <a class="button button--ghost" href={searchPath(lang)}>{labels.search}</a>
+      </div>
+    </article>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var root = document.querySelector('[data-review-page]');
+      if (!root) return;
+      var id = new URLSearchParams(window.location.search).get('id');
+      var registryUrl = root.getAttribute('data-registry');
+      var notFound = root.getAttribute('data-not-found');
+      var state = root.querySelector('[data-review-state]');
+      var title = root.querySelector('[data-review-title]');
+      var meta = root.querySelector('[data-review-meta]');
+      var blockers = root.querySelector('[data-review-blockers]');
+      var labels = {
+        'status-not-reviewed': '正文尚未达到 reviewed',
+        'rights-not-allowed': '分发许可未确认',
+        'no-independent-source': '缺少独立来源',
+        'translation-not-published': '英文译文未通过',
+      };
+      if (!id) {
+        window.location.replace(notFound);
+        return;
+      }
+      fetch(registryUrl)
+        .then(function (response) { return response.json(); })
+        .then(function (data) {
+          var entity = data.entities && data.entities[id];
+          if (!entity) {
+            window.location.replace(notFound);
+            return;
+          }
+          state.textContent = '此旧地址已承接；该条目仍在复核，正文未发布。';
+          title.textContent = entity.title;
+          meta.textContent = entity.type + ' · ' + entity.siteKey;
+          blockers.replaceChildren();
+          (entity.blockers || []).forEach(function (blocker) {
+            var row = document.createElement('p');
+            row.className = 'small';
+            row.textContent = '· ' + (labels[blocker] || blocker);
+            blockers.append(row);
+          });
+        })
+        .catch(function () {
+          window.location.replace(notFound);
+        });
+    })();
+  </script>
+</SiteLayout>

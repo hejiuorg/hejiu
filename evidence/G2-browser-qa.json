@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-10-29T23:27:10.424Z",
+  "environment": {
+    "browser": "Headless Chrome via puppeteer-core",
+    "executable": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "note": "Desktop headless browser at four viewport widths; not a physical-device test."
+  },
+  "viewports": [
+    "320x800",
+    "390x844",
+    "768x1024",
+    "1440x900"
+  ],
+  "results": [
+    {
+      "name": "320 home no horizontal overflow",
+      "ok": true,
+      "detail": "doc=320 body=320 offenders="
+    },
+    {
+      "name": "320 hero h1 fits",
+      "ok": true,
+      "detail": "284/302"
+    },
+    {
+      "name": "320 no unresolved ref links",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "320 bottom nav visible",
+      "ok": true,
+      "detail": "grid"
+    },
+    {
+      "name": "320 desktop nav hidden",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "320 bottom nav does not cover footer",
+      "ok": true,
+      "detail": "gap=5.234375"
+    },
+    {
+      "name": "390 home no horizontal overflow",
+      "ok": true,
+      "detail": "doc=390 body=390 offenders="
+    },
+    {
+      "name": "390 hero h1 fits",
+      "ok": true,
+      "detail": "354/372"
+    },
+    {
+      "name": "390 no unresolved ref links",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "390 bottom nav visible",
+      "ok": true,
+      "detail": "grid"
+    },
+    {
+      "name": "390 desktop nav hidden",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "390 bottom nav does not cover footer",
+      "ok": true,
+      "detail": "gap=4.59375"
+    },
+    {
+      "name": "768 home no horizontal overflow",
+      "ok": true,
+      "detail": "doc=768 body=768 offenders="
+    },
+    {
+      "name": "768 hero h1 fits",
+      "ok": true,
+      "detail": "720/744"
+    },
+    {
+      "name": "768 no unresolved ref links",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "768 bottom nav hidden",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "768 bottom nav does not cover footer",
+      "ok": true,
+      "detail": "gap=null"
+    },
+    {
+      "name": "1440 home no horizontal overflow",
+      "ok": true,
+      "detail": "doc=1440 body=1440 offenders="
+    },
+    {
+      "name": "1440 hero h1 fits",
+      "ok": true,
+      "detail": "648.59375/768.59375"
+    },
+    {
+      "name": "1440 no unresolved ref links",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "1440 bottom nav hidden",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "1440 desktop nav visible",
+      "ok": true,
+      "detail": "flex"
+    },
+    {
+      "name": "1440 bottom nav does not cover footer",
+      "ok": true,
+      "detail": "gap=null"
+    },
+    {
+      "name": "recipe detail has no overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "recipe detail has resolved relations",
+      "ok": true,
+      "detail": "https://hejiu.org/cocktails/negroni/,/vessels/rocks-glass/"
+    },
+    {
+      "name": "recipe detail has no unresolved refs",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cross-site relation opens main site",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/cocktails/negroni/"
+    },
+    {
+      "name": "language switch reaches English entity",
+      "ok": true,
+      "detail": "http://127.0.0.1:4402/en/recipes/negroni/"
+    },
+    {
+      "name": "English detail has zh/en hreflang",
+      "ok": true,
+      "detail": "zh,en"
+    },
+    {
+      "name": "Chinese search returns results",
+      "ok": true,
+      "detail": "7 7 条结果"
+    },
+    {
+      "name": "search result links to a real target",
+      "ok": true,
+      "detail": "https://hejiu.org/cocktails/negroni/"
+    },
+    {
+      "name": "search page has no overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "culture long-form page has no overflow",
+      "ok": true,
+      "detail": "prose=640.40625"
+    },
+    {
+      "name": "culture article links to related style",
+      "ok": true,
+      "detail": "https://hejiu.org/styles/yellow-wine/,https://hejiu.org/styles/wine/"
+    },
+    {
+      "name": "atlas museum page has no overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas museum links to producer",
+      "ok": true,
+      "detail": "https://hejiu.org/producers/gujing-distillery/,https://hejiu.org/regions/bozhou/"
+    },
+    {
+      "name": "curated place is published, indexable and has no archive banner",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow\",\"state\":\"published\",\"banner\":false,\"badge\":\"地点已审核修订 2\"}"
+    },
+    {
+      "name": "dialog search stays on the current page URL",
+      "ok": true,
+      "detail": "http://127.0.0.1:4401/"
+    },
+    {
+      "name": "dialog search returns results",
+      "ok": true,
+      "detail": "7 7 条结果"
+    },
+    {
+      "name": "system theme resolves dark",
+      "ok": true,
+      "detail": "{\"choice\":\"system\",\"theme\":\"dark\",\"icon\":\"flex\"}"
+    },
+    {
+      "name": "theme toggle switches to light",
+      "ok": true,
+      "detail": "{\"choice\":\"light\",\"theme\":\"light\"}"
+    },
+    {
+      "name": "theme toggle switches to dark",
+      "ok": true,
+      "detail": "{\"choice\":\"dark\",\"theme\":\"dark\"}"
+    },
+    {
+      "name": "mobile menu exposes culture site",
+      "ok": true,
+      "detail": "https://culture.hejiu.org/"
+    }
+  ],
+  "failures": [],
+  "screenshots": [
+    "evidence/screenshots/a11y-mobile-menu.png",
+    "evidence/screenshots/a11y-search-dialog.png",
+    "evidence/screenshots/atlas-archive-390-light.png",
+    "evidence/screenshots/atlas-museum-390-light.png",
+    "evidence/screenshots/atlas-place-390-light.png",
+    "evidence/screenshots/atlas-preview-390-light.png",
+    "evidence/screenshots/brand-sheet.png",
+    "evidence/screenshots/culture-1440-dark.png",
+    "evidence/screenshots/home-1440-light.png",
+    "evidence/screenshots/home-320-light.png",
+    "evidence/screenshots/home-390-dark.png",
+    "evidence/screenshots/home-768-light.png",
+    "evidence/screenshots/home-en-320-light.png",
+    "evidence/screenshots/home-zh-1440-light.png",
+    "evidence/screenshots/home-zh-390-dark.png",
+    "evidence/screenshots/mobile-menu-390-light.png",
+    "evidence/screenshots/recipe-390-light.png",
+    "evidence/screenshots/recipe-en-390-light.png",
+    "evidence/screenshots/search-dialog-390-light.png",
+    "evidence/screenshots/search-zh-390-light.png"
+  ]
+}

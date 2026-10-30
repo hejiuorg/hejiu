@@ -1,0 +1,6124 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-29",
+  "sourceSnapshotSha256": "8c42187b1ecd66c28cf232e0ce0aca6ad0ec4b316f371749b90d73da4482d473",
+  "status": "G4 import retained as a ledger; 2026-10-29 curation retired non-standalone targets",
+  "records": [
+    {
+      "legacyKey": "liquor:anhui_gujinggongjiu",
+      "sourceFile": "zh/china/anhui.json",
+      "sourceIndex": 0,
+      "title": "古井贡酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "split",
+      "targetRefs": [
+        "brand:gujing-gongjiu"
+      ],
+      "reason": "旧记录把品牌历史与具体产品线混在同一条；品牌身份保留为 brand，产品线拆为 drink，二者保留原记录键。 部分目标已按策展规则停用。"
+    },
+    {
+      "legacyKey": "liquor:anhui_kouzijiao",
+      "sourceFile": "zh/china/anhui.json",
+      "sourceIndex": 1,
+      "title": "口子窖",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:anhui_yingjiagongjiu",
+      "sourceFile": "zh/china/anhui.json",
+      "sourceIndex": 2,
+      "title": "迎驾贡酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:anhui_jinzhongzi",
+      "sourceFile": "zh/china/anhui.json",
+      "sourceIndex": 3,
+      "title": "金种子",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:anhui_gaolujiajiu",
+      "sourceFile": "zh/china/anhui.json",
+      "sourceIndex": 4,
+      "title": "高炉家酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:beijing_erguotou",
+      "sourceFile": "zh/china/beijing.json",
+      "sourceIndex": 0,
+      "title": "二锅头",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:beijing-erguotou"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:beijing_jingjiu",
+      "sourceFile": "zh/china/beijing.json",
+      "sourceIndex": 1,
+      "title": "京酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:beijing_guihuachenjiu",
+      "sourceFile": "zh/china/beijing.json",
+      "sourceIndex": 2,
+      "title": "桂花陈酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:beijing_lianhuabaijiu",
+      "sourceFile": "zh/china/beijing.json",
+      "sourceIndex": 3,
+      "title": "莲花白酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:beijing_meiguilujiu",
+      "sourceFile": "zh/china/beijing.json",
+      "sourceIndex": 4,
+      "title": "玫瑰露酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:chongqing_jiangjinlaobaigan",
+      "sourceFile": "zh/china/chongqing.json",
+      "sourceIndex": 0,
+      "title": "江津老白干",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:fujian_fujianlaojiu",
+      "sourceFile": "zh/china/fujian.json",
+      "sourceIndex": 0,
+      "title": "福建老酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:gansu_jinhuijiu",
+      "sourceFile": "zh/china/gansu.json",
+      "sourceIndex": 0,
+      "title": "金徽酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guangdong_jiujiangshuangzheng",
+      "sourceFile": "zh/china/guangdong.json",
+      "sourceIndex": 0,
+      "title": "九江双蒸酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guangdong_shixingjiu",
+      "sourceFile": "zh/china/guangdong.json",
+      "sourceIndex": 1,
+      "title": "石湾玉冰烧",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guangdong_meiguilujiu",
+      "sourceFile": "zh/china/guangdong.json",
+      "sourceIndex": 2,
+      "title": "玫瑰露酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guangxi_guilin_sanhua",
+      "sourceFile": "zh/china/guangxi.json",
+      "sourceIndex": 0,
+      "title": "桂林三花酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guangxi_xiangshanjiu",
+      "sourceFile": "zh/china/guangxi.json",
+      "sourceIndex": 1,
+      "title": "湘山酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guangxi_wuzhousangluojiu",
+      "sourceFile": "zh/china/guangxi.json",
+      "sourceIndex": 2,
+      "title": "梧州桑落酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guangxi_qingmeijiu",
+      "sourceFile": "zh/china/guangxi.json",
+      "sourceIndex": 3,
+      "title": "广西青梅酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guizhou_moutai",
+      "sourceFile": "zh/china/guizhou.json",
+      "sourceIndex": 0,
+      "title": "茅台酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:guizhou-moutai"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:guizhou_xijiu",
+      "sourceFile": "zh/china/guizhou.json",
+      "sourceIndex": 1,
+      "title": "习酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guizhou_guotaijiu",
+      "sourceFile": "zh/china/guizhou.json",
+      "sourceIndex": 2,
+      "title": "国台酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guizhou_zhenjiu",
+      "sourceFile": "zh/china/guizhou.json",
+      "sourceIndex": 3,
+      "title": "珍酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guizhou_baishayuye",
+      "sourceFile": "zh/china/guizhou.json",
+      "sourceIndex": 4,
+      "title": "白沙玉液",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:guizhou_cijiu",
+      "sourceFile": "zh/china/guizhou.json",
+      "sourceIndex": 5,
+      "title": "刺梨酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hainan_shanlanjiu",
+      "sourceFile": "zh/china/hainan.json",
+      "sourceIndex": 0,
+      "title": "山兰酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hainan_yedao",
+      "sourceFile": "zh/china/hainan.json",
+      "sourceIndex": 1,
+      "title": "椰岛鹿龟酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hebei_hengshuilaobaigan",
+      "sourceFile": "zh/china/hebei.json",
+      "sourceIndex": 0,
+      "title": "衡水老白干",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hebei_liulingzui",
+      "sourceFile": "zh/china/hebei.json",
+      "sourceIndex": 1,
+      "title": "刘伶醉",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hebei_congtaijiu",
+      "sourceFile": "zh/china/hebei.json",
+      "sourceIndex": 2,
+      "title": "丛台酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hebei_shanjiazhuangjiu",
+      "sourceFile": "zh/china/hebei.json",
+      "sourceIndex": 3,
+      "title": "山庄老酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:heilongjiang_beidacang",
+      "sourceFile": "zh/china/heilongjiang.json",
+      "sourceIndex": 0,
+      "title": "北大仓酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:heilongjiang_yuquanfangjiu",
+      "sourceFile": "zh/china/heilongjiang.json",
+      "sourceIndex": 1,
+      "title": "玉泉方瓶酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:heilongjiang_longbinjiu",
+      "sourceFile": "zh/china/heilongjiang.json",
+      "sourceIndex": 2,
+      "title": "龙滨酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:heilongjiang_huadiaojiu",
+      "sourceFile": "zh/china/heilongjiang.json",
+      "sourceIndex": 3,
+      "title": "东北花雕酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:henan_songheliangye",
+      "sourceFile": "zh/china/henan.json",
+      "sourceIndex": 0,
+      "title": "宋河粮液",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:henan_dukangjiu",
+      "sourceFile": "zh/china/henan.json",
+      "sourceIndex": 1,
+      "title": "杜康酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:henan_baofengjiu",
+      "sourceFile": "zh/china/henan.json",
+      "sourceIndex": 2,
+      "title": "宝丰酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:henan_yangshaojiu",
+      "sourceFile": "zh/china/henan.json",
+      "sourceIndex": 3,
+      "title": "仰韶酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:henan_zhangganglaojiu",
+      "sourceFile": "zh/china/henan.json",
+      "sourceIndex": 4,
+      "title": "张弓老酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hubei_baiyunbian",
+      "sourceFile": "zh/china/hubei.json",
+      "sourceIndex": 0,
+      "title": "白云边",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hubei_daohuaxiang",
+      "sourceFile": "zh/china/hubei.json",
+      "sourceIndex": 1,
+      "title": "稻花香",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hubei_huangheloujiu",
+      "sourceFile": "zh/china/hubei.json",
+      "sourceIndex": 2,
+      "title": "黄鹤楼酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hubei_jingjiu",
+      "sourceFile": "zh/china/hubei.json",
+      "sourceIndex": 3,
+      "title": "劲酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hubei_zhibodongjiu",
+      "sourceFile": "zh/china/hubei.json",
+      "sourceIndex": 4,
+      "title": "枝江大曲",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hunan_jiugui",
+      "sourceFile": "zh/china/hunan.json",
+      "sourceIndex": 0,
+      "title": "酒鬼酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:hunan-jiugui"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:hunan_baishaye",
+      "sourceFile": "zh/china/hunan.json",
+      "sourceIndex": 1,
+      "title": "白沙液",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hunan_wulingjiu",
+      "sourceFile": "zh/china/hunan.json",
+      "sourceIndex": 2,
+      "title": "武陵酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hunan_liuyanghejiu",
+      "sourceFile": "zh/china/hunan.json",
+      "sourceIndex": 3,
+      "title": "浏阳河酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:jiangsu_yanghe",
+      "sourceFile": "zh/china/jiangsu.json",
+      "sourceIndex": 0,
+      "title": "洋河酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:jiangsu-yanghe"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:jiangsu_tianzhilan",
+      "sourceFile": "zh/china/jiangsu.json",
+      "sourceIndex": 1,
+      "title": "天之蓝",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:jiangsu_haizhilan",
+      "sourceFile": "zh/china/jiangsu.json",
+      "sourceIndex": 2,
+      "title": "海之蓝",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:jiangsu_shuanggoudaqu",
+      "sourceFile": "zh/china/jiangsu.json",
+      "sourceIndex": 3,
+      "title": "双沟大曲",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:jiangsu_jinshiyuan",
+      "sourceFile": "zh/china/jiangsu.json",
+      "sourceIndex": 4,
+      "title": "今世缘",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:jiangsu_tanggoujiu",
+      "sourceFile": "zh/china/jiangsu.json",
+      "sourceIndex": 5,
+      "title": "汤沟酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:jiangxi_sitejiu",
+      "sourceFile": "zh/china/jiangxi.json",
+      "sourceIndex": 0,
+      "title": "四特酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:jilin_taoerhe",
+      "sourceFile": "zh/china/jilin.json",
+      "sourceIndex": 0,
+      "title": "洮儿河酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:liaoning_xuehuapijiu",
+      "sourceFile": "zh/china/liaoning.json",
+      "sourceIndex": 0,
+      "title": "雪花啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:liaoning_laolongkou",
+      "sourceFile": "zh/china/liaoning.json",
+      "sourceIndex": 1,
+      "title": "老龙口白酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:neimenggu_ningchenglaojiao",
+      "sourceFile": "zh/china/neimenggu.json",
+      "sourceIndex": 0,
+      "title": "宁城老窖",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:neimenggu_hema",
+      "sourceFile": "zh/china/neimenggu.json",
+      "sourceIndex": 1,
+      "title": "河套王",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:neimenggu_maotaimeng",
+      "sourceFile": "zh/china/neimenggu.json",
+      "sourceIndex": 2,
+      "title": "蒙古王",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:neimenggu_mongolia_ma",
+      "sourceFile": "zh/china/neimenggu.json",
+      "sourceIndex": 3,
+      "title": "马奶酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:ningxia_gouqijiu",
+      "sourceFile": "zh/china/ningxia.json",
+      "sourceIndex": 0,
+      "title": "宁夏红枸杞酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:ningxia_xixiapijiu",
+      "sourceFile": "zh/china/ningxia.json",
+      "sourceIndex": 1,
+      "title": "西夏啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:qinghai_tianyoude",
+      "sourceFile": "zh/china/qinghai.json",
+      "sourceIndex": 0,
+      "title": "天佑德青稞酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shaanxi_xifengjiu",
+      "sourceFile": "zh/china/shaanxi.json",
+      "sourceIndex": 0,
+      "title": "西凤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:shaanxi-xifengjiu"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:shaanxi_taibaijiu",
+      "sourceFile": "zh/china/shaanxi.json",
+      "sourceIndex": 1,
+      "title": "太白酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shaanxi_baishuijiu",
+      "sourceFile": "zh/china/shaanxi.json",
+      "sourceIndex": 2,
+      "title": "白水杜康",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shandong_tsingtao",
+      "sourceFile": "zh/china/shandong.json",
+      "sourceIndex": 0,
+      "title": "青岛啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:shandong-tsingtao"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:shandong_changyu",
+      "sourceFile": "zh/china/shandong.json",
+      "sourceIndex": 1,
+      "title": "张裕葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:shandong-changyu"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:shandong_yantai_apple_wine",
+      "sourceFile": "zh/china/shandong.json",
+      "sourceIndex": 2,
+      "title": "烟台苹果酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shandong_jimo_huangjiu",
+      "sourceFile": "zh/china/shandong.json",
+      "sourceIndex": 3,
+      "title": "即墨黄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shandong_kongfujiajiu",
+      "sourceFile": "zh/china/shandong.json",
+      "sourceIndex": 4,
+      "title": "孔府家酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shandong_langyataijiu",
+      "sourceFile": "zh/china/shandong.json",
+      "sourceIndex": 5,
+      "title": "琅琊台酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shandong_jingzhi",
+      "sourceFile": "zh/china/shandong.json",
+      "sourceIndex": 6,
+      "title": "景芝酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shandong_taishan",
+      "sourceFile": "zh/china/shandong.json",
+      "sourceIndex": 7,
+      "title": "泰山特曲",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shandong_guojing",
+      "sourceFile": "zh/china/shandong.json",
+      "sourceIndex": 8,
+      "title": "古贝春",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shanghai_shikumen",
+      "sourceFile": "zh/china/shanghai.json",
+      "sourceIndex": 0,
+      "title": "石库门黄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shanxi_fenjiu",
+      "sourceFile": "zh/china/shanxi.json",
+      "sourceIndex": 0,
+      "title": "汾酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:shanxi-fenjiu"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:shanxi_zhuyeqingjiu",
+      "sourceFile": "zh/china/shanxi.json",
+      "sourceIndex": 1,
+      "title": "竹叶青酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shanxi_xinghuacunjiu",
+      "sourceFile": "zh/china/shanxi.json",
+      "sourceIndex": 2,
+      "title": "杏花村酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shanxi_guilingjijiu",
+      "sourceFile": "zh/china/shanxi.json",
+      "sourceIndex": 3,
+      "title": "龟龄集酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:shanxi_liuquxiang",
+      "sourceFile": "zh/china/shanxi.json",
+      "sourceIndex": 4,
+      "title": "六曲香",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:sichuan_wuliangye",
+      "sourceFile": "zh/china/sichuan.json",
+      "sourceIndex": 0,
+      "title": "五粮液",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:sichuan-wuliangye"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:sichuan_luzhoulaojiao",
+      "sourceFile": "zh/china/sichuan.json",
+      "sourceIndex": 1,
+      "title": "泸州老窖",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:sichuan-luzhoulaojiao"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:sichuan_jiannanchun",
+      "sourceFile": "zh/china/sichuan.json",
+      "sourceIndex": 2,
+      "title": "剑南春",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:sichuan-jiannanchun"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:sichuan_quanxingdaqu",
+      "sourceFile": "zh/china/sichuan.json",
+      "sourceIndex": 3,
+      "title": "全兴大曲",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:sichuan_tuopai",
+      "sourceFile": "zh/china/sichuan.json",
+      "sourceIndex": 4,
+      "title": "沱牌舍得",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:sichuan_langjiu",
+      "sourceFile": "zh/china/sichuan.json",
+      "sourceIndex": 5,
+      "title": "郎酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:sichuan-langjiu"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:taiwan_jinmen_gaoliang",
+      "sourceFile": "zh/china/taiwan.json",
+      "sourceIndex": 0,
+      "title": "金门高粱酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:taiwan_matsu_gaoliang",
+      "sourceFile": "zh/china/taiwan.json",
+      "sourceIndex": 1,
+      "title": "马祖高粱酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:taiwan_shaoxing",
+      "sourceFile": "zh/china/taiwan.json",
+      "sourceIndex": 2,
+      "title": "台湾绍兴酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:tianjin_jinjiu",
+      "sourceFile": "zh/china/tianjin.json",
+      "sourceIndex": 0,
+      "title": "津酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:xinjiang_yilite",
+      "sourceFile": "zh/china/xinjiang.json",
+      "sourceIndex": 0,
+      "title": "伊力特",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:xinjiang_xiaoerbulake",
+      "sourceFile": "zh/china/xinjiang.json",
+      "sourceIndex": 1,
+      "title": "肖尔布拉克",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:xinjiang_guchenglaojiao",
+      "sourceFile": "zh/china/xinjiang.json",
+      "sourceIndex": 2,
+      "title": "古城老窖",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:xinjiang_tianchitequ",
+      "sourceFile": "zh/china/xinjiang.json",
+      "sourceIndex": 3,
+      "title": "天池特曲",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:xinjiang_shiliujiu",
+      "sourceFile": "zh/china/xinjiang.json",
+      "sourceIndex": 4,
+      "title": "新疆石榴酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:xinjiang_xintianputaojiu",
+      "sourceFile": "zh/china/xinjiang.json",
+      "sourceIndex": 5,
+      "title": "新天葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:xizang_qingkejiu",
+      "sourceFile": "zh/china/xizang.json",
+      "sourceIndex": 0,
+      "title": "青稞酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:yunnan_yunnanhong",
+      "sourceFile": "zh/china/yunnan.json",
+      "sourceIndex": 0,
+      "title": "云南红",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:yunnan_chujiu",
+      "sourceFile": "zh/china/yunnan.json",
+      "sourceIndex": 1,
+      "title": "褚酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:yunnan_yanglinfeijiu",
+      "sourceFile": "zh/china/yunnan.json",
+      "sourceIndex": 2,
+      "title": "杨林肥酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:yunnan_diaomeijiu",
+      "sourceFile": "zh/china/yunnan.json",
+      "sourceIndex": 3,
+      "title": "雕梅酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:yunnan_sangshenjiu",
+      "sourceFile": "zh/china/yunnan.json",
+      "sourceIndex": 4,
+      "title": "桑葚酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:yunnan_kafeijiu",
+      "sourceFile": "zh/china/yunnan.json",
+      "sourceIndex": 5,
+      "title": "云南小粒咖啡酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:yunnan_meiguilaolujiu",
+      "sourceFile": "zh/china/yunnan.json",
+      "sourceIndex": 6,
+      "title": "玫瑰老卤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:yunnan_zimijiu",
+      "sourceFile": "zh/china/yunnan.json",
+      "sourceIndex": 7,
+      "title": "紫米酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:yunnan_dalipijiu",
+      "sourceFile": "zh/china/yunnan.json",
+      "sourceIndex": 8,
+      "title": "大理啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:zhejiang_guyuelongshan",
+      "sourceFile": "zh/china/zhejiang.json",
+      "sourceIndex": 0,
+      "title": "古越龙山花雕酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:zhejiang-guyuelongshan"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:zhejiang_kuaijishan",
+      "sourceFile": "zh/china/zhejiang.json",
+      "sourceIndex": 1,
+      "title": "会稽山黄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:zhejiang_tapai",
+      "sourceFile": "zh/china/zhejiang.json",
+      "sourceIndex": 2,
+      "title": "塔牌绍兴酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:zhejiang_nuerhong",
+      "sourceFile": "zh/china/zhejiang.json",
+      "sourceIndex": 3,
+      "title": "女儿红",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:zhejiang_zhuangyuanhong",
+      "sourceFile": "zh/china/zhejiang.json",
+      "sourceIndex": 4,
+      "title": "状元红",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:zhejiang_jiafanjiu",
+      "sourceFile": "zh/china/zhejiang.json",
+      "sourceIndex": 5,
+      "title": "加饭酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:zhejiang_shanniangjiu",
+      "sourceFile": "zh/china/zhejiang.json",
+      "sourceIndex": 6,
+      "title": "善酿酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:argentina_malbec",
+      "sourceFile": "zh/world/argentina.json",
+      "sourceIndex": 0,
+      "title": "马尔贝克葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:argentina_torrontes",
+      "sourceFile": "zh/world/argentina.json",
+      "sourceIndex": 1,
+      "title": "托龙特斯白葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:argentina_catenazapata",
+      "sourceFile": "zh/world/argentina.json",
+      "sourceIndex": 2,
+      "title": "卡氏家族尼古拉斯",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:argentina_fernet",
+      "sourceFile": "zh/world/argentina.json",
+      "sourceIndex": 3,
+      "title": "菲奈特阿根廷国民饮品",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:australia_penfolds_grange",
+      "sourceFile": "zh/world/australia.json",
+      "sourceIndex": 0,
+      "title": "奔富葛兰许",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:australia-penfolds-grange"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:australia_penfolds_yattarna_chardonnay",
+      "sourceFile": "zh/world/australia.json",
+      "sourceIndex": 1,
+      "title": "奔富雅塔娜霞多丽",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:australia_hunter_valley_semillon",
+      "sourceFile": "zh/world/australia.json",
+      "sourceIndex": 2,
+      "title": "猎人谷赛美蓉",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:australia_bundaberg_rum",
+      "sourceFile": "zh/world/australia.json",
+      "sourceIndex": 3,
+      "title": "班达伯格朗姆酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:australia_little_creatures_pale_ale",
+      "sourceFile": "zh/world/australia.json",
+      "sourceIndex": 4,
+      "title": "小野兔精酿啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:australia_henschke",
+      "sourceFile": "zh/world/australia.json",
+      "sourceIndex": 5,
+      "title": "翰斯科神恩山",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:australia_clarendon",
+      "sourceFile": "zh/world/australia.json",
+      "sourceIndex": 6,
+      "title": "克拉伦敦山星光园",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:austria_grunerveltliner",
+      "sourceFile": "zh/world/austria.json",
+      "sourceIndex": 0,
+      "title": "绿维特利纳葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:austria_stroh",
+      "sourceFile": "zh/world/austria.json",
+      "sourceIndex": 1,
+      "title": "施特罗朗姆酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_chimay_grande_reserve_blue",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 0,
+      "title": "智美蓝帽修道院啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_orval",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 1,
+      "title": "奥威修道院啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_westvleteren_12_xii",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 2,
+      "title": "西弗莱特伦12号",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_duchesse_de_bourgogne",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 3,
+      "title": "福禾勃艮第女公爵",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_lindemans_kriek",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 4,
+      "title": "林德曼樱桃兰比克",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_rochefort_10",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 5,
+      "title": "罗斯福10号",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_genever",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 6,
+      "title": "比利时金酒/热内弗",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_stbernardus",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 7,
+      "title": "圣伯纳12号",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_cantillon",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 8,
+      "title": "康帝永传统兰比克",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_duvel",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 9,
+      "title": "督威烈性金色艾尔",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_hoegaarden",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 10,
+      "title": "福佳白啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:belgium_westmalle",
+      "sourceFile": "zh/world/belgium.json",
+      "sourceIndex": 11,
+      "title": "西麦尔双料啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:brazil_pitucachaca",
+      "sourceFile": "zh/world/brazil.json",
+      "sourceIndex": 0,
+      "title": "皮图卡夏莎",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:brazil_leblonreservaespecialcachaca",
+      "sourceFile": "zh/world/brazil.json",
+      "sourceIndex": 1,
+      "title": "莱布隆珍藏卡夏莎",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:brazil_ypiocacachaca",
+      "sourceFile": "zh/world/brazil.json",
+      "sourceIndex": 2,
+      "title": "伊皮奥卡卡夏莎",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:brazil_sagatibacachaca",
+      "sourceFile": "zh/world/brazil.json",
+      "sourceIndex": 3,
+      "title": "萨加蒂巴卡夏莎",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:canada_canadianclub",
+      "sourceFile": "zh/world/canada.json",
+      "sourceIndex": 0,
+      "title": "加拿大俱乐部",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:canada_crownroyal",
+      "sourceFile": "zh/world/canada.json",
+      "sourceIndex": 1,
+      "title": "皇冠威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:canada_icewine",
+      "sourceFile": "zh/world/canada.json",
+      "sourceIndex": 2,
+      "title": "加拿大冰酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:chile_carmenere",
+      "sourceFile": "zh/world/chile.json",
+      "sourceIndex": 0,
+      "title": "佳美娜葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:chile_pisco",
+      "sourceFile": "zh/world/chile.json",
+      "sourceIndex": 1,
+      "title": "智利皮斯科",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:chile_almaviva",
+      "sourceFile": "zh/world/chile.json",
+      "sourceIndex": 2,
+      "title": "活灵魂",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:chile_sena",
+      "sourceFile": "zh/world/chile.json",
+      "sourceIndex": 3,
+      "title": "桑雅",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:cuba_havana_club_3_year_old",
+      "sourceFile": "zh/world/cuba.json",
+      "sourceIndex": 0,
+      "title": "哈瓦那俱乐部3年白朗姆",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:cuba_bacardi_carta_blanca",
+      "sourceFile": "zh/world/cuba.json",
+      "sourceIndex": 1,
+      "title": "百加得白朗姆",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:cuba-bacardi-carta-blanca"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:cuba_havana_club_7_year_old",
+      "sourceFile": "zh/world/cuba.json",
+      "sourceIndex": 2,
+      "title": "哈瓦那俱乐部7年陈酿",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:cuba-havana-club-7-year-old"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:czech_pilsnerurquell",
+      "sourceFile": "zh/world/czech.json",
+      "sourceIndex": 0,
+      "title": "皮尔森之源",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:czech-pilsnerurquell"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:czech_budweiserbudvar",
+      "sourceFile": "zh/world/czech.json",
+      "sourceIndex": 1,
+      "title": "百威·布德瓦尔",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:czech_becherovka",
+      "sourceFile": "zh/world/czech.json",
+      "sourceIndex": 2,
+      "title": "冰爵草药酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:ethiopia_tej",
+      "sourceFile": "zh/world/ethiopia.json",
+      "sourceIndex": 0,
+      "title": "埃塞俄比亚蜂蜜酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:ethiopia_tella",
+      "sourceFile": "zh/world/ethiopia.json",
+      "sourceIndex": 1,
+      "title": "埃塞俄比亚传统啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:finland_koskenkorva",
+      "sourceFile": "zh/world/finland.json",
+      "sourceIndex": 0,
+      "title": "科斯肯科瓦伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:finland_lakka",
+      "sourceFile": "zh/world/finland.json",
+      "sourceIndex": 1,
+      "title": "芬兰云莓利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_chateaulafiterothschild",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 0,
+      "title": "拉菲古堡红葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:france-chateaulafiterothschild"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:france_chateaumargaux",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 1,
+      "title": "玛歌古堡红葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_chateaulatour",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 2,
+      "title": "拉图古堡红葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_chateaumoutonrothschild",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 3,
+      "title": "木桐罗斯柴尔德红葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_chateauhautbrion",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 4,
+      "title": "奥比昂古堡红葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_petrus",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 5,
+      "title": "柏图斯红葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_chateaudyquem",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 6,
+      "title": "滴金酒庄贵腐甜白葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_romaneeconti",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 7,
+      "title": "罗曼尼·康帝",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:france-romaneeconti"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:france_domperignon",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 8,
+      "title": "唐·培里侬香槟",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:france-domperignon"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:france_hennessyxo",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 9,
+      "title": "轩尼诗XO干邑",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:france-hennessyxo"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:france_remymartinlouisxiii",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 10,
+      "title": "人头马路易十三",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_armagnacdelord",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 11,
+      "title": "雅文邑德拉伯德",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_leroy",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 12,
+      "title": "勒桦酒庄",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_guigal",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 13,
+      "title": "吉佳乐世家",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_trimbach",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 14,
+      "title": "婷芭克世家",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_hine",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 15,
+      "title": "御鹿XO",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_camus",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 16,
+      "title": "卡慕XO",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_frapin",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 17,
+      "title": "法拉宾XO",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_greygoose",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 18,
+      "title": "灰雁伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_chartreuse",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 19,
+      "title": "查特酒（修士酒）",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:france-chartreuse"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:france_grandmarnier",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 20,
+      "title": "柑曼怡橙味利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_cointreau",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 21,
+      "title": "君度橙酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_calvados",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 22,
+      "title": "卡尔瓦多斯苹果白兰地",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_pastis",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 23,
+      "title": "里卡茴香酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_benedictine",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 24,
+      "title": "本笃利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_yquem",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 25,
+      "title": "滴金贵腐甜白葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:france_armagnac",
+      "sourceFile": "zh/world/france.json",
+      "sourceIndex": 26,
+      "title": "雅文邑白兰地",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:germany_egonmuller",
+      "sourceFile": "zh/world/germany.json",
+      "sourceIndex": 0,
+      "title": "伊慕酒庄雷司令",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:germany_eiswein",
+      "sourceFile": "zh/world/germany.json",
+      "sourceIndex": 1,
+      "title": "德国冰酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:germany_weihenstephaner",
+      "sourceFile": "zh/world/germany.json",
+      "sourceIndex": 2,
+      "title": "唯森小麦啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:germany_paulanersalvator",
+      "sourceFile": "zh/world/germany.json",
+      "sourceIndex": 3,
+      "title": "宝莱纳萨尔瓦多博克啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:germany_jagermeister",
+      "sourceFile": "zh/world/germany.json",
+      "sourceIndex": 4,
+      "title": "野格力娇酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:germany_ayingurweisse",
+      "sourceFile": "zh/world/germany.json",
+      "sourceIndex": 5,
+      "title": "艾丁格水晶小麦啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:germany_schwarzwalderkirschwasser",
+      "sourceFile": "zh/world/germany.json",
+      "sourceIndex": 6,
+      "title": "施瓦兹瓦尔德樱桃酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:germany_jjprum",
+      "sourceFile": "zh/world/germany.json",
+      "sourceIndex": 7,
+      "title": "普朗日晷园雷司令",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:germany_monkey47",
+      "sourceFile": "zh/world/germany.json",
+      "sourceIndex": 8,
+      "title": "猴王47金酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:germany_schneiderweisse",
+      "sourceFile": "zh/world/germany.json",
+      "sourceIndex": 9,
+      "title": "施耐德小麦啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:germany_aventinus",
+      "sourceFile": "zh/world/germany.json",
+      "sourceIndex": 10,
+      "title": "阿文提诺小麦双博克",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:greece_ouzo",
+      "sourceFile": "zh/world/greece.json",
+      "sourceIndex": 0,
+      "title": "乌佐茴香烈酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:greece_retsina",
+      "sourceFile": "zh/world/greece.json",
+      "sourceIndex": 1,
+      "title": "松香葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:greece_tsipouro",
+      "sourceFile": "zh/world/greece.json",
+      "sourceIndex": 2,
+      "title": "齐普罗蒸馏烈酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:greece_metaxa",
+      "sourceFile": "zh/world/greece.json",
+      "sourceIndex": 3,
+      "title": "迈塔克瑟白兰地",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:greece_mastiha_liqueur",
+      "sourceFile": "zh/world/greece.json",
+      "sourceIndex": 4,
+      "title": "希俄斯乳香酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:greece_assyrtiko",
+      "sourceFile": "zh/world/greece.json",
+      "sourceIndex": 5,
+      "title": "圣托里尼阿西提科白葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hungary_tokaji_aszu",
+      "sourceFile": "zh/world/hungary.json",
+      "sourceIndex": 0,
+      "title": "托卡伊阿苏贵腐酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hungary_unicum",
+      "sourceFile": "zh/world/hungary.json",
+      "sourceIndex": 1,
+      "title": "乌尼古草药酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hungary_palinka",
+      "sourceFile": "zh/world/hungary.json",
+      "sourceIndex": 2,
+      "title": "匈牙利果渣白兰地",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:hungary_egri_bikaver",
+      "sourceFile": "zh/world/hungary.json",
+      "sourceIndex": 3,
+      "title": "埃格尔公牛血",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:india_oldmonk",
+      "sourceFile": "zh/world/india.json",
+      "sourceIndex": 0,
+      "title": "老僧侣朗姆酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:india_amrut",
+      "sourceFile": "zh/world/india.json",
+      "sourceIndex": 1,
+      "title": "阿穆特单一麦芽威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:india_feni",
+      "sourceFile": "zh/world/india.json",
+      "sourceIndex": 2,
+      "title": "果阿芬尼烈酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:india_pauljohn",
+      "sourceFile": "zh/world/india.json",
+      "sourceIndex": 3,
+      "title": "保罗约翰单一麦芽威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:ireland_jamesonirishwhiskey",
+      "sourceFile": "zh/world/ireland.json",
+      "sourceIndex": 0,
+      "title": "尊美醇爱尔兰威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:ireland-jamesonirishwhiskey"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:ireland_bushmillsblackbush",
+      "sourceFile": "zh/world/ireland.json",
+      "sourceIndex": 1,
+      "title": "布什米尔黑标威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:ireland_redbreast12yearold",
+      "sourceFile": "zh/world/ireland.json",
+      "sourceIndex": 2,
+      "title": "知更鸟12年纯壶威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:ireland_guinnessdraughtstout",
+      "sourceFile": "zh/world/ireland.json",
+      "sourceIndex": 3,
+      "title": "健力士世涛啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:ireland-guinnessdraughtstout"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:ireland_baileysirishcream",
+      "sourceFile": "zh/world/ireland.json",
+      "sourceIndex": 4,
+      "title": "百利甜酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:ireland_poitin",
+      "sourceFile": "zh/world/ireland.json",
+      "sourceIndex": 5,
+      "title": "普瓦廷私酿",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:ireland_greenspot",
+      "sourceFile": "zh/world/ireland.json",
+      "sourceIndex": 6,
+      "title": "绿点单一壶式威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:ireland_tullamoredew",
+      "sourceFile": "zh/world/ireland.json",
+      "sourceIndex": 7,
+      "title": "特拉莫尔露威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_chianticlassico",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 0,
+      "title": "经典基安蒂红葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_barolo",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 1,
+      "title": "巴罗洛红葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_brunellodimontalcino",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 2,
+      "title": "布鲁奈罗·蒙塔奇诺",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_prosecco",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 3,
+      "title": "普罗塞克起泡酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_amarone",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 4,
+      "title": "阿玛罗尼·瓦波利切拉",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_campari",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 5,
+      "title": "金巴利苦味利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:italy-campari"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:italy_limoncello",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 6,
+      "title": "柠檬利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_sassicaia",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 7,
+      "title": "西施佳雅",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:italy-sassicaia"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:italy_ornellaia",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 8,
+      "title": "奥纳亚",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_solaia",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 9,
+      "title": "索拉雅",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_gaja",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 10,
+      "title": "嘉雅巴巴莱斯科",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_aperol",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 11,
+      "title": "阿佩罗开胃酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_grappa",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 12,
+      "title": "格拉巴果渣白兰地",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_marsala",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 13,
+      "title": "马萨拉加强酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_martini",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 14,
+      "title": "马天尼味美思",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_sambuca",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 15,
+      "title": "桑布卡茴香利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:italy_fernetbranca",
+      "sourceFile": "zh/world/italy.json",
+      "sourceIndex": 16,
+      "title": "菲奈特·布兰卡苦酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:japan_dassai",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 0,
+      "title": "獭祭纯米大吟酿",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:japan_kubotamanju",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 1,
+      "title": "久保田万寿纯米大吟酿",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:japan_hakutsuru",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 2,
+      "title": "白鹤纯米清酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:japan_yamazaki",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 3,
+      "title": "山崎单一麦芽威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:japan-yamazaki"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:japan_hibiki",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 4,
+      "title": "响21年调和威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:japan_iichiko",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 5,
+      "title": "亦竹麦烧酎",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:japan_umeshu",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 6,
+      "title": "梅酒纪州南高梅",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:japan_hakushu",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 7,
+      "title": "白州12年",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:japan_yoichi",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 8,
+      "title": "余市10年",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:japan_juyondai",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 9,
+      "title": "十四代",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:japan_kokuryu",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 10,
+      "title": "黑龙",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:japan_awamori",
+      "sourceFile": "zh/world/japan.json",
+      "sourceIndex": 11,
+      "title": "泡盛",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:korea_jinrosoju",
+      "sourceFile": "zh/world/korea.json",
+      "sourceIndex": 0,
+      "title": "真露烧酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:korea_chumchurumsoju",
+      "sourceFile": "zh/world/korea.json",
+      "sourceIndex": 1,
+      "title": "初饮初乐烧酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:korea_makgeolli",
+      "sourceFile": "zh/world/korea.json",
+      "sourceIndex": 2,
+      "title": "传统马格利米酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:korea_bokbunjaju",
+      "sourceFile": "zh/world/korea.json",
+      "sourceIndex": 3,
+      "title": "覆盆子酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:korea_baekseju",
+      "sourceFile": "zh/world/korea.json",
+      "sourceIndex": 4,
+      "title": "百岁酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:korea_andongsoju",
+      "sourceFile": "zh/world/korea.json",
+      "sourceIndex": 5,
+      "title": "安东烧酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:mexico_patronsilver",
+      "sourceFile": "zh/world/mexico.json",
+      "sourceIndex": 0,
+      "title": "培恩银樽龙舌兰",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:mexico_donjulio1942anejo",
+      "sourceFile": "zh/world/mexico.json",
+      "sourceIndex": 1,
+      "title": "唐胡里奥1942陈年龙舌兰",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:mexico_herraduraseleccionsuprema",
+      "sourceFile": "zh/world/mexico.json",
+      "sourceIndex": 2,
+      "title": "赫拉杜拉精选微陈龙舌兰",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:mexico_josecuervoespecialgold",
+      "sourceFile": "zh/world/mexico.json",
+      "sourceIndex": 3,
+      "title": "豪帅快活金樽龙舌兰",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:mexico_delmagueyvidamezcal",
+      "sourceFile": "zh/world/mexico.json",
+      "sourceIndex": 4,
+      "title": "瓦哈卡梅斯卡尔",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:mexico_kahlua",
+      "sourceFile": "zh/world/mexico.json",
+      "sourceIndex": 5,
+      "title": "甘露咖啡利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:mexico_corona",
+      "sourceFile": "zh/world/mexico.json",
+      "sourceIndex": 6,
+      "title": "科罗娜啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:mexico_olmeca",
+      "sourceFile": "zh/world/mexico.json",
+      "sourceIndex": 7,
+      "title": "奥美加银龙舌兰",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:mexico_pulque",
+      "sourceFile": "zh/world/mexico.json",
+      "sourceIndex": 8,
+      "title": "普尔克龙舌兰发酵酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:morocco_mahia",
+      "sourceFile": "zh/world/morocco.json",
+      "sourceIndex": 0,
+      "title": "马希亚无花果酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:morocco_casablanca_beer",
+      "sourceFile": "zh/world/morocco.json",
+      "sourceIndex": 1,
+      "title": "卡萨布兰卡啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:netherlands_bols_genever",
+      "sourceFile": "zh/world/netherlands.json",
+      "sourceIndex": 0,
+      "title": "波尔斯陈年金酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:netherlands_heineken",
+      "sourceFile": "zh/world/netherlands.json",
+      "sourceIndex": 1,
+      "title": "喜力啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:netherlands_advocaat",
+      "sourceFile": "zh/world/netherlands.json",
+      "sourceIndex": 2,
+      "title": "荷兰传统蛋酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:netherlands_oranjebitter",
+      "sourceFile": "zh/world/netherlands.json",
+      "sourceIndex": 3,
+      "title": "荷兰橘比特",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:netherlands_ketelone",
+      "sourceFile": "zh/world/netherlands.json",
+      "sourceIndex": 4,
+      "title": "凯特尔一号伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:newzealand_sauvignonblanc",
+      "sourceFile": "zh/world/new_zealand.json",
+      "sourceIndex": 0,
+      "title": "长相思白葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:newzealand_pinotnoir",
+      "sourceFile": "zh/world/new_zealand.json",
+      "sourceIndex": 1,
+      "title": "中奥塔哥黑皮诺",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:newzealand_kumeuriver",
+      "sourceFile": "zh/world/new_zealand.json",
+      "sourceIndex": 2,
+      "title": "库妙河霞多丽",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:peru_pisco",
+      "sourceFile": "zh/world/peru.json",
+      "sourceIndex": 0,
+      "title": "秘鲁皮斯科",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:peru_chicha_morada",
+      "sourceFile": "zh/world/peru.json",
+      "sourceIndex": 1,
+      "title": "紫玉米酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:poland_belvedere_vodka",
+      "sourceFile": "zh/world/poland.json",
+      "sourceIndex": 0,
+      "title": "雪树伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:poland_zubrowka_bison_grass_vodka",
+      "sourceFile": "zh/world/poland.json",
+      "sourceIndex": 1,
+      "title": "野牛草伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:poland_wyborowa_vodka",
+      "sourceFile": "zh/world/poland.json",
+      "sourceIndex": 2,
+      "title": "维波罗瓦伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:poland_polish_mead_miod_pitny",
+      "sourceFile": "zh/world/poland.json",
+      "sourceIndex": 3,
+      "title": "波兰传统蜂蜜酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:poland_nalewka",
+      "sourceFile": "zh/world/poland.json",
+      "sourceIndex": 4,
+      "title": "波兰浸泡利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:poland_starka",
+      "sourceFile": "zh/world/poland.json",
+      "sourceIndex": 5,
+      "title": "斯特卡陈年黑麦伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:poland_krupnik",
+      "sourceFile": "zh/world/poland.json",
+      "sourceIndex": 6,
+      "title": "克鲁普尼克蜂蜜利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:portugal_taylorsvintageport",
+      "sourceFile": "zh/world/portugal.json",
+      "sourceIndex": 0,
+      "title": "泰勒年份波特酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:portugal_grahams20yearoldtawnyport",
+      "sourceFile": "zh/world/portugal.json",
+      "sourceIndex": 1,
+      "title": "格兰姆20年茶色波特",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:portugal_madeira",
+      "sourceFile": "zh/world/portugal.json",
+      "sourceIndex": 2,
+      "title": "马德拉酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:portugal_vinhoverde",
+      "sourceFile": "zh/world/portugal.json",
+      "sourceIndex": 3,
+      "title": "绿酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:portugal_ginjinha",
+      "sourceFile": "zh/world/portugal.json",
+      "sourceIndex": 4,
+      "title": "甜樱桃利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:portugal_fonseca",
+      "sourceFile": "zh/world/portugal.json",
+      "sourceIndex": 5,
+      "title": "芳塞卡年份波特酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:portugal_blandys",
+      "sourceFile": "zh/world/portugal.json",
+      "sourceIndex": 6,
+      "title": "布朗迪马德拉酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:portugal_licorbeirao",
+      "sourceFile": "zh/world/portugal.json",
+      "sourceIndex": 7,
+      "title": "贝朗利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:portugal_moscatel_setubal",
+      "sourceFile": "zh/world/portugal.json",
+      "sourceIndex": 8,
+      "title": "塞图巴尔麝香加强酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:russia_belugagoldline",
+      "sourceFile": "zh/world/russia.json",
+      "sourceIndex": 0,
+      "title": "白鲸金标伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:russia_russianstandardplatinum",
+      "sourceFile": "zh/world/russia.json",
+      "sourceIndex": 1,
+      "title": "俄罗斯标准白金伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:russia_stolichnayapremiumvodka",
+      "sourceFile": "zh/world/russia.json",
+      "sourceIndex": 2,
+      "title": "红牌伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:russia_smirnoffno21",
+      "sourceFile": "zh/world/russia.json",
+      "sourceIndex": 3,
+      "title": "皇冠伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:russia_kvass",
+      "sourceFile": "zh/world/russia.json",
+      "sourceIndex": 4,
+      "title": "俄罗斯传统克瓦斯",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_themacallan",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 0,
+      "title": "麦卡伦18年雪莉桶",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:scotland-themacallan"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:scotland_glenfiddich",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 1,
+      "title": "格兰菲迪18年",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_laphroaig",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 2,
+      "title": "拉弗格10年",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_johnniewalkerblue",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 3,
+      "title": "尊尼获加蓝牌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_hendricks",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 4,
+      "title": "亨利爵士金酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_glenmorangie",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 5,
+      "title": "格兰杰经典10年",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_highlandpark",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 6,
+      "title": "高原骑士18年",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_ardbeg",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 7,
+      "title": "阿贝10年",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_bowmore",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 8,
+      "title": "波摩18年",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_balvenie",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 9,
+      "title": "百富双桶12年",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_springbank",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 10,
+      "title": "云顶10年",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_glenlivet",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 11,
+      "title": "格兰威特单一麦芽威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:scotland_lagavulin",
+      "sourceFile": "zh/world/scotland.json",
+      "sourceIndex": 12,
+      "title": "乐加维林单一麦芽威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:southafrica_pinotage",
+      "sourceFile": "zh/world/south_africa.json",
+      "sourceIndex": 0,
+      "title": "皮诺塔吉葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:southafrica_amarula",
+      "sourceFile": "zh/world/south_africa.json",
+      "sourceIndex": 1,
+      "title": "阿玛鲁拉奶油利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:southafrica_vanderhum",
+      "sourceFile": "zh/world/south_africa.json",
+      "sourceIndex": 2,
+      "title": "范德亨柑橘利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:spain_lopezdeherediavinationdonia",
+      "sourceFile": "zh/world/spain.json",
+      "sourceIndex": 0,
+      "title": "洛佩兹埃雷蒂亚陈年丹魄",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:spain_freixenetcava",
+      "sourceFile": "zh/world/spain.json",
+      "sourceIndex": 1,
+      "title": "费雷尔博贝特卡瓦起泡酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:spain_riberadelduero",
+      "sourceFile": "zh/world/spain.json",
+      "sourceIndex": 2,
+      "title": "奥塔苏陈年丹魄歌海娜",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:spain_albarino",
+      "sourceFile": "zh/world/spain.json",
+      "sourceIndex": 3,
+      "title": "下海湾阿尔巴利诺",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:spain_vegasicilia",
+      "sourceFile": "zh/world/spain.json",
+      "sourceIndex": 4,
+      "title": "贝加西西里亚尤尼科",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:spain_pingus",
+      "sourceFile": "zh/world/spain.json",
+      "sourceIndex": 5,
+      "title": "平古斯",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:spain_tiopepe",
+      "sourceFile": "zh/world/spain.json",
+      "sourceIndex": 6,
+      "title": "缇欧佩佩菲诺雪利",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:sweden_absolutvodka",
+      "sourceFile": "zh/world/sweden.json",
+      "sourceIndex": 0,
+      "title": "绝对伏特加",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:sweden-absolutvodka"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:sweden_mackmyra",
+      "sourceFile": "zh/world/sweden.json",
+      "sourceIndex": 1,
+      "title": "马克米拉瑞典单一麦芽威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:sweden_punsch",
+      "sourceFile": "zh/world/sweden.json",
+      "sourceIndex": 2,
+      "title": "瑞典潘趣利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:switzerland_absinthe",
+      "sourceFile": "zh/world/switzerland.json",
+      "sourceIndex": 0,
+      "title": "苦艾酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:switzerland_goldschlager",
+      "sourceFile": "zh/world/switzerland.json",
+      "sourceIndex": 1,
+      "title": "金箔肉桂利口酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:switzerland_appenzeller",
+      "sourceFile": "zh/world/switzerland.json",
+      "sourceIndex": 2,
+      "title": "阿彭策尔草本苦酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:switzerland_zugerkirsch",
+      "sourceFile": "zh/world/switzerland.json",
+      "sourceIndex": 3,
+      "title": "楚格樱桃白兰地",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:thailand_sangsom",
+      "sourceFile": "zh/world/thailand.json",
+      "sourceIndex": 0,
+      "title": "桑松朗姆酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:thailand_mekhong",
+      "sourceFile": "zh/world/thailand.json",
+      "sourceIndex": 1,
+      "title": "湄公河威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:thailand_singha",
+      "sourceFile": "zh/world/thailand.json",
+      "sourceIndex": 2,
+      "title": "胜狮啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:uk_bombaysapphire",
+      "sourceFile": "zh/world/uk.json",
+      "sourceIndex": 0,
+      "title": "孟买蓝宝石金酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:uk_fullerslondonpride",
+      "sourceFile": "zh/world/uk.json",
+      "sourceIndex": 1,
+      "title": "富勒伦敦骄傲艾尔啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:uk_tanqueray",
+      "sourceFile": "zh/world/uk.json",
+      "sourceIndex": 2,
+      "title": "添加利金酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:uk_beefeater",
+      "sourceFile": "zh/world/uk.json",
+      "sourceIndex": 3,
+      "title": "必富达金酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:uk-beefeater"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:uk_pimms",
+      "sourceFile": "zh/world/uk.json",
+      "sourceIndex": 4,
+      "title": "皮姆一号杯",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:uk_gordons",
+      "sourceFile": "zh/world/uk.json",
+      "sourceIndex": 5,
+      "title": "戈登金酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:usa_jackdaniels",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 0,
+      "title": "杰克丹尼老7号",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "drink:usa-jackdaniels"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "liquor:usa_makersmark",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 1,
+      "title": "美格肯塔基波本",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:usa_buffalotrace",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 2,
+      "title": "水牛足迹肯塔基波本",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:usa_woodfordreserve",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 3,
+      "title": "伍德福德珍藏波本",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:usa_opusone",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 4,
+      "title": "作品一号红葡萄酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:usa_sierranevada",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 5,
+      "title": "内华达山脉淡色艾尔啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:usa_screamingeagle",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 6,
+      "title": "啸鹰酒庄",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:usa_harlan",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 7,
+      "title": "哈兰酒庄",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:usa_michters",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 8,
+      "title": "酩帝诗US*1波本",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:usa_knobcreek",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 9,
+      "title": "诺布溪9年",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:usa_anchorsteam",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 10,
+      "title": "锚牌蒸汽啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:usa_sazerac_rye",
+      "sourceFile": "zh/world/usa.json",
+      "sourceIndex": 11,
+      "title": "萨泽拉克黑麦威士忌",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:vietnam_ruoude",
+      "sourceFile": "zh/world/vietnam.json",
+      "sourceIndex": 0,
+      "title": "越南米酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:vietnam_biahanoi",
+      "sourceFile": "zh/world/vietnam.json",
+      "sourceIndex": 1,
+      "title": "河内啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "liquor:vietnam_saigonbeer",
+      "sourceFile": "zh/world/vietnam.json",
+      "sourceIndex": 2,
+      "title": "西贡啤酒",
+      "expectedContentRepository": "alcoholic-beverages",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bar_el_federal",
+      "sourceFile": "zh/pub/argentina.json",
+      "sourceIndex": 0,
+      "title": "联邦酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bodegon_de_buenos_aires",
+      "sourceFile": "zh/pub/argentina.json",
+      "sourceIndex": 1,
+      "title": "老布宜诺斯酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cafe_tortoni",
+      "sourceFile": "zh/pub/argentina.json",
+      "sourceIndex": 2,
+      "title": "托尔托尼咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:fortune_of_war",
+      "sourceFile": "zh/pub/australia.json",
+      "sourceIndex": 0,
+      "title": "战争酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:lord_nelson_brewery",
+      "sourceFile": "zh/pub/australia.json",
+      "sourceIndex": 1,
+      "title": "纳尔逊勋爵啤酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:hero_of_waterloo",
+      "sourceFile": "zh/pub/australia.json",
+      "sourceIndex": 2,
+      "title": "滑铁卢英雄酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:young_and_jackson",
+      "sourceFile": "zh/pub/australia.json",
+      "sourceIndex": 3,
+      "title": "杨与杰克逊酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:australian_hotel",
+      "sourceFile": "zh/pub/australia.json",
+      "sourceIndex": 4,
+      "title": "澳大利亚酒店",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:zwolf_apostel_keller",
+      "sourceFile": "zh/pub/austria.json",
+      "sourceIndex": 0,
+      "title": "十二使徒地窖",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cafe_sperl",
+      "sourceFile": "zh/pub/austria.json",
+      "sourceIndex": 1,
+      "title": "施佩尔咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cafe_hawelka",
+      "sourceFile": "zh/pub/austria.json",
+      "sourceIndex": 2,
+      "title": "哈韦尔卡咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:loos_bar",
+      "sourceFile": "zh/pub/austria.json",
+      "sourceIndex": 3,
+      "title": "路斯酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cafe_central",
+      "sourceFile": "zh/pub/austria.json",
+      "sourceIndex": 4,
+      "title": "中央咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:cafe-central"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:delirium_cafe",
+      "sourceFile": "zh/pub/belgium.json",
+      "sourceIndex": 0,
+      "title": "谵妄啤酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:chez_moeder",
+      "sourceFile": "zh/pub/belgium.json",
+      "sourceIndex": 1,
+      "title": "莫德之家兰比克啤酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:de_garre",
+      "sourceFile": "zh/pub/belgium.json",
+      "sourceIndex": 2,
+      "title": "加尔之家",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:kulminator",
+      "sourceFile": "zh/pub/belgium.json",
+      "sourceIndex": 3,
+      "title": "库尔米纳托",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:oud_arsenaal",
+      "sourceFile": "zh/pub/belgium.json",
+      "sourceIndex": 4,
+      "title": "老军械库",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:a_la_mort_subite",
+      "sourceFile": "zh/pub/belgium.json",
+      "sourceIndex": 5,
+      "title": "突然死亡酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:le_cirio",
+      "sourceFile": "zh/pub/belgium.json",
+      "sourceIndex": 6,
+      "title": "西里奥酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bar_luiz",
+      "sourceFile": "zh/pub/brazil.json",
+      "sourceIndex": 0,
+      "title": "路易斯酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bodega_do_vale",
+      "sourceFile": "zh/pub/brazil.json",
+      "sourceIndex": 1,
+      "title": "谷地酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:st_james_gate",
+      "sourceFile": "zh/pub/canada.json",
+      "sourceIndex": 0,
+      "title": "圣詹姆斯之门酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_boot_inn",
+      "sourceFile": "zh/pub/canada.json",
+      "sourceIndex": 1,
+      "title": "靴子旅店酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:olde_angel_inn",
+      "sourceFile": "zh/pub/canada.json",
+      "sourceIndex": 2,
+      "title": "老天使旅馆酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bar_nacional",
+      "sourceFile": "zh/pub/chile.json",
+      "sourceIndex": 0,
+      "title": "国民酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:lao_baijiu_guan",
+      "sourceFile": "zh/pub/china.json",
+      "sourceIndex": 0,
+      "title": "老白酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:huangjiu_yi_hao",
+      "sourceFile": "zh/pub/china.json",
+      "sourceIndex": 1,
+      "title": "黄酒一号",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:huadu_jiulou",
+      "sourceFile": "zh/pub/china.json",
+      "sourceIndex": 2,
+      "title": "花都酒楼",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:xiang_xue_hai",
+      "sourceFile": "zh/pub/china.json",
+      "sourceIndex": 3,
+      "title": "香雪海酒家",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:fenjiu_lao_jiu",
+      "sourceFile": "zh/pub/china.json",
+      "sourceIndex": 4,
+      "title": "杏花村老酒坊",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:erguotou_lao_pu",
+      "sourceFile": "zh/pub/china.json",
+      "sourceIndex": 5,
+      "title": "牛栏山二锅头老酒铺",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:maotai_gu_niang",
+      "sourceFile": "zh/pub/china.json",
+      "sourceIndex": 6,
+      "title": "茅台古酿坊",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:la_bodeguita_del_medio",
+      "sourceFile": "zh/pub/cuba.json",
+      "sourceIndex": 0,
+      "title": "半途小酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:la-bodeguita-del-medio"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:el_floridita",
+      "sourceFile": "zh/pub/cuba.json",
+      "sourceIndex": 1,
+      "title": "小佛罗里达酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:el-floridita"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:u_fleku",
+      "sourceFile": "zh/pub/czech.json",
+      "sourceIndex": 0,
+      "title": "弗勒克啤酒屋",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:u-fleku"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:u_kralovny_eleonory",
+      "sourceFile": "zh/pub/czech.json",
+      "sourceIndex": 1,
+      "title": "埃莉诺女王酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:u_zlateho_tygra",
+      "sourceFile": "zh/pub/czech.json",
+      "sourceIndex": 2,
+      "title": "金虎酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:u_svateho_tomase",
+      "sourceFile": "zh/pub/czech.json",
+      "sourceIndex": 3,
+      "title": "圣托马斯啤酒屋",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:u_cernoho_vola",
+      "sourceFile": "zh/pub/czech.json",
+      "sourceIndex": 4,
+      "title": "黑公牛酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:hviids_vinstue",
+      "sourceFile": "zh/pub/denmark.json",
+      "sourceIndex": 0,
+      "title": "维德斯酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:nyhavn_17",
+      "sourceFile": "zh/pub/denmark.json",
+      "sourceIndex": 1,
+      "title": "新港十七号酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:el_fishawy",
+      "sourceFile": "zh/pub/egypt.json",
+      "sourceIndex": 0,
+      "title": "费沙维咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:addis_tej_bet",
+      "sourceFile": "zh/pub/ethiopia.json",
+      "sourceIndex": 0,
+      "title": "亚的斯蜂蜜酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:ravintola_kappeli",
+      "sourceFile": "zh/pub/finland.json",
+      "sourceIndex": 0,
+      "title": "卡佩里餐厅酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:le_lapin_agile",
+      "sourceFile": "zh/pub/france.json",
+      "sourceIndex": 0,
+      "title": "狡兔酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:harrys_bar",
+      "sourceFile": "zh/pub/france.json",
+      "sourceIndex": 1,
+      "title": "哈里酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:chez_louisette",
+      "sourceFile": "zh/pub/france.json",
+      "sourceIndex": 2,
+      "title": "路易丝酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:la_napoule",
+      "sourceFile": "zh/pub/france.json",
+      "sourceIndex": 3,
+      "title": "拉纳普尔酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:le_procope",
+      "sourceFile": "zh/pub/france.json",
+      "sourceIndex": 4,
+      "title": "普罗科普咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cafe_de_la_paix",
+      "sourceFile": "zh/pub/france.json",
+      "sourceIndex": 5,
+      "title": "和平咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:la_closerie_des_lilas",
+      "sourceFile": "zh/pub/france.json",
+      "sourceIndex": 6,
+      "title": "丁香园咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:le_baron_rouge",
+      "sourceFile": "zh/pub/france.json",
+      "sourceIndex": 7,
+      "title": "红男爵酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:la_fee_verte_paris",
+      "sourceFile": "zh/pub/france.json",
+      "sourceIndex": 8,
+      "title": "绿仙女苦艾酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cafe_de_flore",
+      "sourceFile": "zh/pub/france.json",
+      "sourceIndex": 9,
+      "title": "花神咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:cafe-de-flore"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:les_deux_magots",
+      "sourceFile": "zh/pub/france.json",
+      "sourceIndex": 10,
+      "title": "双叟咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:les-deux-magots"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:hofbrauhaus",
+      "sourceFile": "zh/pub/germany.json",
+      "sourceIndex": 0,
+      "title": "皇家啤酒屋",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:hofbrauhaus"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:augustiner_braustuben",
+      "sourceFile": "zh/pub/germany.json",
+      "sourceIndex": 1,
+      "title": "奥古斯丁啤酒坊",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:prater_garten",
+      "sourceFile": "zh/pub/germany.json",
+      "sourceIndex": 2,
+      "title": "普拉特啤酒花园",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:claerchens_ballhaus",
+      "sourceFile": "zh/pub/germany.json",
+      "sourceIndex": 3,
+      "title": "克拉拉舞厅",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:frueh_am_dom",
+      "sourceFile": "zh/pub/germany.json",
+      "sourceIndex": 4,
+      "title": "大教堂边的早餐酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:schiffergesellschaft",
+      "sourceFile": "zh/pub/germany.json",
+      "sourceIndex": 5,
+      "title": "船夫会馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:zum_storchen",
+      "sourceFile": "zh/pub/germany.json",
+      "sourceIndex": 6,
+      "title": "鹳鸟酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:zum_roten_igel",
+      "sourceFile": "zh/pub/germany.json",
+      "sourceIndex": 7,
+      "title": "红刺猬酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:schlenkerla",
+      "sourceFile": "zh/pub/germany.json",
+      "sourceIndex": 8,
+      "title": "施伦克拉烟熏啤酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:schlenkerla"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:brettos",
+      "sourceFile": "zh/pub/greece.json",
+      "sourceIndex": 0,
+      "title": "布雷托斯酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:taverna_tou_psyrri",
+      "sourceFile": "zh/pub/greece.json",
+      "sourceIndex": 1,
+      "title": "普西里老酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:galaxy_bar",
+      "sourceFile": "zh/pub/greece.json",
+      "sourceIndex": 2,
+      "title": "银河酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:matyas_pince_borozo",
+      "sourceFile": "zh/pub/hungary.json",
+      "sourceIndex": 0,
+      "title": "马加什地窖酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:szimpla_kert",
+      "sourceFile": "zh/pub/hungary.json",
+      "sourceIndex": 1,
+      "title": "辛普拉花园废墟酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:harbour_bar_taj",
+      "sourceFile": "zh/pub/india.json",
+      "sourceIndex": 0,
+      "title": "泰姬港酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:leopold_cafe",
+      "sourceFile": "zh/pub/india.json",
+      "sourceIndex": 1,
+      "title": "利奥波德咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:seans_bar",
+      "sourceFile": "zh/pub/ireland.json",
+      "sourceIndex": 0,
+      "title": "肖恩酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:brazen_head",
+      "sourceFile": "zh/pub/ireland.json",
+      "sourceIndex": 1,
+      "title": "黄铜头酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_long_hall",
+      "sourceFile": "zh/pub/ireland.json",
+      "sourceIndex": 2,
+      "title": "长廊酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:doheny_and_nesbitt",
+      "sourceFile": "zh/pub/ireland.json",
+      "sourceIndex": 3,
+      "title": "多赫尼内斯比特酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_palace_bar",
+      "sourceFile": "zh/pub/ireland.json",
+      "sourceIndex": 4,
+      "title": "皇宫酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:toners_pub",
+      "sourceFile": "zh/pub/ireland.json",
+      "sourceIndex": 5,
+      "title": "托纳斯酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_stags_head",
+      "sourceFile": "zh/pub/ireland.json",
+      "sourceIndex": 6,
+      "title": "雄鹿头酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:la_birreria",
+      "sourceFile": "zh/pub/italy.json",
+      "sourceIndex": 0,
+      "title": "老啤酒屋",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cantina_do_spade",
+      "sourceFile": "zh/pub/italy.json",
+      "sourceIndex": 1,
+      "title": "剑之酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:harrys_bar_venice",
+      "sourceFile": "zh/pub/italy.json",
+      "sourceIndex": 2,
+      "title": "哈里酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:harrys-bar-venice"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:antico_caffe_della_pace",
+      "sourceFile": "zh/pub/italy.json",
+      "sourceIndex": 3,
+      "title": "和平古咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:caffe_gilli",
+      "sourceFile": "zh/pub/italy.json",
+      "sourceIndex": 4,
+      "title": "吉利咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bar_del_fico",
+      "sourceFile": "zh/pub/italy.json",
+      "sourceIndex": 5,
+      "title": "无花果酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:al_timon",
+      "sourceFile": "zh/pub/italy.json",
+      "sourceIndex": 6,
+      "title": "舵轮酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:caffe_florian",
+      "sourceFile": "zh/pub/italy.json",
+      "sourceIndex": 7,
+      "title": "花神咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:caffe-florian"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:caffe_greco",
+      "sourceFile": "zh/pub/italy.json",
+      "sourceIndex": 8,
+      "title": "希腊咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bar_lupin",
+      "sourceFile": "zh/pub/japan.json",
+      "sourceIndex": 0,
+      "title": "鲁宾酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:kamiya_bar",
+      "sourceFile": "zh/pub/japan.json",
+      "sourceIndex": 1,
+      "title": "神谷酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bar_high_five",
+      "sourceFile": "zh/pub/japan.json",
+      "sourceIndex": 2,
+      "title": "击掌酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:albatross",
+      "sourceFile": "zh/pub/japan.json",
+      "sourceIndex": 3,
+      "title": "信天翁酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:star_bar_ginza",
+      "sourceFile": "zh/pub/japan.json",
+      "sourceIndex": 4,
+      "title": "星星酒吧银座",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bar_rocking_chair",
+      "sourceFile": "zh/pub/japan.json",
+      "sourceIndex": 5,
+      "title": "摇椅酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:sake_bar_kiyoshi",
+      "sourceFile": "zh/pub/japan.json",
+      "sourceIndex": 6,
+      "title": "清酒藏",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:sulmoon",
+      "sourceFile": "zh/pub/korea.json",
+      "sourceIndex": 0,
+      "title": "酒门酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:gwangjang_makgeolli",
+      "sourceFile": "zh/pub/korea.json",
+      "sourceIndex": 1,
+      "title": "广藏市场酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:yeongdong_sooljip",
+      "sourceFile": "zh/pub/korea.json",
+      "sourceIndex": 2,
+      "title": "永同酒家",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:busan_jagalchi",
+      "sourceFile": "zh/pub/korea.json",
+      "sourceIndex": 3,
+      "title": "扎嘎其酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:la_oper_bar",
+      "sourceFile": "zh/pub/mexico.json",
+      "sourceIndex": 0,
+      "title": "歌剧院酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:salon_tenampa",
+      "sourceFile": "zh/pub/mexico.json",
+      "sourceIndex": 1,
+      "title": "特南帕酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:la_grande_porte",
+      "sourceFile": "zh/pub/morocco.json",
+      "sourceIndex": 0,
+      "title": "大门酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cafe_papeneiland",
+      "sourceFile": "zh/pub/netherlands.json",
+      "sourceIndex": 0,
+      "title": "帕彭艾尔兰老酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:de_drie_graetjes",
+      "sourceFile": "zh/pub/netherlands.json",
+      "sourceIndex": 1,
+      "title": "三个桶酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cafe_hoppe",
+      "sourceFile": "zh/pub/netherlands.json",
+      "sourceIndex": 2,
+      "title": "霍普老酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:de_dokter",
+      "sourceFile": "zh/pub/netherlands.json",
+      "sourceIndex": 3,
+      "title": "医生酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:albion_hotel",
+      "sourceFile": "zh/pub/new_zealand.json",
+      "sourceIndex": 0,
+      "title": "阿尔比恩酒店",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:engebret_cafe",
+      "sourceFile": "zh/pub/norway.json",
+      "sourceIndex": 0,
+      "title": "安格布雷特咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bryggen_tracteursted",
+      "sourceFile": "zh/pub/norway.json",
+      "sourceIndex": 1,
+      "title": "布吕根小酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bar_ingles",
+      "sourceFile": "zh/pub/peru.json",
+      "sourceIndex": 0,
+      "title": "英格兰酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:queirolo",
+      "sourceFile": "zh/pub/peru.json",
+      "sourceIndex": 1,
+      "title": "凯罗洛酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:jama_michalika",
+      "sourceFile": "zh/pub/poland.json",
+      "sourceIndex": 0,
+      "title": "米哈利克洞穴酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:piwnica_pod_baranami",
+      "sourceFile": "zh/pub/poland.json",
+      "sourceIndex": 1,
+      "title": "公羊下地窖酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bunkier",
+      "sourceFile": "zh/pub/poland.json",
+      "sourceIndex": 2,
+      "title": "地堡酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:warszawski_sklep_wodki",
+      "sourceFile": "zh/pub/poland.json",
+      "sourceIndex": 3,
+      "title": "华沙伏特加品鉴馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:tasca_do_chico",
+      "sourceFile": "zh/pub/portugal.json",
+      "sourceIndex": 0,
+      "title": "奇科酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cafe_a_brasileira",
+      "sourceFile": "zh/pub/portugal.json",
+      "sourceIndex": 1,
+      "title": "巴西人咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:grahams_port_lodge",
+      "sourceFile": "zh/pub/portugal.json",
+      "sourceIndex": 2,
+      "title": "格雷厄姆波特酒窖",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:vodka_room",
+      "sourceFile": "zh/pub/russia.json",
+      "sourceIndex": 0,
+      "title": "伏特加房间",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cafe_pushkin",
+      "sourceFile": "zh/pub/russia.json",
+      "sourceIndex": 1,
+      "title": "普希金咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:literary_cafe_spb",
+      "sourceFile": "zh/pub/russia.json",
+      "sourceIndex": 2,
+      "title": "文学咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_oxford_bar",
+      "sourceFile": "zh/pub/scotland.json",
+      "sourceIndex": 0,
+      "title": "牛津酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_famous_grouse",
+      "sourceFile": "zh/pub/scotland.json",
+      "sourceIndex": 1,
+      "title": "松鸡酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_ben_nevis",
+      "sourceFile": "zh/pub/scotland.json",
+      "sourceIndex": 2,
+      "title": "本尼维斯酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_sheep_heid_inn",
+      "sourceFile": "zh/pub/scotland.json",
+      "sourceIndex": 3,
+      "title": "羊头酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:raffles_long_bar",
+      "sourceFile": "zh/pub/singapore.json",
+      "sourceIndex": 0,
+      "title": "莱佛士长廊酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:raffles-long-bar"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:perseverance_tavern",
+      "sourceFile": "zh/pub/south_africa.json",
+      "sourceIndex": 0,
+      "title": "坚持酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:firemans_arms",
+      "sourceFile": "zh/pub/south_africa.json",
+      "sourceIndex": 1,
+      "title": "消防员之臂酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:los_gallos",
+      "sourceFile": "zh/pub/spain.json",
+      "sourceIndex": 0,
+      "title": "公鸡酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:el_xampanyet",
+      "sourceFile": "zh/pub/spain.json",
+      "sourceIndex": 1,
+      "title": "香槟酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:sobrino_de_botin",
+      "sourceFile": "zh/pub/spain.json",
+      "sourceIndex": 2,
+      "title": "波廷之侄酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:el_rinconcillo",
+      "sourceFile": "zh/pub/spain.json",
+      "sourceIndex": 3,
+      "title": "角落酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:casa_alberto",
+      "sourceFile": "zh/pub/spain.json",
+      "sourceIndex": 4,
+      "title": "阿尔贝托之家酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:marsella",
+      "sourceFile": "zh/pub/spain.json",
+      "sourceIndex": 5,
+      "title": "马赛酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:gyldene_freden",
+      "sourceFile": "zh/pub/sweden.json",
+      "sourceIndex": 0,
+      "title": "金和平酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bierhalle_kropf",
+      "sourceFile": "zh/pub/switzerland.json",
+      "sourceIndex": 0,
+      "title": "克罗普夫啤酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:absinthe_maison_verte",
+      "sourceFile": "zh/pub/switzerland.json",
+      "sourceIndex": 1,
+      "title": "绿仙女苦艾酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bamboo_bar",
+      "sourceFile": "zh/pub/thailand.json",
+      "sourceIndex": 0,
+      "title": "竹子酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:teps_bar",
+      "sourceFile": "zh/pub/thailand.json",
+      "sourceIndex": 1,
+      "title": "特普酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:northgate_jazz",
+      "sourceFile": "zh/pub/thailand.json",
+      "sourceIndex": 2,
+      "title": "北门爵士酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:cezayir",
+      "sourceFile": "zh/pub/turkey.json",
+      "sourceIndex": 0,
+      "title": "阿尔及利亚酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:pera_palace_bar",
+      "sourceFile": "zh/pub/turkey.json",
+      "sourceIndex": 1,
+      "title": "佩拉宫酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:ye_olde_cheshire_cheese",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 0,
+      "title": "柴郡奶酪酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:ye-olde-cheshire-cheese"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:eagle_and_child",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 1,
+      "title": "鹰与孩童酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:eagle-and-child"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:ye_olde_trip_to_jerusalem",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 2,
+      "title": "前往耶路撒冷之旅酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:mermaid_inn",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 3,
+      "title": "美人鱼酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:jamaica_inn",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 4,
+      "title": "牙买加旅馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_george_inn",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 5,
+      "title": "乔治旅馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_angel_and_royal",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 6,
+      "title": "天使与皇家旅馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_white_horse",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 7,
+      "title": "白马酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_black_friars",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 8,
+      "title": "黑衣修士酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_queens_larder",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 9,
+      "title": "女王储藏室酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_nags_head",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 10,
+      "title": "马头酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_white_lion",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 11,
+      "title": "白狮酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_kings_arms",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 12,
+      "title": "国王纹章酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_george_and_dragon",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 13,
+      "title": "乔治与龙酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_royal_oak",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 14,
+      "title": "皇家橡树酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:churchill_arms",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 15,
+      "title": "丘吉尔纹章酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:prospect_of_whitby",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 16,
+      "title": "惠特比远景酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_mayflower",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 17,
+      "title": "五月花酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_ten_bells",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 18,
+      "title": "十钟酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:lamb_and_flag_oxford",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 19,
+      "title": "羔羊与旗帜酒馆（牛津）",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_french_house",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 20,
+      "title": "法兰西之家酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_dove",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 21,
+      "title": "鸽子酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_lamb_and_flag_london",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 22,
+      "title": "羔羊与旗帜酒馆（伦敦）",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_turf_tavern",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 23,
+      "title": "草皮酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_grenadier",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 24,
+      "title": "掷弹兵酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:american_bar_savoy",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 25,
+      "title": "萨沃伊美式酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:american-bar-savoy"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:the_spaniards_inn",
+      "sourceFile": "zh/pub/uk.json",
+      "sourceIndex": 26,
+      "title": "西班牙人酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:landmark_tavern",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 0,
+      "title": "地标酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:green_dragon",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 1,
+      "title": "绿龙酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:white_horse_tavern",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 2,
+      "title": "白马酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:white-horse-tavern"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:napoleon_house",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 3,
+      "title": "拿破仑之家",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:olde_pink_house",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 4,
+      "title": "老粉红屋酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:lafittes_blacksmith_shop",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 5,
+      "title": "拉菲特铁匠铺酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:bell_in_hand",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 6,
+      "title": "手中铃铛酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:pj_clarkes",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 7,
+      "title": "P.J.克拉克酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_ear_inn",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 8,
+      "title": "耳朵酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:old_absinthe_house",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 9,
+      "title": "老苦艾酒屋",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:the_saloon_sf",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 10,
+      "title": "沙龙酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:tosca_cafe",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 11,
+      "title": "托斯卡咖啡馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:warren_tavern",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 12,
+      "title": "沃伦酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:mcsorleys_old_ale_house",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 13,
+      "title": "麦克索利老麦酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "migrated-needs-review",
+      "targetRefs": [
+        "place:mcsorleys-old-ale-house"
+      ],
+      "reason": "批量迁为 needs-review：原正文与字段已保留，分类、来源、权利与翻译待审。"
+    },
+    {
+      "legacyKey": "pub:king_cole_bar",
+      "sourceFile": "zh/pub/usa.json",
+      "sourceIndex": 14,
+      "title": "科尔国王酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:hanoi_old_quarter",
+      "sourceFile": "zh/pub/vietnam.json",
+      "sourceIndex": 0,
+      "title": "河内古街酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:saigon_continental",
+      "sourceFile": "zh/pub/vietnam.json",
+      "sourceIndex": 1,
+      "title": "西贡大陆酒店酒吧",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "pub:hue_imperial_tavern",
+      "sourceFile": "zh/pub/vietnam.json",
+      "sourceIndex": 2,
+      "title": "顺化皇城酒馆",
+      "expectedContentRepository": "alcohol-atlas",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:1",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 0,
+      "title": "人生得意须尽欢，莫使金樽空对月",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:2",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 1,
+      "title": "烹羊宰牛且为乐，会须一饮三百杯",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:3",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 2,
+      "title": "古来圣贤皆寂寞，惟有饮者留其名",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:4",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 3,
+      "title": "五花马，千金裘，呼儿将出换美酒，与尔同销万古愁",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:5",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 4,
+      "title": "兰陵美酒郁金香，玉碗盛来琥珀光",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:6",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 5,
+      "title": "花间一壶酒，独酌无相亲。举杯邀明月，对影成三人",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:7",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 6,
+      "title": "抽刀断水水更流，举杯消愁愁更愁",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:8",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 7,
+      "title": "且乐生前一杯酒，何须身后千载名",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:9",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 8,
+      "title": "风吹柳花满店香，吴姬压酒唤客尝",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:10",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 9,
+      "title": "白日放歌须纵酒，青春作伴好还乡",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:11",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 10,
+      "title": "艰难苦恨繁霜鬓，潦倒新停浊酒杯",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:12",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 11,
+      "title": "莫思身外无穷事，且尽生前有限杯",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:13",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 12,
+      "title": "葡萄美酒夜光杯，欲饮琵琶马上催",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:14",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 13,
+      "title": "醉卧沙场君莫笑，古来征战几人回",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:15",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 14,
+      "title": "借问酒家何处有，牧童遥指杏花村",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:16",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 15,
+      "title": "烟笼寒水月笼沙，夜泊秦淮近酒家",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:17",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 16,
+      "title": "对酒当歌，人生几何！譬如朝露，去日苦多",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:18",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 17,
+      "title": "何以解忧？唯有杜康",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:19",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 18,
+      "title": "绿蚁新醅酒，红泥小火炉。晚来天欲雪，能饮一杯无",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:20",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 19,
+      "title": "醉不成欢惨将别，别时茫茫江浸月",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:21",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 20,
+      "title": "为我引杯添酒饮，与君把箸击盘歌",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:22",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 21,
+      "title": "酒入愁肠，化作相思泪",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:23",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 22,
+      "title": "明月几时有，把酒问青天",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:24",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 23,
+      "title": "人生如梦，一尊还酹江月",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:25",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 24,
+      "title": "酒酣胸胆尚开张，鬓微霜，又何妨",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:26",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 25,
+      "title": "醉里挑灯看剑，梦回吹角连营",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:27",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 26,
+      "title": "今宵酒醒何处，杨柳岸，晓风残月",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:28",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 27,
+      "title": "拟把疏狂图一醉，对酒当歌，强乐还无味",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:29",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 28,
+      "title": "东篱把酒黄昏后，有暗香盈袖",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:30",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 29,
+      "title": "三杯两盏淡酒，怎敌他、晚来风急",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:31",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 30,
+      "title": "劝君更尽一杯酒，西出阳关无故人",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:32",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 31,
+      "title": "开轩面场圃，把酒话桑麻",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:33",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 32,
+      "title": "醉后不知天在水，满船清梦压星河",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:34",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 33,
+      "title": "桃李春风一杯酒，江湖夜雨十年灯",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:35",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 34,
+      "title": "一曲新词酒一杯，去年天气旧亭台",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:36",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 35,
+      "title": "为君持酒劝斜阳，且向花间留晚照",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:37",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 36,
+      "title": "酒逢知己千杯少，话不投机半句多",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:38",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 37,
+      "title": "今朝有酒今朝醉，明日愁来明日愁",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:39",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 38,
+      "title": "酒债寻常行处有，人生七十古来稀",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:40",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 39,
+      "title": "一生大笑能几回，斗酒相逢须醉倒",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:41",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 40,
+      "title": "我醉欲眠卿且去，明朝有意抱琴来",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:42",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 41,
+      "title": "且就洞庭赊月色，将船买酒白云边",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:43",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 42,
+      "title": "把酒祝东风，且共从容",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:44",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 43,
+      "title": "酒浓春入梦，窗破月寻人",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:45",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 44,
+      "title": "醉舞下山去，明月逐人归",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:46",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 45,
+      "title": "酒醒还醉醉还醒，一笑人间今古",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:47",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 46,
+      "title": "床头一壶酒，能更几回眠",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:48",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 47,
+      "title": "但使主人能醉客，不知何处是他乡",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:49",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 48,
+      "title": "常记溪亭日暮，沉醉不知归路",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:50",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 49,
+      "title": "莫笑农家腊酒浑，丰年留客足鸡豚",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:51",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 50,
+      "title": "更待菊黄家酝熟，共君一醉一陶然",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:52",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 51,
+      "title": "且乐杯中物，谁论世上名",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:53",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 52,
+      "title": "醉月频中圣，迷花不事君",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:54",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 53,
+      "title": "相逢意气为君饮，系马高楼垂柳边",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:55",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 54,
+      "title": "酒困路长惟欲睡，日高人渴漫思茶",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:56",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 55,
+      "title": "人生有酒须当醉，一滴何曾到九泉",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:57",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 56,
+      "title": "对酒当歌，人生几何？诗酒趁年华",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:58",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 57,
+      "title": "一生须惜少年时，那能白首下书帷",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:59",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 58,
+      "title": "春日宴，绿酒一杯歌一遍",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    },
+    {
+      "legacyKey": "poetry:60",
+      "sourceFile": "zh/index.json",
+      "sourceIndex": 59,
+      "title": "我欲醉眠芳草，只恐花深里，红尘不到",
+      "expectedContentRepository": "alcohol-culture",
+      "status": "retired",
+      "targetRefs": [],
+      "reason": "按 2026-10-29 策展决定停用：不独立成页，也不再把旧文合并进新页面。"
+    }
+  ]
+}

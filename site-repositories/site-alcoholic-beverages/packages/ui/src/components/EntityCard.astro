@@ -1,0 +1,31 @@
+---
+import Icon from './Icon.astro';
+import { statusLabel, typeLabel, uiFor } from '../lib';
+import type { PageData } from '@hejiu/build-tools';
+
+interface Props {
+  page: PageData;
+  compact?: boolean;
+}
+const { page, compact = false } = Astro.props;
+const context = uiFor(page.siteKey, page.lang);
+const { labels, contracts } = context;
+const archive = page.verificationScope === 'archive-record';
+const badgeClass = archive ? 'badge--archive' : page.published ? 'badge--reviewed' : 'badge--preview';
+const badgeLabel = archive ? labels.archiveRecord : page.published ? labels.reviewed : labels.needsReview;
+---
+<a class={`card entity-card ${compact ? 'entity-card--compact' : ''}`} href={page.path}>
+  <span class="card__top">
+    <span class="badge badge--type">{typeLabel(contracts, page.type, page.lang)}</span>
+    <span class={`badge ${badgeClass}`}>
+      {badgeLabel}
+    </span>
+    {page.lang === 'en' && <span class="badge">EN</span>}
+  </span>
+  <h3>{page.title}</h3>
+  <p>{page.summary}</p>
+  <span class="card__foot">
+    <span>{archive ? labels.archiveRecord : page.headings.length > 0 ? `${labels.toc} · ${page.headings.length}` : statusLabel(labels, page.status)}</span>
+    <span>{labels.readMore} <Icon name="arrow-right" size={16} /></span>
+  </span>
+</a>

@@ -1,0 +1,41 @@
+---
+import SiteLayout from './SiteLayout.astro';
+import Icon from './Icon.astro';
+import { homePath, searchPath, uiFor, type UiLang } from '../lib';
+
+interface Props {
+  siteKey: string;
+  lang: UiLang;
+}
+const { siteKey, lang } = Astro.props;
+const context = uiFor(siteKey, lang);
+const { site, labels } = context;
+const otherLang = lang === 'zh' ? 'en' : 'zh';
+const title = `${labels.pageNotFound} · ${lang === 'zh' ? '喝酒去' : 'Hejiu'}`;
+const canonical = `https://${site.host}/404.html`;
+---
+<SiteLayout
+  siteKey={siteKey}
+  lang={lang}
+  title={title}
+  description={labels.pageNotFoundDesc}
+  canonical={canonical}
+  pagePath="/404.html"
+  noindex={true}
+  active=""
+  pageType="404"
+  alternateHref={homePath(otherLang)}
+  alternateState="available"
+>
+  <div class="shell not-found">
+    <div>
+      <p class="not-found__code">404</p>
+      <h1>{labels.pageNotFound}</h1>
+      <p class="muted">{labels.pageNotFoundDesc}</p>
+      <div class="hero__actions" style="justify-content:center">
+        <a class="button button--primary" href={homePath(lang)}>{labels.backToHome} <Icon name="arrow-right" size={18} /></a>
+        <a class="button button--ghost" href={searchPath(lang)}>{labels.search}</a>
+      </div>
+    </div>
+  </div>
+</SiteLayout>

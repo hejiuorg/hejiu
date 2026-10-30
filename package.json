@@ -1,0 +1,49 @@
+{
+  "name": "hejiu-implementation-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.23.4",
+    "npm": ">=9.6.5"
+  },
+  "workspaces": [
+    "site-repositories/site-alcoholic-beverages/packages/*",
+    "site-repositories/*/apps/*"
+  ],
+  "scripts": {
+    "build:tools": "npm run build -w @hejiu/build-tools",
+    "validate": "npm run build:tools && node site-repositories/site-alcoholic-beverages/packages/build-tools/dist/cli.js validate",
+    "registry": "npm run build:tools && node site-repositories/site-alcoholic-beverages/packages/build-tools/dist/cli.js registry",
+    "check:catalogs": "npm run build:tools && node site-repositories/site-alcoholic-beverages/packages/build-tools/dist/cli.js catalogs",
+    "test:tools": "npm run build:tools && npm test -w @hejiu/build-tools",
+    "build:guide": "npm run build -w @hejiu/site-guide",
+    "build:culture": "npm run build -w @hejiu/site-culture",
+    "build:atlas": "npm run build -w @hejiu/site-atlas",
+    "build:main": "npm run build -w @hejiu/site-main",
+    "build:preview": "node scripts/build-all.mjs --mode=preview",
+    "build:prod": "node scripts/build-all.mjs --mode=production",
+    "verify:links": "npm run build:tools && node site-repositories/site-alcoholic-beverages/packages/build-tools/dist/cli.js links",
+    "verify:pages": "npm run build:tools && node site-repositories/site-alcoholic-beverages/packages/build-tools/dist/cli.js pages",
+    "verify": "npm run validate && npm run check:catalogs && npm run test:tools",
+    "serve:preview": "node scripts/serve-preview.mjs",
+    "verify:build": "npm run validate && npm run check:catalogs && npm run build:prod && npm run verify:links && npm run verify:pages",
+    "review:content": "node tools/review-content.mjs",
+    "verify:migration": "node scripts/verify-migration.mjs",
+    "release:snapshot": "node scripts/build-release-snapshot.mjs",
+    "release:drill": "node scripts/release-drill.mjs",
+    "build:compat": "node scripts/build-legacy-compat.mjs",
+    "release:licenses": "node scripts/build-license-inventory.mjs",
+    "content:license": "node tools/apply-content-license.mjs",
+    "content:archive": "node tools/apply-archive-edition.mjs",
+    "content:translations": "node tools/refresh-translation-hashes.mjs",
+    "qa:translations": "node scripts/qa-translations.mjs",
+    "qa:legacy-audit": "node scripts/qa-legacy-audit.mjs"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "axe-core": "4.14.0",
+    "puppeteer-core": "25.16.0",
+    "sharp": "0.35.5"
+  }
+}

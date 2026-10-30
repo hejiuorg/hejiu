@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T23:27:37.931Z",
+  "environment": {
+    "browser": "Headless Chrome via puppeteer-core",
+    "axe": "4.14.0",
+    "note": "Automated WCAG 2.1/2.2 A/AA and best-practice scan, keyboard checks, reduced motion and reflow; not a screen-reader or physical-device test."
+  },
+  "results": [
+    {
+      "name": "main home zh light axe has no violations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "main home zh light axe has no serious/critical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "main home en dark axe has no violations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "main home en dark axe has no serious/critical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "guide recipe zh axe has no violations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "guide recipe zh axe has no serious/critical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "culture article en axe has no violations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "culture article en axe has no serious/critical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas museum axe has no violations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas museum axe has no serious/critical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas curated place axe has no violations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas curated place axe has no serious/critical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "search page empty axe has no violations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "search page empty axe has no serious/critical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "search page with results axe has no violations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "search page with results axe has no serious/critical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "saved page with item axe has no violations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "saved page with item axe has no serious/critical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "saved import has a keyboard button",
+      "ok": true,
+      "detail": "{\"tag\":\"BUTTON\",\"tabIndex\":0,\"inputHiddenAttribute\":false,\"inputClass\":\"sr-only\"}"
+    },
+    {
+      "name": "search dialog open axe has no violations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "search dialog open axe has no serious/critical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile menu open axe has no violations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile menu open axe has no serious/critical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "first Tab reaches skip link",
+      "ok": true,
+      "detail": "{\"text\":\"跳到正文\",\"className\":\"skip-link\"}"
+    },
+    {
+      "name": "skip link focuses main",
+      "ok": true,
+      "detail": "{\"hash\":\"#main\",\"active\":\"main\",\"mainTop\":0}"
+    },
+    {
+      "name": "search dialog moves focus to input",
+      "ok": true,
+      "detail": "search-dialog-input"
+    },
+    {
+      "name": "search dialog restores focus to trigger",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "theme button works with keyboard",
+      "ok": true,
+      "detail": "dark"
+    },
+    {
+      "name": "mobile menu keyboard open and Escape close",
+      "ok": true,
+      "detail": "true/true"
+    },
+    {
+      "name": "search page submits with Enter",
+      "ok": true,
+      "detail": "5 http://127.0.0.1:4401/search/?q=Negroni"
+    },
+    {
+      "name": "TOC link navigates to section",
+      "ok": true,
+      "detail": "#配方 / #配方"
+    },
+    {
+      "name": "reduced motion shortens animations",
+      "ok": true,
+      "detail": "1e-06s,1e-06s"
+    },
+    {
+      "name": "touch targets at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "search filter pills at least 44px",
+      "ok": true,
+      "detail": "[{\"width\":78.890625,\"height\":44},{\"width\":78.890625,\"height\":44},{\"width\":92.328125,\"height\":44},{\"width\":78.890625,\"height\":44},{\"width\":78.890625,\"height\":44},{\"width\":94.140625,\"height\":44}]"
+    },
+    {
+      "name": "local preview does not write shared-domain theme cookie",
+      "ok": true,
+      "detail": "(none)"
+    },
+    {
+      "name": "landscape 844x390 no horizontal overflow",
+      "ok": true,
+      "detail": "{\"docWidth\":844,\"innerWidth\":844,\"h1Right\":820,\"h1Width\":796,\"bottomNav\":\"none\"}"
+    },
+    {
+      "name": "landscape 768x390 no horizontal overflow",
+      "ok": true,
+      "detail": "{\"docWidth\":768,\"innerWidth\":768,\"h1Right\":744,\"h1Width\":720,\"bottomNav\":\"none\"}"
+    },
+    {
+      "name": "320 English long title no horizontal overflow",
+      "ok": true,
+      "detail": "{\"docWidth\":320,\"innerWidth\":320,\"h1Right\":302,\"h1Width\":284,\"bottomNav\":\"grid\"}"
+    },
+    {
+      "name": "640 reflow (200% of 1280) no horizontal overflow",
+      "ok": true,
+      "detail": "{\"docWidth\":640,\"innerWidth\":640,\"h1Right\":622,\"h1Width\":604,\"bottomNav\":\"grid\"}"
+    }
+  ],
+  "failures": [],
+  "scans": [
+    {
+      "label": "main home zh light",
+      "url": "http://127.0.0.1:4401/",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "count": 60
+        }
+      ]
+    },
+    {
+      "label": "main home en dark",
+      "url": "http://127.0.0.1:4401/en/",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "count": 61
+        }
+      ]
+    },
+    {
+      "label": "guide recipe zh",
+      "url": "http://127.0.0.1:4402/recipes/negroni/",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "count": 62
+        }
+      ]
+    },
+    {
+      "label": "culture article en",
+      "url": "http://127.0.0.1:4403/en/articles/time-in-a-cup/",
+      "theme": "dark",
+      "width": 1440,
+      "height": 900,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "count": 50
+        }
+      ]
+    },
+    {
+      "label": "atlas museum",
+      "url": "http://127.0.0.1:4404/places/gujing-wine-culture-museum/",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "count": 51
+        }
+      ]
+    },
+    {
+      "label": "atlas curated place",
+      "url": "http://127.0.0.1:4404/places/american-bar-savoy/",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "count": 46
+        }
+      ]
+    },
+    {
+      "label": "search page empty",
+      "url": "http://127.0.0.1:4401/search/",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "count": 31
+        }
+      ]
+    },
+    {
+      "label": "search page with results",
+      "url": "http://127.0.0.1:4401/search/?q=%E5%86%85%E6%A0%BC%E7%BD%97%E5%B0%BC",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "count": 52
+        }
+      ]
+    },
+    {
+      "label": "saved page with item",
+      "url": "http://127.0.0.1:4401/saved/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "count": 31
+        }
+      ]
+    },
+    {
+      "label": "search dialog open",
+      "url": "http://127.0.0.1:4401/",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "mobile menu open",
+      "url": "http://127.0.0.1:4401/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "count": 62
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "evidence/screenshots/a11y-search-dialog.png",
+    "evidence/screenshots/a11y-mobile-menu.png"
+  ]
+}

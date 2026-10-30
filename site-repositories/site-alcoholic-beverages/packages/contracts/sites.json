@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "sites": [
+    {
+      "key": "beverages",
+      "labelZh": "识酒",
+      "labelEn": "Drinks",
+      "contentRepository": "alcoholic-beverages",
+      "siteRepository": "site-alcoholic-beverages",
+      "host": "hejiu.org",
+      "accent": "#c2410c",
+      "taglineZh": "从一杯开始，认识世界。",
+      "taglineEn": "A world in every glass.",
+      "descriptionZh": "酒类、风格、品牌、生产者、产区与鸡尾酒身份，从这一杯开始。",
+      "descriptionEn": "Styles, drinks, brands, producers, regions and cocktail identities, beginning with one glass.",
+      "main": true,
+      "appDirectory": "apps/main"
+    },
+    {
+      "key": "guide",
+      "labelZh": "喝法",
+      "labelEn": "Ways to drink",
+      "contentRepository": "alcohol-guide",
+      "siteRepository": "site-alcohol-guide",
+      "host": "guide.hejiu.org",
+      "accent": "#0f766e",
+      "taglineZh": "会喝一点，也懂多一点。",
+      "taglineEn": "Less guessing, more discovering.",
+      "descriptionZh": "品鉴、侍饮、搭配、器具与调酒，回答这一杯怎么喝。",
+      "descriptionEn": "Tasting, serving, pairing, glassware and mixing: how to enjoy the glass in front of you.",
+      "main": false,
+      "appDirectory": "apps/site"
+    },
+    {
+      "key": "culture",
+      "labelZh": "酒文化",
+      "labelEn": "Stories",
+      "contentRepository": "alcohol-culture",
+      "siteRepository": "site-alcohol-culture",
+      "host": "culture.hejiu.org",
+      "accent": "#7c3aed",
+      "taglineZh": "杯子之外，还有故事。",
+      "taglineEn": "Beyond the glass.",
+      "descriptionZh": "历史、人物、典籍、礼俗、艺术与诗词，读一杯酒留下的文字。",
+      "descriptionEn": "History, people, books, customs, art and poetry: the words a drink leaves behind.",
+      "main": false,
+      "appDirectory": "apps/site"
+    },
+    {
+      "key": "atlas",
+      "labelZh": "去处",
+      "labelEn": "Places",
+      "contentRepository": "alcohol-atlas",
+      "siteRepository": "site-alcohol-atlas",
+      "host": "atlas.hejiu.org",
+      "accent": "#2563eb",
+      "taglineZh": "让一杯酒，带你去远方。",
+      "taglineEn": "Let a glass take you somewhere.",
+      "descriptionZh": "酒馆、酒庄与博物馆参访、活动与路线，去一个真实的地方。",
+      "descriptionEn": "Pubs, winery and distillery visits, museums, events and routes: go somewhere real.",
+      "main": false,
+      "appDirectory": "apps/site"
+    }
+  ]
+}

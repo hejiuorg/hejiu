@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "types": {
+    "drink-style": {
+      "zh": "酒类风格",
+      "en": "Drink styles"
+    },
+    "drink": {
+      "zh": "酒款",
+      "en": "Drinks"
+    },
+    "brand": {
+      "zh": "品牌",
+      "en": "Brands"
+    },
+    "producer": {
+      "zh": "生产者",
+      "en": "Producers"
+    },
+    "ingredient": {
+      "zh": "原料",
+      "en": "Ingredients"
+    },
+    "variety": {
+      "zh": "品种",
+      "en": "Varieties"
+    },
+    "region": {
+      "zh": "产区",
+      "en": "Regions"
+    },
+    "process": {
+      "zh": "工艺",
+      "en": "Processes"
+    },
+    "term": {
+      "zh": "术语",
+      "en": "Terms"
+    },
+    "standard": {
+      "zh": "标准",
+      "en": "Standards"
+    },
+    "cocktail": {
+      "zh": "鸡尾酒",
+      "en": "Cocktails"
+    },
+    "guide": {
+      "zh": "指南",
+      "en": "Guides"
+    },
+    "technique": {
+      "zh": "技法",
+      "en": "Techniques"
+    },
+    "recipe": {
+      "zh": "配方",
+      "en": "Recipes"
+    },
+    "vessel": {
+      "zh": "酒器",
+      "en": "Glassware"
+    },
+    "tool": {
+      "zh": "器具",
+      "en": "Tools"
+    },
+    "pairing": {
+      "zh": "搭配",
+      "en": "Pairings"
+    },
+    "article": {
+      "zh": "文章",
+      "en": "Articles"
+    },
+    "person": {
+      "zh": "人物",
+      "en": "People"
+    },
+    "book": {
+      "zh": "典籍",
+      "en": "Books"
+    },
+    "custom": {
+      "zh": "礼俗",
+      "en": "Customs"
+    },
+    "historical-event": {
+      "zh": "历史事件",
+      "en": "Historical events"
+    },
+    "artwork": {
+      "zh": "艺术作品",
+      "en": "Artworks"
+    },
+    "poem": {
+      "zh": "诗词",
+      "en": "Poetry"
+    },
+    "organization": {
+      "zh": "组织",
+      "en": "Organizations"
+    },
+    "place": {
+      "zh": "地点",
+      "en": "Places"
+    },
+    "route": {
+      "zh": "路线",
+      "en": "Routes"
+    },
+    "event": {
+      "zh": "活动",
+      "en": "Events"
+    }
+  },
+  "relations": {
+    "belongs-to-style": {
+      "zh": "属于风格",
+      "en": "Style"
+    },
+    "made-by": {
+      "zh": "生产者",
+      "en": "Made by"
+    },
+    "has-brand": {
+      "zh": "品牌",
+      "en": "Brand"
+    },
+    "uses-ingredient": {
+      "zh": "主要原料",
+      "en": "Ingredients"
+    },
+    "from-region": {
+      "zh": "产地",
+      "en": "Region"
+    },
+    "uses-process": {
+      "zh": "工艺",
+      "en": "Process"
+    },
+    "recipe-for": {
+      "zh": "对应鸡尾酒",
+      "en": "Cocktail identity"
+    },
+    "uses-vessel": {
+      "zh": "使用酒器",
+      "en": "Glassware"
+    },
+    "uses-tool": {
+      "zh": "使用器具",
+      "en": "Tools"
+    },
+    "uses-technique": {
+      "zh": "使用技法",
+      "en": "Techniques"
+    },
+    "visitor-place-of": {
+      "zh": "可参访的生产者",
+      "en": "Producer"
+    },
+    "stops-at": {
+      "zh": "途经地点",
+      "en": "Stops"
+    },
+    "takes-place-at": {
+      "zh": "举办地点",
+      "en": "Location"
+    },
+    "organized-by": {
+      "zh": "主办方",
+      "en": "Organizer"
+    },
+    "about": {
+      "zh": "相关条目",
+      "en": "Related records"
+    }
+  },
+  "status": {
+    "draft": {
+      "zh": "草稿",
+      "en": "Draft"
+    },
+    "needs-review": {
+      "zh": "待复核",
+      "en": "Needs review"
+    },
+    "reviewed": {
+      "zh": "已审核",
+      "en": "Reviewed"
+    }
+  },
+  "reverseRelations": {
+    "belongs-to-style": {
+      "zh": "该风格下的酒款",
+      "en": "Drinks in this style"
+    },
+    "made-by": {
+      "zh": "生产",
+      "en": "Produces"
+    },
+    "has-brand": {
+      "zh": "品牌归属",
+      "en": "Brand"
+    },
+    "uses-ingredient": {
+      "zh": "用于",
+      "en": "Used in"
+    },
+    "from-region": {
+      "zh": "位于此地区",
+      "en": "Located in this region"
+    },
+    "uses-process": {
+      "zh": "采用此工艺",
+      "en": "Uses this process"
+    },
+    "recipe-for": {
+      "zh": "配方版本",
+      "en": "Recipe versions"
+    },
+    "uses-vessel": {
+      "zh": "使用此酒器",
+      "en": "Uses this glass"
+    },
+    "uses-tool": {
+      "zh": "使用此器具",
+      "en": "Uses this tool"
+    },
+    "uses-technique": {
+      "zh": "使用此技法",
+      "en": "Uses this technique"
+    },
+    "visitor-place-of": {
+      "zh": "参访地点",
+      "en": "Visitor places"
+    },
+    "stops-at": {
+      "zh": "途经路线",
+      "en": "Routes"
+    },
+    "takes-place-at": {
+      "zh": "相关活动",
+      "en": "Events"
+    },
+    "organized-by": {
+      "zh": "主办活动",
+      "en": "Events"
+    },
+    "about": {
+      "zh": "被提及",
+      "en": "Mentioned by"
+    }
+  }
+}

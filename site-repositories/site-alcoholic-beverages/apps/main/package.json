@@ -1,0 +1,21 @@
+{
+  "name": "@hejiu/site-main",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@hejiu/build-tools": "0.1.0",
+    "@hejiu/contracts": "0.1.0",
+    "@hejiu/ui": "0.1.0",
+    "astro": "7.4.4"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

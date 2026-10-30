@@ -1,0 +1,95 @@
+---
+import SiteLayout from './SiteLayout.astro';
+import Icon from './Icon.astro';
+import { homePath, searchBundle, searchPath, uiFor, type UiLang } from '../lib';
+
+interface Props {
+  siteKey: string;
+  lang: UiLang;
+}
+const { siteKey, lang } = Astro.props;
+const context = uiFor(siteKey, lang);
+const { site, labels, contracts } = context;
+const isMain = site.key === 'beverages';
+const pathName = searchPath(lang);
+const title = `${labels.searchPageTitle} · ${lang === 'zh' ? site.labelZh : site.labelEn} · ${lang === 'zh' ? '喝酒去' : 'Hejiu'}`;
+const canonical = `https://${site.host}${pathName}`;
+const siteFilters = isMain ? contracts.sites : contracts.sites.filter((entry) => entry.key === site.key);
+const active = isMain ? 'discover' : site.key === 'guide' ? 'guide' : site.key === 'atlas' ? 'places' : '';
+const sitesJson = JSON.stringify(
+  contracts.sites.map((entry) => ({
+    key: entry.key,
+    label: lang === 'zh' ? entry.labelZh : entry.labelEn,
+  })),
+);
+---
+<SiteLayout
+  siteKey={siteKey}
+  lang={lang}
+  title={title}
+  description={labels.searchPageDesc}
+  canonical={canonical}
+  pagePath={pathName}
+  noindex={true}
+  active={active}
+  pageType="search"
+>
+  <div class="shell search-page">
+    <header class="page-head">
+      <p class="eyebrow">{labels.search}</p>
+      <h1>{labels.searchPageTitle}</h1>
+      <p>{labels.searchPageDesc}</p>
+    </header>
+    <div
+      data-search-page
+      data-bundle={searchBundle(site.key)}
+      data-scope={isMain ? 'all' : 'local'}
+      data-lang={lang}
+      data-sites={sitesJson}
+    >
+      <form class="search-form" action={pathName} method="get" role="search" data-search-form>
+        <label class="sr-only" for="search-page-input">{labels.search}</label>
+        <input
+          id="search-page-input"
+          class="search-input"
+          type="search"
+          name="q"
+          placeholder={labels.searchPlaceholder}
+          autocomplete="off"
+          data-search-input
+        />
+        <button class="button button--primary" type="submit"><Icon name="search" size={18} /> {labels.searchSubmit}</button>
+      </form>
+
+      <div class="search-filters">
+        {isMain && (
+          <div class="search-filter-group" data-filter-group="site">
+            <span class="search-filter-group__label">{labels.filterSite}</span>
+            {siteFilters.map((entry) => (
+              <label class="filter-pill">
+                <input type="checkbox" value={entry.key} />
+                <span>{lang === 'zh' ? entry.labelZh : entry.labelEn}</span>
+              </label>
+            ))}
+          </div>
+        )}
+        <div class="search-filter-group" data-filter-group="lang">
+          <span class="search-filter-group__label">{labels.filterLang}</span>
+          <label class="filter-pill">
+            <input type="checkbox" value="zh" />
+            <span>中文</span>
+          </label>
+          <label class="filter-pill">
+            <input type="checkbox" value="en" />
+            <span>English</span>
+          </label>
+        </div>
+        <button class="button button--ghost" type="button" data-clear-filters>{labels.filtersClear}</button>
+      </div>
+
+      <p class="search-status" role="status" aria-live="polite" data-search-status>{labels.searchPrompt}</p>
+      <div class="search-results" data-search-results></div>
+      <p class="small muted" style="margin-top:24px">{labels.searchScopeNote}</p>
+    </div>
+  </div>
+</SiteLayout>

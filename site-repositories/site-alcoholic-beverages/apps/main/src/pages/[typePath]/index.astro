@@ -1,0 +1,8 @@
+---
+import ListPage from '@hejiu/ui/components/ListPage.astro';
+import { getStaticListPaths } from '@hejiu/build-tools';
+
+export const getStaticPaths = () => getStaticListPaths('beverages', 'zh');
+const { list } = Astro.props;
+---
+<ListPage siteKey="beverages" list={list} />

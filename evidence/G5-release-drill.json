@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T23:32:39.661Z",
+  "checks": [
+    {
+      "name": "aggregate failure exits non-zero",
+      "ok": true,
+      "detail": "status=1"
+    },
+    {
+      "name": "aggregate failure preserves the previous index",
+      "ok": true,
+      "detail": "182bf861c55e/182bf861c55e"
+    },
+    {
+      "name": "aggregate retry succeeds",
+      "ok": true,
+      "detail": "status=0"
+    },
+    {
+      "name": "atomic aggregate leaves no temporary directories",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "aggregate retry keeps published-only scope and 166 records",
+      "ok": true,
+      "detail": "{\"scope\":\"published-only\",\"records\":166,\"sources\":4}"
+    },
+    {
+      "name": "all published search URLs are HTTPS production URLs",
+      "ok": true,
+      "detail": "166"
+    },
+    {
+      "name": "no localhost URLs leak into production search",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production HTML contains no preview page",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "original aggregate artifact restored after drill",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "snapshot aggregate count matches current manifest",
+      "ok": true,
+      "detail": "166/166"
+    },
+    {
+      "name": "snapshot records 166 source-verified, 0 archive and 0 blocked",
+      "ok": true,
+      "detail": "{\"reviewRecords\":167,\"reviewPass\":166,\"reviewBlocked\":0,\"draftRecords\":1,\"sourceVerifiedRecords\":166,\"archiveRecords\":0}"
+    }
+  ],
+  "limitations": [
+    "No remote GitHub Pages deployment, DNS or custom-domain test was performed.",
+    "No old service-worker client upgrade was tested.",
+    "Slug-change compatibility and cross-site two-phase activation are not exercised by this content batch.",
+    "This drill tests aggregate failure preservation and local snapshot consistency, not a full server rollback."
+  ]
+}

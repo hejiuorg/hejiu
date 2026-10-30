@@ -1,0 +1,82 @@
+---
+import SiteLayout from './SiteLayout.astro';
+import Icon from './Icon.astro';
+import { aboutPath, contributePath, homePath, uiFor, type UiLang } from '../lib';
+
+interface Props {
+  siteKey: string;
+  lang: UiLang;
+}
+const { siteKey, lang } = Astro.props;
+const context = uiFor(siteKey, lang);
+const { site, labels } = context;
+const pathName = contributePath(lang);
+const title = `${labels.contribute} · ${lang === 'zh' ? site.labelZh : site.labelEn} · ${lang === 'zh' ? '喝酒去' : 'Hejiu'}`;
+const canonical = `https://${site.host}${pathName}`;
+const active = site.key === 'guide' ? 'guide' : site.key === 'atlas' ? 'places' : '';
+---
+<SiteLayout
+  siteKey={siteKey}
+  lang={lang}
+  title={title}
+  description={labels.contribute}
+  canonical={canonical}
+  pagePath={pathName}
+  active={active}
+  pageType="contribute"
+>
+  <div class="shell narrow-page">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href={homePath(lang)}>{labels.home}</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span aria-current="page">{labels.contribute}</span>
+    </nav>
+    <header class="page-head">
+      <p class="eyebrow">{labels.contribute}</p>
+      <h1>{lang === 'zh' ? '把好奇写清楚' : 'Write curiosity down clearly'}</h1>
+      <p>{lang === 'zh' ? '内容贡献以可核实来源、真实审核状态和独立译文为先。' : 'Contributions start with sources, honest review status and independent translation.'}</p>
+    </header>
+    <div class="prose">
+      {lang === 'zh' ? (
+        <>
+          <h2>正文在哪里</h2>
+          <p>正文保存在四个内容仓的标准 Markdown 文件中，网站只读取固定内容快照。路径为 <code>{`{lang}/{type}/{slug}.md`}</code>，每个分类目录和语言目录都有 README 链接到全部正文。</p>
+          <ul>
+            <li>alcoholic-beverages：酒类风格、酒款、品牌、生产者、原料、品种、产区、工艺、术语、标准、鸡尾酒身份。</li>
+            <li>alcohol-guide：品鉴、侍饮、搭配、配方、酒器、器具与保存。</li>
+            <li>alcohol-culture：文章、人物、典籍、礼俗、历史、艺术、诗词、组织。</li>
+            <li>alcohol-atlas：地点、路线与活动。</li>
+          </ul>
+          <h2>最小字段</h2>
+          <p>每篇正文至少包含 <code>schema_version</code>、全局 <code>id</code>、<code>type</code>、<code>lang</code>、<code>slug</code>、<code>title</code>、<code>summary</code>、<code>status</code>、<code>revision</code>、<code>sources</code> 与 <code>rights</code>。关系、参考链接、翻译依据和类型专用字段由 schema 校验。</p>
+          <p>英文文件不是中文正文的替身：需要 <code>translation_of</code>、<code>source_lang</code>、<code>source_revision</code>、<code>source_sha256</code> 和 <code>translation_status</code>。中文源文件改变后，只有散列不匹配的译文会被判为过期。</p>
+          <h2>审核与权利</h2>
+          <p><code>draft</code> 不生成页面；<code>needs-review</code> 只进入 noindex 预览；<code>reviewed</code> 才进入正式发布与搜索。审核状态不代表地点正在营业，也不代表图片已经可以公开分发。</p>
+          <p>rights.status 为 <code>unverified</code> 的旧资料必须留在审核流程；不能因为项目准备公开就自动标成开放许可证。</p>
+          <h2>本地校验</h2>
+          <p>在 implementation 工作区运行 <code>npm run validate</code> 与 <code>npm run check:catalogs</code>。校验器会检查字段、ID、slug、关系、来源、权利、翻译散列、目录链接和旧记录映射；通过构建不等于通过内容审核。</p>
+        </>
+      ) : (
+        <>
+          <h2>Where the text lives</h2>
+          <p>Content lives as standard Markdown in four content repositories. Sites read a fixed content snapshot. Files use <code>{`{lang}/{type}/{slug}.md`}</code>, and every language and type directory has a README linking to every entry.</p>
+          <ul>
+            <li>alcoholic-beverages: styles, drinks, brands, producers, ingredients, varieties, regions, processes, terms, standards and cocktail identities.</li>
+            <li>alcohol-guide: tasting, serving, pairing, recipes, glassware, tools and storage.</li>
+            <li>alcohol-culture: articles, people, books, customs, history, art, poetry and organisations.</li>
+            <li>alcohol-atlas: places, routes and events.</li>
+          </ul>
+          <h2>Minimum fields</h2>
+          <p>Every entry declares <code>schema_version</code>, a global <code>id</code>, <code>type</code>, <code>lang</code>, <code>slug</code>, <code>title</code>, <code>summary</code>, <code>status</code>, <code>revision</code>, <code>sources</code> and <code>rights</code>. Relations, reference links, translation provenance and type-specific fields are validated by the schema.</p>
+          <p>English is not a stand-in for Chinese: it needs <code>translation_of</code>, <code>source_lang</code>, <code>source_revision</code>, <code>source_sha256</code> and <code>translation_status</code>. When the Chinese source changes, only translations whose hash no longer matches become outdated.</p>
+          <h2>Review and rights</h2>
+          <p><code>draft</code> produces no page; <code>needs-review</code> is a noindex preview; <code>reviewed</code> is required for production and search. Review status does not mean a place is open, nor that an image can be redistributed.</p>
+          <p>Legacy material with <code>rights.status: unverified</code> stays in the review flow. A plan to publish the project does not turn unknown rights into an open licence.</p>
+          <h2>Validate locally</h2>
+          <p>In the implementation workspace run <code>npm run validate</code> and <code>npm run check:catalogs</code>. The validator checks fields, IDs, slugs, relations, sources, rights, translation hashes, catalog links and legacy mappings. A successful build is not a content review.</p>
+        </>
+      )}
+    </div>
+    <p><a class="text-link" href={aboutPath(lang)}>{labels.about} <Icon name="arrow-right" size={16} /></a></p>
+  </div>
+</SiteLayout>

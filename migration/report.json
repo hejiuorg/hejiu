@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-29",
+  "sourceSnapshotSha256": "8c42187b1ecd66c28cf232e0ce0aca6ad0ec4b316f371749b90d73da4482d473",
+  "mode": "write",
+  "counts": {
+    "ledgerRows": 602,
+    "mappedRows": 602,
+    "pendingRows": 0,
+    "statuses": {
+      "split": 1,
+      "migrated-needs-review": 597,
+      "merged": 4
+    },
+    "generatedContentFiles": 612,
+    "generatedByType": {
+      "drink": 354,
+      "place": 186,
+      "poem": 56,
+      "drink-style": 16
+    },
+    "createdStyles": 16
+  },
+  "reviewState": {
+    "newRecordsStatus": "reviewed",
+    "newRecordsVerificationScope": "archive-record (615); source-verified (25 existing samples)",
+    "newRecordsRights": "allowed; CC-BY-4.0",
+    "newRecordsLanguage": "archive records are Chinese-only; nameEn is an alias, not translation",
+    "sourceVerifiedNewRecords": 0,
+    "archiveNewRecords": 615,
+    "blockedRecords": 0
+  },
+  "conflicts": [],
+  "archiveEdition": {
+    "publishedRecords": 640,
+    "sourceVerifiedRecords": 25,
+    "archiveRecords": 615,
+    "note": "Archive records publish legacy archive text under CC BY 4.0 with an explicit unverified-claims notice; they are not independent source verification."
+  }
+}

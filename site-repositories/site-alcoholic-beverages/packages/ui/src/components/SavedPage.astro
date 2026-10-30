@@ -1,0 +1,74 @@
+---
+import SiteLayout from './SiteLayout.astro';
+import Icon from './Icon.astro';
+import { homePath, savedPath, typeLabel, uiFor, type UiLang } from '../lib';
+
+interface Props {
+  siteKey: string;
+  lang: UiLang;
+}
+const { siteKey, lang } = Astro.props;
+const context = uiFor(siteKey, lang);
+const { site, labels, contracts, data } = context;
+const pathName = savedPath(lang);
+const title = `${labels.savedTitle} · ${lang === 'zh' ? '喝酒去' : 'Hejiu'}`;
+const canonical = `https://${site.host}${pathName}`;
+const registry = data.registry.entities
+  .flatMap((entity) => {
+    const translation = entity.translations[lang] ?? entity.translations.zh;
+    if (!translation || !translation.published) return [];
+    return [
+      {
+        id: entity.id,
+        title: translation.title,
+        site: entity.siteKey,
+        type: entity.type,
+        path: entity.siteKey === site.key ? translation.path : translation.url,
+      },
+    ];
+  })
+  .sort((a, b) => a.title.localeCompare(b.title, lang === 'zh' ? 'zh-Hans' : 'en'));
+const registryJson = JSON.stringify(registry).replace(/</g, '\\u003c');
+---
+<SiteLayout
+  siteKey={siteKey}
+  lang={lang}
+  title={title}
+  description={labels.savedDesc}
+  canonical={canonical}
+  pagePath={pathName}
+  noindex={true}
+  active="saved"
+  pageType="saved"
+>
+  <div class="shell" data-saved-page>
+    <header class="page-head">
+      <p class="eyebrow">{labels.savedTitle}</p>
+      <h1>{labels.savedTitle}</h1>
+      <p>{labels.savedDesc}</p>
+    </header>
+    <div class="saved-tools">
+      <button class="button button--ghost" type="button" data-saved-export><Icon name="arrow-right" size={18} /> {labels.savedExport}</button>
+      <button class="button button--ghost" type="button" data-saved-import-trigger>
+        <Icon name="arrow-left" size={18} /> {labels.savedImport}
+      </button>
+      <input id="saved-import" class="sr-only" type="file" accept="application/json,.json" data-saved-import aria-label={labels.savedImport} />
+    </div>
+    <p class="search-status" role="status" aria-live="polite" data-saved-status></p>
+    <div data-saved-confirm></div>
+    <h2 class="sr-only">{labels.savedTitle}</h2>
+    <div class="saved-layout">
+      <div class="saved-list" data-saved-list></div>
+      <aside aria-label={labels.savedTitle}>
+        <div class="aside-card">
+          <p class="aside-card__title">{labels.savedTitle}</p>
+          <p class="small muted">{labels.savedNote}</p>
+          <p class="small" style="margin-bottom:0">
+            <a class="text-link" href={homePath(lang)}>{labels.backToHome} <Icon name="arrow-right" size={14} /></a>
+          </p>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <script type="application/json" id="hejiu-saved-registry" set:html={registryJson}></script>
+</SiteLayout>

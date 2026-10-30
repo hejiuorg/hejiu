@@ -1,0 +1,10 @@
+{
+  "name": "site-alcohol-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "喝酒去 atlas.hejiu.org",
+  "scripts": {
+    "dev": "npm run dev -w @hejiu/site-atlas",
+    "build": "npm run build -w @hejiu/site-atlas"
+  }
+}
