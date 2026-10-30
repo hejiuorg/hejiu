@@ -432,9 +432,9 @@ npm run release:drill              => 11/11 checks; 166 records restored after f
 - G5 本地快照：15/15 checks；失败/回滚演练 11/11；releaseId `e0fe09d-d00d83ce80b6`
 - G6 本地：compat 17/17、SW 2/2、license 166 条/83 实体；代码 MIT、内容 CC BY 4.0
 - 未提交产物：`node_modules/`、各站 `dist/`、`.hejiu/`、备份 tar.gz（由 `.gitignore` 排除）
-- 远程仓库、Pages、DNS 未创建/未修改；没有记录任何凭据。
+- 本地阶段未创建远程仓；实际上传与域名状态见第 13 节；没有记录任何凭据。
 
-策展版完成了本地高质量内容闭环；英文翻译、实体设备签收和远程上传仍未完成，不能把本次提交当作正式上线。
+策展版完成了本地高质量内容闭环，英文翻译已完成并自检；远程上传与部分域名上线见第 13 节，实体设备仍需签收。
 
 ## 13. GitHub 上传与域名
 
@@ -458,7 +458,7 @@ npm run release:drill              => 11/11 checks; 166 records restored after f
 
 ### DNS 边界
 
-`hejiu.org`、`culture.hejiu.org`、`atlas.hejiu.org` 已能通过现有 Cloudflare/GitHub 路由访问新站；`guide.hejiu.org` 需要把 DNS 记录改为指向 `hejiuorg.github.io` 的 DNS-only CNAME（或在 Cloudflare 中保持代理并等待 GitHub 证书）。没有 Cloudflare API 权限，未修改 DNS。
+`hejiu.org`、`culture.hejiu.org`、`atlas.hejiu.org` 已能通过现有 Cloudflare/GitHub 路由访问新站；`guide.hejiu.org` 当前解析为 GitHub Pages 的 A 记录，证书仍是 `*.github.io`；需要把 DNS 记录改为指向 `hejiuorg.github.io` 的 CNAME（建议 DNS-only，或在 Cloudflare 中保持代理并等待证书）。没有 Cloudflare API 权限，未修改 DNS。
 
 ### 凭据
 
