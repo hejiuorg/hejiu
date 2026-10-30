@@ -435,3 +435,31 @@ npm run release:drill              => 11/11 checks; 166 records restored after f
 - 远程仓库、Pages、DNS 未创建/未修改；没有记录任何凭据。
 
 策展版完成了本地高质量内容闭环；英文翻译、实体设备签收和远程上传仍未完成，不能把本次提交当作正式上线。
+
+## 13. GitHub 上传与域名
+
+### 仓库
+
+已在 `github.com/hejiuorg` 创建并上传 9 个公开仓库：
+
+- 站点：`site-alcoholic-beverages`、`site-alcohol-guide`、`site-alcohol-culture`、`site-alcohol-atlas`
+- 内容：`alcoholic-beverages`、`alcohol-guide`、`alcohol-culture`、`alcohol-atlas`
+- 源码与证据：`hejiu`
+
+站点仓库使用“压缩产物 + GitHub Actions 部署 Pages”的方式上传；`www` 仓库继续承接 `hejiu.org`，原有旧站已打标签 `legacy-site-2026-10-29` 后替换为新主站静态产物。
+
+### 线上检查
+
+- `https://hejiu.org/`、`/styles/`、`/en/`：新主站，200。
+- `https://culture.hejiu.org/`、`https://atlas.hejiu.org/`：新站，200。
+- `https://guide.hejiu.org/`：新站内容已上线，但证书仍是 `*.github.io`，浏览器会报证书不匹配；需要 DNS 调整或等待 GitHub 证书签发。
+- 旧 URL 承接和停用 URL 404 已在线上浏览器验证。
+- `search-index.json`、Pagefind、`legacy-routes.json`、`sw.js`、sitemap、许可证文件均可访问。
+
+### DNS 边界
+
+`hejiu.org`、`culture.hejiu.org`、`atlas.hejiu.org` 已能通过现有 Cloudflare/GitHub 路由访问新站；`guide.hejiu.org` 需要把 DNS 记录改为指向 `hejiuorg.github.io` 的 DNS-only CNAME（或在 Cloudflare 中保持代理并等待 GitHub 证书）。没有 Cloudflare API 权限，未修改 DNS。
+
+### 凭据
+
+GitHub token 仅在本次上传中临时使用，未写入仓库、远程 URL 或文件。该 token 已在对话中暴露，使用后应立即撤销/轮换。
